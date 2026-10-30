@@ -28,3 +28,9 @@ jobs:
           git add docs/data.json
           git diff --staged --quiet || git commit -m "更新特价数据"
           git push
+      # 数据已经提交，通知失败也不影响网页；失败时这次运行会标红，GitHub 会发邮件
+      - name: 发送 Telegram 摘要
+        run: python notify.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
