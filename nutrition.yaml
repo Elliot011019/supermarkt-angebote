@@ -1,0 +1,74 @@
+# 营养等级配置（目标：增肌减脂）
+#
+# 每 100 g 的典型值，按 USDA FoodData Central / 德国 BLS 同类生鲜食品的常见数值取整。
+# 是“同类商品的参考值”，不是包装上的标签值；腌制、裹粉的产品按同类加工品估算。
+# 热量统一按 4×蛋白 + 9×脂肪 + 4×碳水 计算（Atwater 系数）。
+#
+# 匹配：在商品所属的第一个类别里，从上往下找第一条命中的规则（不区分大小写，子串匹配）。
+#   name —— 商品名里含有其中任意一个
+#   desc —— 商品描述里含有其中任意一个
+#   两个都写时必须同时满足；都不写就是这个类别的兜底规则。
+
+# 等级：看蛋白质供能比 P% = 4×蛋白 / 热量，蛋白太低时再看脂肪供能比 F%
+grades:
+  - {grade: A, min_protein_pct: 60, note: 高蛋白低脂，减脂期主力}
+  - {grade: B, min_protein_pct: 45, note: 蛋白不错，脂肪略多，控制份量}
+  - {grade: C, min_protein_pct: 30, note: 脂肪偏高，偶尔吃}
+  - {grade: D, max_fat_pct: 30,     note: 蛋白低但也低脂，当碳水 / 维生素来源}
+  - {grade: E,                      note: 低蛋白高脂，减脂期尽量少吃}
+
+rules:
+  Skyr:
+    - {label: 风味高蛋白 Skyr, name: [high protein], p: 10, f: 0.3, c: 6}
+    - {label: 原味 Skyr, p: 11, f: 0.2, c: 4}
+
+  牛肉:
+    - {label: 牛肉肠（Cevapcici）, name: [cevapcici], p: 17, f: 20, c: 2}
+    - {label: 牛肉饼, name: [hamburger, burger, frikadell], p: 18, f: 18, c: 1}
+    - {label: 牛肉馅, name: [hack], p: 20, f: 15, c: 0}
+    - {label: 腌制牛排, name: [steak mariniert, marinierte], p: 20, f: 8, c: 2}
+    - {label: 醋焖牛肉（腌制）, name: [sauerbraten], p: 20, f: 5, c: 3}
+    - {label: 西冷 / 肋眼, name: [rumpsteak, entrecote, ribeye], p: 22, f: 6, c: 0}
+    - {label: 臀肉 / 里脊 / 烤牛肉, name: [hüfte, roastbeef, filet], p: 22, f: 5, c: 0}
+    - {label: 后腿瘦肉（炖 / 卷 / 丁）, name: [gulasch, roulade, keule, oberschale, braten], p: 21, f: 4, c: 0}
+    - {label: 牛腱（带骨切片）, name: [beinscheibe], p: 20, f: 6, c: 0}
+    - {label: 牛肉（一般）, p: 20, f: 10, c: 0}
+
+  羊肉:
+    - {label: 羊颈 / 羊排, name: [nacken, karree, kotelett], p: 17, f: 20, c: 0}
+    - {label: 腌制羊里脊, name: [mariniert], p: 19, f: 10, c: 1}
+    - {label: 羊腿, name: [keule], p: 19, f: 10, c: 0}
+    - {label: 羊里脊 / 羊背, name: [rücken, lachs, filet], p: 20, f: 5, c: 0}
+    - {label: 羊肉（一般）, p: 18, f: 15, c: 0}
+
+  鸡肉:
+    - {label: 裹粉鸡排 / 炸鸡块, name: [cordon, knusper, nugget, paniert, crispy], p: 14, f: 12, c: 14}
+    - {label: 裹粉鸡排 / 炸鸡块, desc: [cordon bleu, paniert], p: 14, f: 12, c: 14}
+    - {label: 冷冻裹粉鸡排, name: [schnitzel], desc: [tiefgefroren], p: 15, f: 11, c: 13}
+    - {label: 调味鸡肉饼, name: [hacksteak, burger, frikadell], p: 16, f: 12, c: 4}
+    - {label: 鸡肉馅, name: [hack], p: 19, f: 8, c: 0}
+    - {label: 腌制鸡排, name: [hähnchensteaks], p: 20, f: 4, c: 3}
+    - {label: 鸡翅, name: [flügel, wings], p: 18, f: 15, c: 0}
+    - {label: 去骨鸡腿（带皮）, name: [oberschenkel], p: 17, f: 14, c: 0}
+    - {label: 鸡腿（带皮）, name: [keule, schenkel], p: 18, f: 11, c: 0}
+    - {label: 整鸡, name: [maishähnchen, ganze], p: 19, f: 12, c: 0}
+    - {label: 鸡胸肉, name: [brust, filet, schnitzel, geschnetzelt, steak], p: 23, f: 1.5, c: 0}
+    - {label: 鸡肉（一般）, p: 19, f: 10, c: 0}
+
+  橘子:
+    - {label: 橙子, name: [orange], p: 0.9, f: 0.1, c: 9}
+    - {label: 橘子 / 克莱门氏小柑橘, p: 0.7, f: 0.2, c: 10}
+
+  香蕉:
+    - {label: 香蕉, p: 1.1, f: 0.2, c: 20}
+
+  莓果:
+    - {label: 覆盆子, name: [himbeer], p: 1.3, f: 0.3, c: 4.8}
+    - {label: 黑莓, name: [brombeer], p: 1.2, f: 1.0, c: 6}
+    - {label: 蓝莓, name: [heidelbeer, blaubeer], p: 0.7, f: 0.3, c: 7.5}
+    - {label: 草莓, name: [erdbeer], p: 0.7, f: 0.4, c: 5.5}
+
+  披萨:
+    - {label: 肉类披萨, name: [salami, salame, schinken, speck], p: 10, f: 12, c: 27}
+    - {label: 玛格丽特披萨, name: [margherita, mozzarella], p: 10, f: 9, c: 30}
+    - {label: 冷冻披萨（一般）, p: 10, f: 11, c: 28}

@@ -117,6 +117,24 @@ def dedupe(items):
     return list(seen.values())
 
 
+def nutrition(item, ncfg):
+    """按 nutrition.yaml 给商品配上每 100 g 的参考营养值和增肌减脂等级。没有规则命中时返回 None。"""
+    name, desc = item["name"].lower(), item["desc"].lower()
+    for rule in ncfg["rules"].get(item["cats"][0], []):
+        if "name" in rule and not any(k.lower() in name for k in rule["name"]):
+            continue
+        if "desc" in rule and not any(k.lower() in desc for k in rule["desc"]):
+            continue
+        p, f, c = rule["p"], rule["f"], rule["c"]
+        kcal = 4 * p + 9 * f + 4 * c
+        p_pct, f_pct = round(400 * p / kcal), round(900 * f / kcal)
+        grade = next(g["grade"] for g in ncfg["grades"]
+                     if p_pct >= g.get("min_protein_pct", 0) and f_pct < g.get("max_fat_pct", 101))
+        return {"label": rule["label"], "p": p, "f": f, "c": c, "kcal": round(kcal),
+                "pPct": p_pct, "grade": grade}
+    return None
+
+
 def slim(offer, store):
     oid = offer.get("id")
     validity = offer.get("validityDates") or [{}]
@@ -173,11 +191,16 @@ def main():
     if not offers:
         raise RuntimeError("一条特价都没抓到，多半是接口变了。旧数据保持不变。")
 
+    ncfg = yaml.safe_load((ROOT / "nutrition.yaml").read_text(encoding="utf-8"))
+    for o in offers.values():
+        o["nut"] = nutrition(o, ncfg)
+
     data = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "zip": zip_code,
         "stores": list(STORES),
         "categories": [c["name"] for c in cfg["categories"]],
+        "grades": [{"grade": g["grade"], "note": g["note"]} for g in ncfg["grades"]],
         "offers": sorted(offers.values(), key=lambda x: (x["store"], x["name"])),
     }
     OUT.parent.mkdir(exist_ok=True)
@@ -189,6 +212,10 @@ def main():
     print(f"写入 {len(offers)} 条特价（去重前 {raw_count} 条）：", dict(per_store))
     per_cat = Counter(c for o in offers.values() for c in o["cats"])
     print("各类别：", dict(per_cat))
+    print("营养等级：", dict(sorted(Counter(o["nut"]["grade"] for o in offers.values() if o["nut"]).items())))
+    no_nut = [o["name"] for o in offers.values() if not o["nut"]]
+    if no_nut:
+        print("没有营养规则：", ", ".join(no_nut))
     if unmatched:
         print("其他商家（已忽略）：", ", ".join(f"{n}({c})" for n, c in unmatched.most_common(10)))
 

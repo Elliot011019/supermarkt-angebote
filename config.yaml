@@ -30,7 +30,7 @@ categories:
   - name: 鸡肉
     queries: [Hähnchen, Hühnchen]
     include: [hähnchen, hühnchen, huhn]
-    exclude: [pute, wurst, salami, aufschnitt, brühe, fond, bouillon, hund, katze, tiernahrung]
+    exclude: [pute, wurst, salami, aufschnitt, brühe, fond, bouillon, roulade, suppentopf, hund, katze, tiernahrung]
 
   - name: 橘子
     queries: [Mandarinen, Clementinen, Orangen]

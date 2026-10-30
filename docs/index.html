@@ -57,6 +57,17 @@ li.row{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:cen
 .tag .old{font-size:14px;text-decoration:line-through;opacity:.7;line-height:1.1}
 .tag .ref{font-size:14px;font-weight:600;line-height:1.2;border-top:1px solid rgba(29,36,51,.35);margin-top:3px;padding-top:2px}
 .tag .off{position:absolute;top:-9px;left:-9px;background:var(--sale);color:#fff;font-size:14px;font-weight:700;padding:1px 6px;border-radius:3px;transform:rotate(-6deg)}
+/* 营养等级：A 绿 → E 红 */
+.grade{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:4px;font-size:13px;font-weight:700;color:#fff;margin-left:6px;vertical-align:1px;font-family:var(--price-font)}
+.g-A{background:#1B873F}.g-B{background:#6BA539}.g-C{background:#E0A800;color:#1D2433}.g-D{background:#E8772E}.g-E{background:#D62828}
+.nut{font-size:12px;color:var(--muted);margin-top:3px}
+.legend{margin-top:10px;font-size:13px;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:8px 12px}
+.legend summary{cursor:pointer;font-weight:500}
+.legend table{border-collapse:collapse;margin:8px 0 4px;width:100%}
+.legend td{padding:4px 6px 4px 0;vertical-align:top;border-top:1px solid var(--line)}
+.legend td:first-child{width:28px}
+.legend td .grade{margin-left:0}
+.legend p{color:var(--muted);margin:6px 0 0}
 .empty-state{padding:40px 0;color:var(--muted);text-align:center}
 button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 @media (max-width:420px){ .tag{min-width:76px} .tag .p{font-size:28px} li.row{grid-template-columns:52px 1fr auto;gap:10px} .thumb{width:52px;height:52px} }
@@ -81,8 +92,15 @@ button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid 
       <option value="ref">单价最低</option>
       <option value="off">折扣最大</option>
       <option value="price">价格最低</option>
+      <option value="grade">营养等级</option>
     </select>
   </div>
+  <details class="legend" id="legend" hidden>
+    <summary>营养等级说明（增肌减脂）</summary>
+    <table id="grades"></table>
+    <p>等级看蛋白质供能比：每 100 g 里蛋白质提供的热量占总热量的比例。低于 30% 时再看脂肪供能比，低于 30% 的归 D，否则归 E。</p>
+    <p>营养值是同类生鲜食品的参考值（按 USDA FoodData Central / 德国 BLS 取整），不是包装标签值。腌制、裹粉的产品按同类加工品估算。</p>
+  </details>
   <main id="list"></main>
 </div>
 
@@ -109,7 +127,9 @@ function sorted(list){
     ref:(a,b) => ((UNIT_ORDER[a.unit] ?? 2) - (UNIT_ORDER[b.unit] ?? 2)) || ((a.refPrice ?? 1e9) - (b.refPrice ?? 1e9)),
     off:(a,b) => off(b) - off(a),
     price:(a,b) => (a.price ?? 1e9) - (b.price ?? 1e9),
-  }[state.sort];
+    grade:(a,b) => (a.nut?.grade ?? "Z").localeCompare(b.nut?.grade ?? "Z") || ((b.nut?.pPct ?? 0) - (a.nut?.pPct ?? 0))
+      || ((UNIT_ORDER[a.unit] ?? 2) - (UNIT_ORDER[b.unit] ?? 2)) || ((a.refPrice ?? 1e9) - (b.refPrice ?? 1e9)),
+  }[state.sort] || (() => 0);
   return [...list].sort(by);
 }
 
@@ -119,14 +139,16 @@ function row(o, showStore){
   const pct = off(o);
   const [int, dec] = eur(o.price).split(",");
   const sub = [o.brand, o.desc].filter(Boolean).join("，");
+  const n = o.nut;
   const img = o.img
     ? `<img class="thumb" src="${o.img}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'thumb empty',textContent:'无图'}))">`
     : `<div class="thumb empty">无图</div>`;
   return `<li class="row">
     ${img}
     <div>
-      <div class="name">${esc(o.name)}</div>
+      <div class="name">${esc(o.name)}${n ? `<span class="grade g-${n.grade}" title="营养等级 ${n.grade}">${n.grade}</span>` : ""}</div>
       ${sub ? `<div class="sub">${esc(sub)}</div>` : ""}
+      ${n ? `<div class="nut">${esc(n.label)} · 每100g 蛋白 ${n.p}g · 脂肪 ${n.f}g · 碳水 ${n.c}g · ${n.kcal}kcal · 蛋白供能 ${n.pPct}%</div>` : ""}
       <div class="where">
         ${showStore ? `<span class="store"><span class="dot" style="background:${STORE_COLOR[o.store]||"#888"}"></span>${o.store}</span>` : ""}
         ${upcoming ? `<span class="soon">${day(o.from)}起</span>` : (o.to ? `<span>到${day(o.to)}</span>` : "")}
@@ -191,6 +213,11 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   const banner = document.getElementById("banner");
   if (d.sample) { banner.hidden = false; banner.textContent = "这是示例数据。第一次自动更新运行后会换成真实特价。"; }
   else if (ageH > 48) { banner.hidden = false; banner.textContent = `数据已经 ${Math.floor(ageH/24)} 天没更新了，去 GitHub 的 Actions 页面看看是不是抓取失败了。`; }
+  if (d.grades) {
+    document.getElementById("grades").innerHTML = d.grades.map(g =>
+      `<tr><td><span class="grade g-${g.grade}">${g.grade}</span></td><td>${esc(g.note)}</td></tr>`).join("");
+    document.getElementById("legend").hidden = false;
+  }
   render();
 }).catch(err => {
   document.getElementById("meta").textContent = `读取 data.json 失败（${err.message}）。确认 docs/data.json 存在，并且 GitHub Pages 指向 docs 文件夹。`;
