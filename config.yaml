@@ -32,6 +32,21 @@ categories:
     include: [hähnchen, hühnchen, huhn]
     exclude: [pute, wurst, salami, aufschnitt, brühe, fond, bouillon, roulade, suppentopf, hund, katze, tiernahrung]
 
+  - name: 鱼肉
+    queries: [Lachs, Lachsfilet, Kabeljau, Seelachs, Forelle, Dorade, Wolfsbarsch, Thunfisch, Pangasius, Rotbarsch, Fischfilet, Fisch]
+    include: [lachs, kabeljau, seelachs, skrei, forelle, saibling, dorade, wolfsbarsch, thunfisch, pangasius, rotbarsch, scholle, zander, tilapia, heilbutt, steinbeißer, makrele, hering, fisch]
+    # 冷鲜和冷冻都要；罐头、烟熏、腌鲱鱼、鱼沙拉、鱼油等不要。Lammlachse（羊里脊）和 Lachsschinken（猪肉火腿）名字里带 lachs，要排除；虾、贝、鱿鱼不算鱼
+    exclude: [lamm, schinken, graved, happen, garnele, shrimp, muschel, tintenfisch, salat, aufstrich, creme, sauce, soße, räucher, geräuchert, matjes, bismarck, rollmops, brathering, brötchen, chips, gewürz, fischsauce, omega, kapsel, öl, hund, katze, tiernahrung, futter]
+    exclude_desc: [dose, abtropfgewicht, geräuchert, in öl, creme, sauce, soße]
+
+  - name: 蔬菜
+    queries: [Brokkoli, Blumenkohl, Chili, Peperoni, Cherrytomaten, Kirschtomaten, Cocktailtomaten, Champignons, Pilze, Bohnen, Gurken]
+    include: [brokkoli, broccoli, blumenkohl, chili, peperoni, cherrytomate, cherry-tomate, kirschtomate, cocktailtomate, champignon, pilz, seitling, shiitake, pfifferling, bohnen, gurke]
+    # Peperoni 在德国超市指辣椒；Paprika 是甜椒/青椒，不收。Kaffeebohnen、Gewürzgurken、豆子罐头等加工品排除
+    exclude: [paprika, salami, schinken, debrecziner, würstchen, wiener, sin carne, getrocknet, pizza, wurst, sauce, soße, öl, con carne, cheese, chips, nüsse, gewürz, kaffee, espresso, vanille, kakao, jelly, gummi, essig, gewürzgurke, cornichon, suppe, eintopf, rahm, pfanne, creme, schokolade]
+    exclude_words: [tk]
+    exclude_desc: [tiefgefroren, tiefkühl, kaffee, keks, dose, abtropfgewicht, konserve, im glas]   # 只要鲜货，罐头不要
+
   - name: 橘子
     queries: [Mandarinen, Clementinen, Orangen]
     include: [mandarin, clementin, orange]
@@ -54,3 +69,8 @@ categories:
     queries: [Pizza]
     include: [pizza]
     exclude: [pizzasauce, pizzasoße, pizzateig, pizzakäse, pizzaschinken, pizzagewürz, pizzablech, pizzastein, pizzaofen, pizzaschneider, pizzaplatte, donut]
+
+  - name: 高蛋白
+    queries: [High Protein, Protein, Eiweiß, Proteinriegel, Protein Drink, Protein Pudding, Magerquark]
+    include: [protein, eiweiß, magerquark]
+    exclude: [hund, katze, tiernahrung, shampoo, haar, duschgel, creme, pflege, lotion, adventskalender]

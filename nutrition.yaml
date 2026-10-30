@@ -17,6 +17,21 @@ grades:
   - {grade: D, max_fat_pct: 30,     note: 蛋白低但也低脂，当碳水 / 维生素来源}
   - {grade: E,                      note: 低蛋白高脂，减脂期尽量少吃}
 
+# 果蔬另用一套分数：蛋白质不是果蔬的看点，看热量、糖、膳食纤维、维生素 C（每 100 g）。
+# 规则里写了 vitc 的就走这套。四项各按下表得分，总分 0–13 分换成等级。
+produce:
+  points:
+    kcal:  {max: [[20, 4], [35, 3], [50, 2], [70, 1]]}    # 热量越低分越高
+    sugar: {max: [[3, 3], [6, 2], [10, 1]]}               # 糖 g
+    fiber: {min: [[3, 3], [2, 2], [1, 1]]}                # 膳食纤维 g
+    vitc:  {min: [[50, 3], [20, 2], [8, 1]]}              # 维生素 C mg
+  grades:
+    - {grade: A, min_score: 10, note: 低热量低糖、纤维和维 C 都丰富，随便吃}
+    - {grade: B, min_score: 7,  note: 减脂友好，日常多吃}
+    - {grade: C, min_score: 5,  note: 还行，注意份量（热量或糖稍高）}
+    - {grade: D, min_score: 3,  note: 糖偏高，训练前后或少量吃}
+    - {grade: E,                note: 高糖低纤维，减脂期少吃}
+
 rules:
   Skyr:
     - {label: 风味高蛋白 Skyr, name: [high protein], p: 10, f: 0.3, c: 6}
@@ -55,20 +70,63 @@ rules:
     - {label: 鸡胸肉, name: [brust, filet, schnitzel, geschnetzelt, steak], p: 23, f: 1.5, c: 0}
     - {label: 鸡肉（一般）, p: 19, f: 10, c: 0}
 
+  鱼肉:
+    # 顺序要紧：Seelachs（狭鳕）、Lachsforelle（鳟鱼）名字里都带 lachs，必须排在三文鱼前面
+    - {label: 裹粉鱼 / 炸鱼柳, name: [stäbchen, paniert, backfisch, knusper, nugget, blätterteig], p: 12, f: 9, c: 18}
+    - {label: 裹粉鱼 / 炸鱼柳, desc: [paniert, panade, backteig], p: 12, f: 9, c: 18}
+    - {label: 焗鱼（带酱料顶）, name: [schlemmer], p: 11, f: 9, c: 6}
+    - {label: 鳟鱼, name: [forelle, saibling], p: 20, f: 3.5, c: 0}
+    - {label: 白肉鱼（鳕鱼等）, name: [kabeljau, seelachs, skrei, pangasius, rotbarsch, scholle, zander, tilapia, heilbutt, steinbeißer], p: 18, f: 1, c: 0}
+    - {label: 海鲷 / 鲈鱼, name: [dorade, wolfsbarsch], p: 19, f: 4, c: 0}
+    - {label: 金枪鱼, name: [thunfisch], p: 23, f: 1, c: 0}
+    - {label: 鲭鱼 / 鲱鱼, name: [makrele, hering], p: 18, f: 15, c: 0}
+    - {label: 野生三文鱼, name: [wildlachs], p: 22, f: 5, c: 0}
+    - {label: 三文鱼（养殖）, name: [lachs], p: 20, f: 13, c: 0}
+    - {label: 鱼（一般）, p: 18, f: 5, c: 0}
+
+  # 果蔬：kcal / 糖 g / 膳食纤维 g / 维生素 C mg，每 100 g（USDA FoodData Central 生鲜值取整）
+  蔬菜:
+    - {label: 西兰花, name: [brokkoli, broccoli], kcal: 34, sugar: 1.7, fiber: 2.6, vitc: 89}
+    - {label: 花菜, name: [blumenkohl], kcal: 25, sugar: 1.9, fiber: 2.0, vitc: 48}
+    - {label: 辣椒, name: [chili, peperoni], kcal: 40, sugar: 5.1, fiber: 1.5, vitc: 144}
+    - {label: 圣女果, name: [tomate], kcal: 20, sugar: 3.0, fiber: 1.3, vitc: 14}
+    - {label: 蘑菇, name: [champignon, pilz, seitling, shiitake, pfifferling], kcal: 22, sugar: 2.0, fiber: 1.0, vitc: 2}
+    - {label: 豆类罐头（芸豆等，蛋白约 7 g）, name: [kidney, weiße, schwarze, borlotti, cannellini], kcal: 100, sugar: 0.5, fiber: 6.0, vitc: 1}
+    - {label: 毛豆（蛋白约 11 g）, name: [edamame], kcal: 121, sugar: 2.2, fiber: 5.2, vitc: 6}
+    - {label: 四季豆, name: [bohnen], kcal: 31, sugar: 3.3, fiber: 2.7, vitc: 12}
+    - {label: 黄瓜, name: [gurke], kcal: 15, sugar: 1.7, fiber: 0.5, vitc: 2.8}
+    - {label: 蔬菜（一般）, kcal: 30, sugar: 3, fiber: 2, vitc: 15}
+
   橘子:
-    - {label: 橙子, name: [orange], p: 0.9, f: 0.1, c: 9}
-    - {label: 橘子 / 克莱门氏小柑橘, p: 0.7, f: 0.2, c: 10}
+    - {label: 橙子, name: [orange], kcal: 47, sugar: 9.4, fiber: 2.2, vitc: 53}
+    - {label: 橘子 / 克莱门氏小柑橘, kcal: 47, sugar: 9.2, fiber: 1.7, vitc: 49}
 
   香蕉:
-    - {label: 香蕉, p: 1.1, f: 0.2, c: 20}
+    - {label: 香蕉, kcal: 89, sugar: 12.2, fiber: 2.6, vitc: 8.7}
 
   莓果:
-    - {label: 覆盆子, name: [himbeer], p: 1.3, f: 0.3, c: 4.8}
-    - {label: 黑莓, name: [brombeer], p: 1.2, f: 1.0, c: 6}
-    - {label: 蓝莓, name: [heidelbeer, blaubeer], p: 0.7, f: 0.3, c: 7.5}
-    - {label: 草莓, name: [erdbeer], p: 0.7, f: 0.4, c: 5.5}
+    - {label: 覆盆子, name: [himbeer], kcal: 52, sugar: 4.4, fiber: 6.5, vitc: 26}
+    - {label: 黑莓, name: [brombeer], kcal: 43, sugar: 4.9, fiber: 5.3, vitc: 21}
+    - {label: 蓝莓, name: [heidelbeer, blaubeer], kcal: 57, sugar: 10, fiber: 2.4, vitc: 9.7}
+    - {label: 草莓, name: [erdbeer], kcal: 32, sugar: 4.9, fiber: 2.0, vitc: 59}
 
   披萨:
     - {label: 肉类披萨, name: [salami, salame, schinken, speck], p: 10, f: 12, c: 27}
     - {label: 玛格丽特披萨, name: [margherita, mozzarella], p: 10, f: 9, c: 30}
     - {label: 冷冻披萨（一般）, p: 10, f: 11, c: 28}
+
+  # 高蛋白成品：按产品类型估算，不同品牌差别不小，以包装为准
+  高蛋白:
+    - {label: 蛋白粉, name: [whey, pulver, isolat, sahne protein], p: 75, f: 6, c: 8}   # Sahne Protein = IronMaxx 奶油味蛋白粉
+    - {label: 蛋白棒, name: [riegel, bar], p: 33, f: 14, c: 33}
+    - {label: 高蛋白米布丁, name: [milchreis], p: 8, f: 1.5, c: 13}
+    - {label: 高蛋白布丁, name: [pudding], p: 10, f: 1.5, c: 6}
+    - {label: 高蛋白植物奶, name: [soja, hafer, mandel], p: 6, f: 2, c: 1}
+    - {label: 蛋白饮料, name: [drink, shake, milch], p: 6, f: 0.6, c: 4}
+    - {label: 高蛋白奶酪, name: [käse], p: 30, f: 10, c: 1}
+    - {label: 高蛋白酸奶 / 夸克, name: [skyr, joghurt, quark], p: 10, f: 0.3, c: 4.5}
+    - {label: 蛋白脆饼, name: [knäcke, cracker], p: 30, f: 17, c: 22}
+    - {label: 蛋白面包, name: [brot, brötchen], p: 22, f: 9, c: 12}
+    - {label: 蛋白意面（干）, name: [pasta, nudel], p: 20, f: 2, c: 61}
+    - {label: 蛋白冰淇淋, name: [" eis", "-eis", ice], p: 8, f: 3, c: 12}
+    - {label: 高蛋白食品（一般）, p: 15, f: 5, c: 10}

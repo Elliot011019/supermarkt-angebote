@@ -98,7 +98,11 @@ button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid 
   <details class="legend" id="legend" hidden>
     <summary>营养等级说明（增肌减脂）</summary>
     <table id="grades"></table>
-    <p>等级看蛋白质供能比：每 100 g 里蛋白质提供的热量占总热量的比例。低于 30% 时再看脂肪供能比，低于 30% 的归 D，否则归 E。</p>
+    <p>肉、Skyr、披萨、高蛋白食品看蛋白质供能比：每 100 g 里蛋白质提供的热量占总热量的比例。低于 30% 时再看脂肪供能比，低于 30% 的归 D，否则归 E。</p>
+    <div id="produce-legend" hidden>
+      <p><strong>果蔬另算</strong>（蔬菜、橘子、香蕉、莓果）：热量越低、糖越少、膳食纤维和维生素 C 越多分越高，满分 13。</p>
+      <table id="produce-grades"></table>
+    </div>
     <p>营养值是同类生鲜食品的参考值（按 USDA FoodData Central / 德国 BLS 取整），不是包装标签值。腌制、裹粉的产品按同类加工品估算。</p>
   </details>
   <main id="list"></main>
@@ -148,7 +152,9 @@ function row(o, showStore){
     <div>
       <div class="name">${esc(o.name)}${n ? `<span class="grade g-${n.grade}" title="营养等级 ${n.grade}">${n.grade}</span>` : ""}</div>
       ${sub ? `<div class="sub">${esc(sub)}</div>` : ""}
-      ${n ? `<div class="nut">${esc(n.label)} · 每100g 蛋白 ${n.p}g · 脂肪 ${n.f}g · 碳水 ${n.c}g · ${n.kcal}kcal · 蛋白供能 ${n.pPct}%</div>` : ""}
+      ${n ? `<div class="nut">${esc(n.label)} · 每100g ${n.scale === "produce"
+        ? `${n.kcal}kcal · 糖 ${n.sugar}g · 纤维 ${n.fiber}g · 维C ${n.vitc}mg · 果蔬分 ${n.score}/13`
+        : `蛋白 ${n.p}g · 脂肪 ${n.f}g · 碳水 ${n.c}g · ${n.kcal}kcal · 蛋白供能 ${n.pPct}%`}</div>` : ""}
       <div class="where">
         ${showStore ? `<span class="store"><span class="dot" style="background:${STORE_COLOR[o.store]||"#888"}"></span>${o.store}</span>` : ""}
         ${upcoming ? `<span class="soon">${day(o.from)}起</span>` : (o.to ? `<span>到${day(o.to)}</span>` : "")}
@@ -213,10 +219,15 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   const banner = document.getElementById("banner");
   if (d.sample) { banner.hidden = false; banner.textContent = "这是示例数据。第一次自动更新运行后会换成真实特价。"; }
   else if (ageH > 48) { banner.hidden = false; banner.textContent = `数据已经 ${Math.floor(ageH/24)} 天没更新了，去 GitHub 的 Actions 页面看看是不是抓取失败了。`; }
+  const gradeRows = list => list.map(g =>
+    `<tr><td><span class="grade g-${g.grade}">${g.grade}</span></td><td>${esc(g.note)}</td></tr>`).join("");
   if (d.grades) {
-    document.getElementById("grades").innerHTML = d.grades.map(g =>
-      `<tr><td><span class="grade g-${g.grade}">${g.grade}</span></td><td>${esc(g.note)}</td></tr>`).join("");
+    document.getElementById("grades").innerHTML = gradeRows(d.grades);
     document.getElementById("legend").hidden = false;
+  }
+  if (d.produceGrades) {
+    document.getElementById("produce-grades").innerHTML = gradeRows(d.produceGrades);
+    document.getElementById("produce-legend").hidden = false;
   }
   render();
 }).catch(err => {

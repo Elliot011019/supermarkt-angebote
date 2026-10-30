@@ -117,6 +117,20 @@ def dedupe(items):
     return list(seen.values())
 
 
+def produce_grade(rule, pcfg):
+    """果蔬：热量、糖、膳食纤维、维生素 C 各按 nutrition.yaml 的分档打分，总分换成等级。"""
+    score = 0
+    for key, bands in pcfg["points"].items():
+        v = rule[key]
+        if "max" in bands:
+            score += next((pts for limit, pts in bands["max"] if v <= limit), 0)
+        else:
+            score += next((pts for limit, pts in bands["min"] if v >= limit), 0)
+    grade = next(g["grade"] for g in pcfg["grades"] if score >= g.get("min_score", 0))
+    return {"scale": "produce", "label": rule["label"], "kcal": rule["kcal"], "sugar": rule["sugar"],
+            "fiber": rule["fiber"], "vitc": rule["vitc"], "score": score, "grade": grade}
+
+
 def nutrition(item, ncfg):
     """按 nutrition.yaml 给商品配上每 100 g 的参考营养值和增肌减脂等级。没有规则命中时返回 None。"""
     name, desc = item["name"].lower(), item["desc"].lower()
@@ -125,6 +139,8 @@ def nutrition(item, ncfg):
             continue
         if "desc" in rule and not any(k.lower() in desc for k in rule["desc"]):
             continue
+        if "vitc" in rule:
+            return produce_grade(rule, ncfg["produce"])
         p, f, c = rule["p"], rule["f"], rule["c"]
         kcal = 4 * p + 9 * f + 4 * c
         p_pct, f_pct = round(400 * p / kcal), round(900 * f / kcal)
@@ -201,6 +217,7 @@ def main():
         "stores": list(STORES),
         "categories": [c["name"] for c in cfg["categories"]],
         "grades": [{"grade": g["grade"], "note": g["note"]} for g in ncfg["grades"]],
+        "produceGrades": [{"grade": g["grade"], "note": g["note"]} for g in ncfg["produce"]["grades"]],
         "offers": sorted(offers.values(), key=lambda x: (x["store"], x["name"])),
     }
     OUT.parent.mkdir(exist_ok=True)
