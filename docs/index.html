@@ -68,6 +68,12 @@ li.row{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:cen
 .legend td:first-child{width:28px}
 .legend td .grade{margin-left:0}
 .legend p{color:var(--muted);margin:6px 0 0}
+/* 今天可买 / 即将开始 */
+.toggle{margin-right:auto;display:flex;align-items:center;gap:6px;color:var(--ink);cursor:pointer;font-size:14px}
+.toggle input{accent-color:var(--ink);width:16px;height:16px;margin:0}
+.soon-h{font-size:13px;color:var(--focus);font-weight:500;margin:18px 0 0;padding-bottom:4px;border-bottom:1px dashed var(--line)}
+ul.later li.row{opacity:.6}
+.more{all:unset;box-sizing:border-box;cursor:pointer;display:block;width:100%;text-align:center;padding:14px 0;margin-top:8px;color:var(--focus);font-size:14px;border-top:1px solid var(--line)}
 .empty-state{padding:40px 0;color:var(--muted);text-align:center}
 button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 @media (max-width:420px){ .tag{min-width:76px} .tag .p{font-size:28px} li.row{grid-template-columns:52px 1fr auto;gap:10px} .thumb{width:52px;height:52px} }
@@ -87,6 +93,7 @@ button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid 
   </div>
   <nav class="chips" id="chips" aria-label="筛选"></nav>
   <div class="tools">
+    <label class="toggle"><input type="checkbox" id="today"> 只看今天可买</label>
     <label for="sort">排序</label>
     <select id="sort">
       <option value="ref">单价最低</option>
@@ -111,7 +118,7 @@ button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid 
 <script>
 const STORE_COLOR = {"Lidl":"#0050AA","Kaufland":"#E10915","REWE":"#CC071E","EDEKA":"#1A4C9C","ALDI SÜD":"#00A0DC"};
 const UNIT_ORDER = {"kg":0,"l":1};
-const state = {view:"cat", pick:null, sort:"ref"};
+const state = {view:"cat", pick:null, sort:"ref", todayOnly:true};
 let DATA = null;
 
 try { Object.assign(state, JSON.parse(localStorage.getItem("angebote-state") || "{}")); } catch(e) {}
@@ -124,6 +131,15 @@ const off = o => (o.oldPrice && o.price && o.oldPrice > o.price) ? Math.round((1
 function live(){
   const now = new Date();
   return DATA.offers.filter(o => !o.to || new Date(o.to) >= now);
+}
+
+const upcoming = o => o.from && new Date(o.from) > new Date();
+
+// 今天能买的在上面；即将开始的放在最下面，单独一个小标题、颜色调淡
+function block(items, showStore){
+  const now = items.filter(o => !upcoming(o)), soon = items.filter(upcoming);
+  return (now.length ? `<ul>${now.map(o => row(o, showStore)).join("")}</ul>` : "")
+    + (soon.length ? `<div class="soon-h">即将开始</div><ul class="later">${soon.map(o => row(o, showStore)).join("")}</ul>` : "");
 }
 
 function sorted(list){
@@ -175,30 +191,38 @@ function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt
 function render(){
   document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
   document.getElementById("sort").value = state.sort;
-  const offers = live();
+  document.getElementById("today").checked = state.todayOnly;
+  const all = live();
+  const offers = state.todayOnly ? all.filter(o => !upcoming(o)) : all;
   const keys = state.view === "cat" ? DATA.categories : DATA.stores;
-  const count = k => offers.filter(o => state.view === "cat" ? o.cats.includes(k) : o.store === k).length;
-  if (!keys.includes(state.pick) || !count(state.pick)) state.pick = keys.find(count) || keys[0];
+  const inKey = (o, k) => state.view === "cat" ? o.cats.includes(k) : o.store === k;
+  const count = k => offers.filter(o => inKey(o, k)).length;   // 按钮上的数字：跟着开关走
+  const total = k => all.filter(o => inKey(o, k)).length;      // 含即将开始的，只有它为 0 才禁用按钮
+  if (!keys.includes(state.pick) || !total(state.pick)) state.pick = keys.find(count) || keys.find(total) || keys[0];
 
   document.getElementById("chips").innerHTML = keys.map(k => {
     const n = count(k);
     const dot = state.view === "store" ? `<span class="dot" style="background:${STORE_COLOR[k]}"></span>` : "";
-    return `<button class="chip" data-k="${esc(k)}" aria-pressed="${k === state.pick}" ${n ? "" : "disabled"}>${dot}${esc(k)} <span class="n">${n}</span></button>`;
+    return `<button class="chip" data-k="${esc(k)}" aria-pressed="${k === state.pick}" ${total(k) ? "" : "disabled"}>${dot}${esc(k)} <span class="n">${n}</span></button>`;
   }).join("");
 
   const list = document.getElementById("list");
+  const hidden = total(state.pick) - count(state.pick);
+  let html;
   if (state.view === "cat") {
     const items = sorted(offers.filter(o => o.cats.includes(state.pick)));
-    list.innerHTML = items.length
-      ? `<ul>${items.map(o => row(o, true)).join("")}</ul>`
-      : `<p class="empty-state">${esc(state.pick)} 这周 5 家都没有特价。</p>`;
+    html = items.length
+      ? block(items, true)
+      : `<p class="empty-state">${esc(state.pick)} ${hidden ? "今天还没有能买的特价。" : "这周 5 家都没有特价。"}</p>`;
   } else {
     const mine = offers.filter(o => o.store === state.pick);
     const groups = DATA.categories.map(c => [c, sorted(mine.filter(o => o.cats.includes(c)))]).filter(([,l]) => l.length);
-    list.innerHTML = groups.length
-      ? groups.map(([c, l]) => `<h2>${esc(c)}</h2><ul>${l.map(o => row(o, false)).join("")}</ul>`).join("")
-      : `<p class="empty-state">${esc(state.pick)} 这周没有你关注的类别在打折。</p>`;
+    html = groups.length
+      ? groups.map(([c, l]) => `<h2>${esc(c)}</h2>${block(l, false)}`).join("")
+      : `<p class="empty-state">${esc(state.pick)} ${hidden ? "今天还没有能买的特价。" : "这周没有你关注的类别在打折。"}</p>`;
   }
+  if (state.todayOnly && hidden) html += `<button class="more" id="show-all">另有 ${hidden} 条即将开始，点此显示</button>`;
+  list.innerHTML = html;
   save();
 }
 
@@ -209,6 +233,9 @@ document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b || b.disabled) return;
   state.pick = b.dataset.k; render(); });
 document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+document.getElementById("today").addEventListener("change", e => { state.todayOnly = e.target.checked; render(); });
+document.getElementById("list").addEventListener("click", e => {
+  if (e.target.closest("#show-all")) { state.todayOnly = false; render(); } });
 
 fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   DATA = d;
