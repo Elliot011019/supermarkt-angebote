@@ -1,0 +1,204 @@
+{
+ "generated": "2026-10-30T15:10:46+00:00",
+ "zip": "80995",
+ "stores": [
+  "Lidl",
+  "Kaufland",
+  "REWE",
+  "EDEKA",
+  "ALDI SÜD"
+ ],
+ "categories": [
+  "Skyr",
+  "牛肉",
+  "羊肉",
+  "鸡肉",
+  "橘子",
+  "香蕉",
+  "莓果",
+  "披萨"
+ ],
+ "offers": [
+  {
+   "id": 17,
+   "store": "ALDI SÜD",
+   "name": "Heidelbeeren",
+   "brand": "",
+   "desc": "125 g",
+   "price": 1.99,
+   "oldPrice": 2.79,
+   "refPrice": 15.92,
+   "unit": "kg",
+   "from": "2026-11-02T00:00:00",
+   "to": "2026-11-07T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/17/images/default/0/medium.jpg",
+   "cats": [
+    "莓果"
+   ]
+  },
+  {
+   "id": 7,
+   "store": "ALDI SÜD",
+   "name": "Lammkoteletts",
+   "brand": "",
+   "desc": "300 g",
+   "price": 5.99,
+   "oldPrice": 7.99,
+   "refPrice": 19.97,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/7/images/default/0/medium.jpg",
+   "cats": [
+    "羊肉"
+   ]
+  },
+  {
+   "id": 10,
+   "store": "EDEKA",
+   "name": "Mandarinen",
+   "brand": "",
+   "desc": "Spanien, Kl. I",
+   "price": 1.99,
+   "oldPrice": 2.49,
+   "refPrice": 1.99,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/10/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ]
+  },
+  {
+   "id": 19,
+   "store": "EDEKA",
+   "name": "Ristorante Pizza Quattro Formaggi",
+   "brand": "Dr. Oetker",
+   "desc": "",
+   "price": 1.99,
+   "oldPrice": 2.79,
+   "refPrice": 5.69,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/19/images/default/0/medium.jpg",
+   "cats": [
+    "披萨"
+   ]
+  },
+  {
+   "id": 13,
+   "store": "Kaufland",
+   "name": "Bananen",
+   "brand": "",
+   "desc": "Preis je kg",
+   "price": 1.19,
+   "oldPrice": null,
+   "refPrice": 1.19,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/13/images/default/0/medium.jpg",
+   "cats": [
+    "香蕉"
+   ]
+  },
+  {
+   "id": 6,
+   "store": "Kaufland",
+   "name": "Rindfleisch-Gulasch",
+   "brand": "",
+   "desc": "",
+   "price": 6.99,
+   "oldPrice": null,
+   "refPrice": 13.98,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/6/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ]
+  },
+  {
+   "id": 8,
+   "store": "Lidl",
+   "name": "Hähnchenbrustfilet",
+   "brand": "",
+   "desc": "",
+   "price": 4.99,
+   "oldPrice": 6.49,
+   "refPrice": 9.98,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/8/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ]
+  },
+  {
+   "id": 1,
+   "store": "Lidl",
+   "name": "Skyr Natur",
+   "brand": "Milbona",
+   "desc": "450-g-Becher, Preis-Hit",
+   "price": 0.99,
+   "oldPrice": 1.29,
+   "refPrice": 2.2,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/1/images/default/0/medium.jpg",
+   "cats": [
+    "Skyr"
+   ]
+  },
+  {
+   "id": 14,
+   "store": "REWE",
+   "name": "Erdbeeren",
+   "brand": "",
+   "desc": "saftig süß, 500-g-Schale, Preis-Hit",
+   "price": 2.99,
+   "oldPrice": 3.99,
+   "refPrice": 5.98,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/14/images/default/0/medium.jpg",
+   "cats": [
+    "莓果"
+   ]
+  },
+  {
+   "id": 3,
+   "store": "REWE",
+   "name": "Rinderhackfleisch",
+   "brand": "",
+   "desc": "500 g",
+   "price": 3.99,
+   "oldPrice": 5.49,
+   "refPrice": 7.98,
+   "unit": "kg",
+   "from": "2026-10-26T00:00:00",
+   "to": "2026-10-31T23:59:59",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/3/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ]
+  }
+ ],
+ "sample": true
+}

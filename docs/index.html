@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>本周特价</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#F6F7F4; --surface:#FFFFFF; --ink:#1D2433; --muted:#667085; --line:#DDE1DA;
+  --tag:#FFD60A; --tag-ink:#1D2433; --sale:#D62828; --focus:#2F6FEB;
+  --price-font:"Barlow Condensed", "Arial Narrow", sans-serif;
+  --body-font:"Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ color-scheme: dark;
+    --bg:#15181F; --surface:#1E232C; --ink:#E8EAED; --muted:#98A2B3; --line:#2C3340;
+    --tag:#FFD60A; --tag-ink:#1D2433; --sale:#FF5A5A; --focus:#7AA7FF; }
+}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body-font);font-size:15px;line-height:1.5}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 48px}
+header h1{font-size:28px;line-height:1.2;margin:0}
+.meta{color:var(--muted);font-size:13px;margin-top:4px}
+.banner{background:var(--tag);color:var(--tag-ink);padding:8px 12px;border-radius:6px;font-size:13px;margin-top:12px}
+.seg{display:inline-flex;margin-top:18px;border:1.5px solid var(--ink);border-radius:8px;overflow:hidden}
+.seg button{all:unset;cursor:pointer;padding:8px 18px;font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:14px 0 6px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{all:unset;cursor:pointer;white-space:nowrap;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:14px;display:flex;align-items:center;gap:6px}
+.chip[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);font-weight:700}
+.chip .n{color:var(--muted);font-size:12px}
+.chip[disabled]{opacity:.45;cursor:default}
+.dot{width:9px;height:9px;border-radius:2px;flex:none}
+.tools{display:flex;justify-content:flex-end;align-items:center;gap:8px;color:var(--muted);font-size:13px}
+select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+h2{font-size:17px;margin:26px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+ul{list-style:none;margin:0;padding:0}
+li.row{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.thumb{width:64px;height:64px;border-radius:6px;background:var(--surface);object-fit:contain;border:1px solid var(--line)}
+.thumb.empty{display:grid;place-items:center;color:var(--muted);font-size:11px}
+.name{font-weight:700;line-height:1.3}
+.sub{color:var(--muted);font-size:13px;line-height:1.35;margin-top:2px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.where{font-size:13px;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.where .store{display:flex;align-items:center;gap:5px;font-weight:500}
+.soon{color:var(--focus);font-weight:500}
+.member{font-size:12px;border:1px solid var(--muted);color:var(--muted);border-radius:4px;padding:0 5px}
+/* 货架价签：整个页面唯一的“大声”元素 */
+.tag{position:relative;background:var(--tag);color:var(--tag-ink);min-width:86px;padding:6px 10px 5px;text-align:right;border-radius:3px 3px 3px 12px;font-family:var(--price-font)}
+.tag .p{font-size:32px;font-weight:700;line-height:1}
+.tag .p small{font-size:18px}
+.tag .old{font-size:14px;text-decoration:line-through;opacity:.7;line-height:1.1}
+.tag .ref{font-size:14px;font-weight:600;line-height:1.2;border-top:1px solid rgba(29,36,51,.35);margin-top:3px;padding-top:2px}
+.tag .off{position:absolute;top:-9px;left:-9px;background:var(--sale);color:#fff;font-size:14px;font-weight:700;padding:1px 6px;border-radius:3px;transform:rotate(-6deg)}
+.empty-state{padding:40px 0;color:var(--muted);text-align:center}
+button:focus-visible,.chip:focus-visible,select:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+@media (max-width:420px){ .tag{min-width:76px} .tag .p{font-size:28px} li.row{grid-template-columns:52px 1fr auto;gap:10px} .thumb{width:52px;height:52px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>本周特价</h1>
+    <div class="meta" id="meta">正在加载…</div>
+    <div class="banner" id="banner" hidden></div>
+  </header>
+
+  <div class="seg" role="group" aria-label="查看方式">
+    <button data-view="cat" aria-pressed="true">按类别</button>
+    <button data-view="store" aria-pressed="false">按超市</button>
+  </div>
+  <nav class="chips" id="chips" aria-label="筛选"></nav>
+  <div class="tools">
+    <label for="sort">排序</label>
+    <select id="sort">
+      <option value="ref">单价最低</option>
+      <option value="off">折扣最大</option>
+      <option value="price">价格最低</option>
+    </select>
+  </div>
+  <main id="list"></main>
+</div>
+
+<script>
+const STORE_COLOR = {"Lidl":"#0050AA","Kaufland":"#E10915","REWE":"#CC071E","EDEKA":"#1A4C9C","ALDI SÜD":"#00A0DC"};
+const UNIT_ORDER = {"kg":0,"l":1};
+const state = {view:"cat", pick:null, sort:"ref"};
+let DATA = null;
+
+try { Object.assign(state, JSON.parse(localStorage.getItem("angebote-state") || "{}")); } catch(e) {}
+const save = () => { try { localStorage.setItem("angebote-state", JSON.stringify(state)); } catch(e) {} };
+
+const eur = v => v == null ? "" : v.toFixed(2).replace(".", ",");
+const day = iso => { const d = new Date(iso); return `${d.getMonth()+1}月${d.getDate()}日`; };
+const off = o => (o.oldPrice && o.price && o.oldPrice > o.price) ? Math.round((1 - o.price/o.oldPrice)*100) : 0;
+
+function live(){
+  const now = new Date();
+  return DATA.offers.filter(o => !o.to || new Date(o.to) >= now);
+}
+
+function sorted(list){
+  const by = {
+    ref:(a,b) => ((UNIT_ORDER[a.unit] ?? 2) - (UNIT_ORDER[b.unit] ?? 2)) || ((a.refPrice ?? 1e9) - (b.refPrice ?? 1e9)),
+    off:(a,b) => off(b) - off(a),
+    price:(a,b) => (a.price ?? 1e9) - (b.price ?? 1e9),
+  }[state.sort];
+  return [...list].sort(by);
+}
+
+function row(o, showStore){
+  const now = new Date();
+  const upcoming = o.from && new Date(o.from) > now;
+  const pct = off(o);
+  const [int, dec] = eur(o.price).split(",");
+  const sub = [o.brand, o.desc].filter(Boolean).join("，");
+  const img = o.img
+    ? `<img class="thumb" src="${o.img}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'thumb empty',textContent:'无图'}))">`
+    : `<div class="thumb empty">无图</div>`;
+  return `<li class="row">
+    ${img}
+    <div>
+      <div class="name">${esc(o.name)}</div>
+      ${sub ? `<div class="sub">${esc(sub)}</div>` : ""}
+      <div class="where">
+        ${showStore ? `<span class="store"><span class="dot" style="background:${STORE_COLOR[o.store]||"#888"}"></span>${o.store}</span>` : ""}
+        ${upcoming ? `<span class="soon">${day(o.from)}起</span>` : (o.to ? `<span>到${day(o.to)}</span>` : "")}
+        ${o.loyalty ? `<span class="member">需会员卡/App</span>` : ""}
+      </div>
+    </div>
+    <div class="tag" aria-label="${eur(o.price)} 欧元">
+      ${pct ? `<span class="off">-${pct}%</span>` : ""}
+      ${o.oldPrice && pct ? `<div class="old">${eur(o.oldPrice)}</div>` : ""}
+      <div class="p">${int}<small>,${dec}</small></div>
+      ${o.refPrice && o.unit ? `<div class="ref">${eur(o.refPrice)} €/${esc(o.unit)}</div>` : ""}
+    </div>
+  </li>`;
+}
+
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function render(){
+  document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
+  document.getElementById("sort").value = state.sort;
+  const offers = live();
+  const keys = state.view === "cat" ? DATA.categories : DATA.stores;
+  const count = k => offers.filter(o => state.view === "cat" ? o.cats.includes(k) : o.store === k).length;
+  if (!keys.includes(state.pick) || !count(state.pick)) state.pick = keys.find(count) || keys[0];
+
+  document.getElementById("chips").innerHTML = keys.map(k => {
+    const n = count(k);
+    const dot = state.view === "store" ? `<span class="dot" style="background:${STORE_COLOR[k]}"></span>` : "";
+    return `<button class="chip" data-k="${esc(k)}" aria-pressed="${k === state.pick}" ${n ? "" : "disabled"}>${dot}${esc(k)} <span class="n">${n}</span></button>`;
+  }).join("");
+
+  const list = document.getElementById("list");
+  if (state.view === "cat") {
+    const items = sorted(offers.filter(o => o.cats.includes(state.pick)));
+    list.innerHTML = items.length
+      ? `<ul>${items.map(o => row(o, true)).join("")}</ul>`
+      : `<p class="empty-state">${esc(state.pick)} 这周 5 家都没有特价。</p>`;
+  } else {
+    const mine = offers.filter(o => o.store === state.pick);
+    const groups = DATA.categories.map(c => [c, sorted(mine.filter(o => o.cats.includes(c)))]).filter(([,l]) => l.length);
+    list.innerHTML = groups.length
+      ? groups.map(([c, l]) => `<h2>${esc(c)}</h2><ul>${l.map(o => row(o, false)).join("")}</ul>`).join("")
+      : `<p class="empty-state">${esc(state.pick)} 这周没有你关注的类别在打折。</p>`;
+  }
+  save();
+}
+
+document.querySelector(".seg").addEventListener("click", e => {
+  const v = e.target.closest("button")?.dataset.view; if (!v || v === state.view) return;
+  state.view = v; state.pick = null; render(); });
+document.getElementById("chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b || b.disabled) return;
+  state.pick = b.dataset.k; render(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+
+fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d;
+  const g = new Date(d.generated);
+  document.getElementById("meta").textContent =
+    `邮编 ${d.zip}，数据更新于 ${day(d.generated)} ${String(g.getHours()).padStart(2,"0")}:${String(g.getMinutes()).padStart(2,"0")}`;
+  const ageH = (Date.now() - g) / 36e5;
+  const banner = document.getElementById("banner");
+  if (d.sample) { banner.hidden = false; banner.textContent = "这是示例数据。第一次自动更新运行后会换成真实特价。"; }
+  else if (ageH > 48) { banner.hidden = false; banner.textContent = `数据已经 ${Math.floor(ageH/24)} 天没更新了，去 GitHub 的 Actions 页面看看是不是抓取失败了。`; }
+  render();
+}).catch(err => {
+  document.getElementById("meta").textContent = `读取 data.json 失败（${err.message}）。确认 docs/data.json 存在，并且 GitHub Pages 指向 docs 文件夹。`;
+});
+</script>
+</body>
+</html>

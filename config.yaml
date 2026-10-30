@@ -1,0 +1,56 @@
+# 超市特价面板配置
+# 改完 push 到 GitHub，下次自动运行就会生效（也可以在 Actions 里手动点 Run workflow）
+
+zip: "80995"
+
+# 匹配规则（全部不区分大小写）：
+#   queries        —— 拿去 marktguru 搜索的词
+#   include        —— 商品名里必须含有其中至少一个（子串匹配）
+#   exclude        —— 商品名里含有其中任意一个就丢掉（子串匹配）
+#   exclude_words  —— 同上，但按整词匹配（适合 "tk"、"eis" 这种短词，避免误伤 "Preis"）
+#   exclude_desc   —— 商品描述里含有就丢掉（描述常有“saftig”“Preis”之类，所以默认不查描述）
+#   exclude_categories —— marktguru 自带分类名里含有这些就丢掉
+
+categories:
+  - name: Skyr
+    queries: [Skyr]
+    include: [skyr]
+    exclude: []
+
+  - name: 牛肉
+    queries: [Rind, Rindfleisch, Rinderhack]
+    include: [rind]
+    exclude: [wurst, brühe, fond, bouillon, suppe, hund, katze, tiernahrung]
+
+  - name: 羊肉
+    queries: [Lamm]
+    include: [lamm]
+    exclude: [wurst, brühe, fond, hund, katze, tiernahrung, salat, fell]
+
+  - name: 鸡肉
+    queries: [Hähnchen, Hühnchen]
+    include: [hähnchen, hühnchen, huhn]
+    exclude: [pute, wurst, brühe, fond, bouillon, hund, katze, tiernahrung]
+
+  - name: 橘子
+    queries: [Mandarinen, Clementinen, Orangen]
+    include: [mandarin, clementin, orange]
+    exclude: [saft, limo, marmelade, konfitüre, schokolade, likör, tee, sirup, keks]
+
+  - name: 香蕉
+    queries: [Bananen]
+    include: [banane]
+    exclude: [chips, brot, saft, joghurt, milch, kuchen]
+
+  - name: 莓果
+    queries: [Erdbeeren, Heidelbeeren, Himbeeren, Brombeeren, Beeren]
+    include: [erdbeer, heidelbeer, blaubeer, himbeer, brombeer, beeren]
+    exclude: [tiefkühl, tiefgefroren, gefroren, frost, joghurt, marmelade, konfitüre, saft, quark, müsli, sirup, schokolade, kuchen, torte, likör]
+    exclude_words: [tk, eis, tee]
+    exclude_desc: [tiefgefroren, tiefkühl]
+    exclude_categories: [tiefkühl]
+
+  - name: 披萨
+    queries: [Pizza]
+    include: [pizza]
+    exclude: [pizzasauce, pizzasoße, pizzateig, pizzakäse, pizzaschinken, pizzagewürz, pizzablech, pizzastein, pizzaofen, pizzaschneider]
