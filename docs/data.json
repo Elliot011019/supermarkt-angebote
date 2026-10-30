@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T20:52:55+00:00",
+ "generated": "2026-10-30T21:03:19+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -1017,6 +1017,60 @@
    }
   },
   {
+   "id": 25473182,
+   "store": "EDEKA",
+   "name": "Bio-Quark",
+   "brand": "Berchtesgadener Land",
+   "desc": "je 150 g Becher",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 6.6,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25473182/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "夸克（脂肪档未标，按 20 % 估）",
+    "p": 11,
+    "f": 5,
+    "c": 3,
+    "kcal": 101,
+    "pPct": 44,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25432012,
+   "store": "EDEKA",
+   "name": "Bio-Vanillequark",
+   "brand": "Berchtesgadener Land",
+   "desc": "je 150g Becher",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 6.6,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25432012/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "调味夸克 / 夸克甜品（含糖）",
+    "p": 7,
+    "f": 3.5,
+    "c": 13,
+    "kcal": 112,
+    "pPct": 25,
+    "grade": "D"
+   }
+  },
+  {
    "id": 25464812,
    "store": "EDEKA",
    "name": "Blumenkohl",
@@ -1972,6 +2026,33 @@
    }
   },
   {
+   "id": 25463217,
+   "store": "Kaufland",
+   "name": "Eier aus dem Rottal",
+   "brand": "",
+   "desc": "Frische Eier aus dem Rottal aus Bodenhaltung, HKL A, Größe M/L je 10-St.-Packg.",
+   "price": 3.49,
+   "oldPrice": null,
+   "refPrice": 0.35,
+   "unit": "Stk",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25463217/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "鸡蛋",
+    "p": 12.6,
+    "f": 9.5,
+    "c": 0.7,
+    "kcal": 139,
+    "pPct": 36,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25479227,
    "store": "Kaufland",
    "name": "Himbeeren",
@@ -2246,6 +2327,33 @@
    }
   },
   {
+   "id": 25502902,
+   "store": "Kaufland",
+   "name": "Quark",
+   "brand": "Quarki",
+   "desc": "Frischkäse nach osteuropäischer Art, Original, 30 % Fett i. Tr., gekühlt je 250-g-Packg.",
+   "price": 1.59,
+   "oldPrice": null,
+   "refPrice": 6.36,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-30T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25502902/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "东欧式夸克（30 % i. Tr.）",
+    "p": 12,
+    "f": 7,
+    "c": 3,
+    "kcal": 123,
+    "pPct": 39,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25467602,
    "store": "Kaufland",
    "name": "Rinder-Roastbeef",
@@ -2460,6 +2568,33 @@
     "kcal": 197,
     "pPct": 41,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25397642,
+   "store": "Lidl",
+   "name": "Cremig & Quarkig",
+   "brand": "Weihenstephan",
+   "desc": "Versch. Sorten. Gekühlt. Je 500 g",
+   "price": 1.69,
+   "oldPrice": null,
+   "refPrice": 3.38,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25397642/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "调味夸克 / 夸克甜品（含糖）",
+    "p": 7,
+    "f": 3.5,
+    "c": 13,
+    "kcal": 112,
+    "pPct": 25,
+    "grade": "D"
    }
   },
   {
@@ -3169,6 +3304,60 @@
    }
   },
   {
+   "id": 25495882,
+   "store": "Lidl",
+   "name": "Speisequark",
+   "brand": "Milbona",
+   "desc": "HINWEIS: MIT LIDL PLUS APP Magerstufe. Gekühit. Je 500 g. Nonmalprek: 119",
+   "price": 0.89,
+   "oldPrice": null,
+   "refPrice": 1.78,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T22:59:00Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25495882/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "低脂夸克（Magerstufe）",
+    "p": 12,
+    "f": 0.3,
+    "c": 4,
+    "kcal": 67,
+    "pPct": 72,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25482762,
+   "store": "Lidl",
+   "name": "Speisequark",
+   "brand": "Milbona",
+   "desc": "500g",
+   "price": 1.38,
+   "oldPrice": null,
+   "refPrice": 2.76,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25482762/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "夸克（脂肪档未标，按 20 % 估）",
+    "p": 11,
+    "f": 5,
+    "c": 3,
+    "kcal": 101,
+    "pPct": 44,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25485567,
    "store": "Lidl",
    "name": "Steinofenpizza Edelsalami XXL",
@@ -3193,6 +3382,33 @@
     "kcal": 256,
     "pPct": 16,
     "grade": "E"
+   }
+  },
+  {
+   "id": 25398627,
+   "store": "Lidl",
+   "name": "Thunfischfilets",
+   "brand": "Nixe",
+   "desc": "HINWEIS: MIT LIDL PLUS APP Versch. Sorten. Je 185/195 g Abtropfgewicht (Sorte Thunfisch- filets im eigenen Saft): 150 g. Normalpreis: 1.29",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 5.35,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25398627/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "金枪鱼罐头（水浸 / 原汁）",
+    "p": 26,
+    "f": 1,
+    "c": 0,
+    "kcal": 113,
+    "pPct": 92,
+    "grade": "A"
    }
   },
   {
@@ -3332,6 +3548,33 @@
    }
   },
   {
+   "id": 25448462,
+   "store": "REWE",
+   "name": "Bio-Speisequark Zubereitung",
+   "brand": "Andechser Natur",
+   "desc": "je 250-g-Becher",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 3.96,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25448462/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "调味夸克 / 夸克甜品（含糖）",
+    "p": 7,
+    "f": 3.5,
+    "c": 13,
+    "kcal": 112,
+    "pPct": 25,
+    "grade": "D"
+   }
+  },
+  {
    "id": 25445102,
    "store": "REWE",
    "name": "Brombeeren",
@@ -3357,6 +3600,33 @@
     "vitc": 21,
     "score": 9,
     "grade": "B"
+   }
+  },
+  {
+   "id": 25438602,
+   "store": "REWE",
+   "name": "Cremig & Quarkig",
+   "brand": "Weihenstephan",
+   "desc": "versch. Sorten, je 500-g-Becher",
+   "price": 1.69,
+   "oldPrice": null,
+   "refPrice": 3.38,
+   "unit": "kg",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25438602/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "调味夸克 / 夸克甜品（含糖）",
+    "p": 7,
+    "f": 3.5,
+    "c": 13,
+    "kcal": 112,
+    "pPct": 25,
+    "grade": "D"
    }
   },
   {
@@ -3387,6 +3657,33 @@
    }
   },
   {
+   "id": 25448437,
+   "store": "REWE",
+   "name": "Eier",
+   "brand": "Federhof",
+   "desc": "GQB Freiland Eier Größe M/L, je 10-St.-Pckg.",
+   "price": 3.29,
+   "oldPrice": null,
+   "refPrice": 0.33,
+   "unit": "Stk",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25448437/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "鸡蛋",
+    "p": 12.6,
+    "f": 9.5,
+    "c": 0.7,
+    "kcal": 139,
+    "pPct": 36,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25448277,
    "store": "REWE",
    "name": "Filegro-Ofen-Backfisch",
@@ -3411,6 +3708,33 @@
     "kcal": 201,
     "pPct": 24,
     "grade": "E"
+   }
+  },
+  {
+   "id": 25448472,
+   "store": "REWE",
+   "name": "Gekochte BH Eier",
+   "brand": "Obermeier",
+   "desc": "Gek. BH M Sais. OKT, je 6-St.-Pckg.",
+   "price": 2.29,
+   "oldPrice": null,
+   "refPrice": 0.38,
+   "unit": "Stk",
+   "from": "2026-10-25T23:00:00Z",
+   "to": "2026-10-31T22:59:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25448472/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "鸡蛋",
+    "p": 12.6,
+    "f": 9.5,
+    "c": 0.7,
+    "kcal": 139,
+    "pPct": 36,
+    "grade": "C"
    }
   },
   {
