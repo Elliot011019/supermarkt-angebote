@@ -6,7 +6,7 @@ Elliot 的个人工具：每天抓取慕尼黑 80995 附近 EDEKA、REWE、ALDI 
 - 网页：https://elliot011019.github.io/supermarkt-angebote/（GitHub Pages，main 的 /docs）
 
 ## 架构
-- `config.yaml`：类别定义（queries / include / exclude / exclude_words / exclude_desc / exclude_categories）。**调匹配只改这个文件。**
+- `config.yaml`：类别定义（queries / include / include_if_desc / exclude / exclude_words / exclude_desc / exclude_categories）。**调匹配只改这个文件。**
 - `fetch.py`：调用 marktguru 非官方接口 `api.marktguru.de/api/v1/offers/search`（关键词 + 邮编）。key 运行时从 marktguru.de 首页 `<script type="application/json">` 读取，可用 `MG_API_KEY` / `MG_CLIENT_KEY` 覆盖。流程：识别超市 → 按类别过滤 → 去重 → 写 `docs/data.json`。
 - `nutrition.yaml`：每类商品每 100 g 的参考营养值（USDA / BLS 同类取整）和增肌减脂等级规则（A–E，按蛋白供能比，低蛋白时再看脂肪供能比）。果蔬（蔬菜、橘子、香蕉、莓果）不用这套，用自己的果蔬分：热量、糖、膳食纤维、维生素 C 各分档打分，满分 13。fetch.py 给每条特价加 `nut` 字段；运行日志会列出“没有营养规则”的商品，看到就补规则。
 - `docs/index.html`：静态页，读 data.json。按类别 / 按超市两个视图；按单价 / 折扣 / 价格排序；隐藏过期特价；未开始的标“X月X日起”；App 专享价单独标出；商品名后显示营养等级，可按营养等级排序。
@@ -15,7 +15,7 @@ Elliot 的个人工具：每天抓取慕尼黑 80995 附近 EDEKA、REWE、ALDI 
 
 ## 已定需求（不要擅自改）
 - 只要这 5 家超市；Netto、PENNY 明确不要。
-- 类别：Skyr、牛肉、羊肉、鸡肉（不含火鸡）、鱼肉（冷鲜和冷冻都要；罐头、烟熏、腌鲱鱼、虾贝不要；裹粉鱼保留但等级低）、蔬菜（西兰花、花菜、辣椒〔辣的，不是 Paprika〕、圣女果、蘑菇、各种豆子、黄瓜；只要鲜货，罐头不要）、橘子（含橙子，不含橙汁等加工品）、香蕉、莓果（不含冷冻）、披萨、高蛋白（各种 High Protein / Protein 成品，有折扣都列）。
+- 类别：Skyr、牛肉、羊肉、鸡肉（不含火鸡）、鱼肉（冷鲜和冷冻都要；罐头、烟熏、腌鲱鱼、虾贝不要；裹粉鱼保留但等级低）、蔬菜（西兰花、花菜、辣椒〔辣的，不是 Paprika〕、圣女果、蘑菇、各种豆子、黄瓜；只要鲜货，罐头不要）、橘子（含橙子，不含橙汁等加工品）、香蕉、莓果（不含冷冻）、披萨、高蛋白（各种 High Protein / Protein 成品，有折扣都列；另含天然高蛋白但不标 Protein 的：夸克、茅屋芝士、Harzer、鸡蛋、鱼罐头〔用 `include_if_desc` 限定描述里有 Dose 等字样〕）。
 - 莓果、香蕉的 include 只用复数（Erdbeeren、Bananen）：鲜果用复数，口味 / 零食用单数，可挡掉大部分误判。
 - 去重键：超市 + 名称（去非字母、小写）+ 品牌 + 价格 + 截止日期（REWE / EDEKA 把同一特价放进多份区域传单，ID 不同）。
 - 无品牌占位符 `thisisnobrand123` 要清洗掉。

@@ -119,12 +119,28 @@ rules:
   高蛋白:
     - {label: 蛋白粉, name: [whey, pulver, isolat, sahne protein], p: 75, f: 6, c: 8}   # Sahne Protein = IronMaxx 奶油味蛋白粉
     - {label: 蛋白棒, name: [riegel, bar], p: 33, f: 14, c: 33}
+    - {label: 调味夸克 / 夸克甜品（含糖）, name: [vanille, cremig, quarkig, zubereitung, frucht, schoko], p: 7, f: 3.5, c: 13}
+    - {label: 低脂夸克（Magerstufe）, name: [magerquark, magerstufe], p: 12, f: 0.3, c: 4}
+    - {label: 低脂夸克（Magerstufe）, name: [quark], desc: [magerstufe, mager], p: 12, f: 0.3, c: 4}
+    - {label: 全脂夸克（40 %）, name: [sahnequark], p: 9, f: 11, c: 3}
+    - {label: 全脂夸克（40 %）, name: [quark], desc: ["40 %", "40%"], p: 9, f: 11, c: 3}
+    - {label: 东欧式夸克（30 % i. Tr.）, name: [quark], desc: ["30 %", "30%"], p: 12, f: 7, c: 3}
+    - {label: 夸克（脂肪档未标，按 20 % 估）, name: [quark], p: 11, f: 5, c: 3}
+    - {label: 茅屋芝士, name: [hüttenkäse, körniger frischkäse], p: 12, f: 4.3, c: 3}
+    - {label: Harzer 低脂酸奶酪, name: [harzer], p: 30, f: 0.5, c: 0}
+    - {label: 鸡蛋, name: [eier], p: 12.6, f: 9.5, c: 0.7}
+    - {label: 金枪鱼罐头（油浸，沥干）, name: [thunfisch], desc: [öl], p: 25, f: 8, c: 0}
+    - {label: 金枪鱼罐头（水浸 / 原汁）, name: [thunfisch], p: 26, f: 1, c: 0}
+    - {label: 沙丁鱼罐头, name: [sardine], p: 25, f: 11, c: 0}
+    - {label: 三文鱼罐头, name: [lachs], p: 21, f: 8, c: 0}
+    - {label: 鲭鱼罐头, name: [makrele], p: 18, f: 15, c: 2}
+    - {label: 鲱鱼罐头, name: [hering], p: 15, f: 13, c: 4}
     - {label: 高蛋白米布丁, name: [milchreis], p: 8, f: 1.5, c: 13}
     - {label: 高蛋白布丁, name: [pudding], p: 10, f: 1.5, c: 6}
     - {label: 高蛋白植物奶, name: [soja, hafer, mandel], p: 6, f: 2, c: 1}
     - {label: 蛋白饮料, name: [drink, shake, milch], p: 6, f: 0.6, c: 4}
     - {label: 高蛋白奶酪, name: [käse], p: 30, f: 10, c: 1}
-    - {label: 高蛋白酸奶 / 夸克, name: [skyr, joghurt, quark], p: 10, f: 0.3, c: 4.5}
+    - {label: 高蛋白酸奶, name: [skyr, joghurt], p: 10, f: 0.3, c: 4.5}
     - {label: 蛋白脆饼, name: [knäcke, cracker], p: 30, f: 17, c: 22}
     - {label: 蛋白面包, name: [brot, brötchen], p: 22, f: 9, c: 12}
     - {label: 蛋白意面（干）, name: [pasta, nudel], p: 20, f: 2, c: 61}

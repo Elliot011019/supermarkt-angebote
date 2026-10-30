@@ -71,6 +71,15 @@ categories:
     exclude: [pizzasauce, pizzasoße, pizzateig, pizzakäse, pizzaschinken, pizzagewürz, pizzablech, pizzastein, pizzaofen, pizzaschneider, pizzaplatte, donut]
 
   - name: 高蛋白
-    queries: [High Protein, Protein, Eiweiß, Proteinriegel, Protein Drink, Protein Pudding, Magerquark]
-    include: [protein, eiweiß, magerquark]
-    exclude: [hund, katze, tiernahrung, shampoo, haar, duschgel, creme, pflege, lotion, adventskalender]
+    queries: [High Protein, Protein, Eiweiß, Proteinriegel, Protein Drink, Protein Pudding, Magerquark, Quark, Hüttenkäse, Harzer, Eier, Thunfisch, Makrelen, Sardinen]
+    # 标了 Protein 的成品 + 天然高蛋白但不标 Protein 的：夸克、茅屋芝士、Harzer、鸡蛋
+    include: [protein, eiweiß, quark, hüttenkäse, körniger frischkäse, harzer, eier]
+    # 鱼罐头：名字里有这些鱼、并且描述里能看出是罐头才收（鲜鱼 / 冻鱼在鱼肉区）
+    include_if_desc:
+      words: [thunfisch, makrele, sardine, lachs, hering]
+      desc: [dose, abtropfgewicht, konserve]
+    exclude: [hund, katze, tiernahrung, shampoo, haar, duschgel, creme, pflege, lotion, adventskalender,
+              quarkkeulchen, quarktasche, quarkbällchen, quarkstrudel, kuchen, torte, dessert, frucht,
+              likör, punsch, nudel, spätzle, schoko, nougat, marzipan, salat, meierei, feier,
+              chebureki, quarksnack]   # Quarki 是品牌名，会把它家的冰淇淋、肉馅饼、甜夸克零食带进来
+    exclude_words: [eis]

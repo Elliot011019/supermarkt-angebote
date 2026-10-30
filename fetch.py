@@ -76,7 +76,13 @@ def matches(offer, cat):
     brand = norm((offer.get("brand") or {}).get("name"))
     desc = norm(offer.get("description"))
     head = f"{name} {brand}"
-    if not any(k.lower() in head for k in cat.get("include", [])):
+    included = any(k.lower() in head for k in cat.get("include", []))
+    cond = cat.get("include_if_desc")
+    if not included and cond:
+        # 这些词只有描述也对得上才算（比如鱼名 + “Dose”= 鱼罐头）
+        included = (any(k.lower() in head for k in cond["words"])
+                    and any(k.lower() in desc for k in cond["desc"]))
+    if not included:
         return False
     if any(k.lower() in head for k in cat.get("exclude", [])):
         return False
