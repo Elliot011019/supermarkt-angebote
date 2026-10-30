@@ -30,7 +30,7 @@ categories:
   - name: 鸡肉
     queries: [Hähnchen, Hühnchen]
     include: [hähnchen, hühnchen, huhn]
-    exclude: [pute, wurst, brühe, fond, bouillon, hund, katze, tiernahrung]
+    exclude: [pute, wurst, salami, aufschnitt, brühe, fond, bouillon, hund, katze, tiernahrung]
 
   - name: 橘子
     queries: [Mandarinen, Clementinen, Orangen]
@@ -39,13 +39,13 @@ categories:
 
   - name: 香蕉
     queries: [Bananen]
-    include: [banane]
-    exclude: [chips, brot, saft, joghurt, milch, kuchen]
+    include: [bananen]          # 用复数：鲜果写 Bananen，口味/零食写单数（Schokobanane）
+    exclude: [chips, brot, saft, joghurt, milch, kuchen, schoko]
 
   - name: 莓果
     queries: [Erdbeeren, Heidelbeeren, Himbeeren, Brombeeren, Beeren]
-    include: [erdbeer, heidelbeer, blaubeer, himbeer, brombeer, beeren]
-    exclude: [tiefkühl, tiefgefroren, gefroren, frost, joghurt, marmelade, konfitüre, saft, quark, müsli, sirup, schokolade, kuchen, torte, likör]
+    include: [erdbeeren, heidelbeeren, blaubeeren, himbeeren, brombeeren]   # 复数=鲜果；单数多半是口味（Joghurt Erdbeere、Zahngel Erdbeere）
+    exclude: [tiefkühl, tiefgefroren, gefroren, frost, joghurt, marmelade, konfitüre, saft, quark, müsli, sirup, schokolade, kuchen, torte, likör, wein, zahn, duschgel, shampoo]
     exclude_words: [tk, eis, tee]
     exclude_desc: [tiefgefroren, tiefkühl]
     exclude_categories: [tiefkühl]
@@ -53,4 +53,4 @@ categories:
   - name: 披萨
     queries: [Pizza]
     include: [pizza]
-    exclude: [pizzasauce, pizzasoße, pizzateig, pizzakäse, pizzaschinken, pizzagewürz, pizzablech, pizzastein, pizzaofen, pizzaschneider]
+    exclude: [pizzasauce, pizzasoße, pizzateig, pizzakäse, pizzaschinken, pizzagewürz, pizzablech, pizzastein, pizzaofen, pizzaschneider, pizzaplatte, donut]

@@ -91,6 +91,32 @@ def matches(offer, cat):
     return True
 
 
+def clean_brand(b):
+    # 数据源对无品牌商品会填占位符 "thisisnobrand123"
+    return "" if not b or b.lower().startswith("thisisnobrand") else b
+
+
+def is_app_deal(offer):
+    desc = norm(offer.get("description"))
+    return bool(offer.get("requiresLoyalityMembership")) or bool(re.search(r"mit\s.{0,25}app", desc))
+
+
+def dedupe(items):
+    """同一家超市常把同一个特价放进好几份区域传单，ID 不同但内容一样。
+    按 超市 + 名称（去掉空格和连字符）+ 品牌 + 价格 + 截止日 合并。"""
+    seen = {}
+    for it in items:
+        key = (it["store"], re.sub(r"[^a-zäöüß]", "", it["name"].lower()),
+               it["brand"].lower(), it["price"], (it["to"] or "")[:10])
+        if key in seen:
+            kept = seen[key]
+            kept["cats"] = sorted(set(kept["cats"]) | set(it["cats"]), key=(kept["cats"] + it["cats"]).index)
+            kept["loyalty"] = kept["loyalty"] or it["loyalty"]
+        else:
+            seen[key] = it
+    return list(seen.values())
+
+
 def slim(offer, store):
     oid = offer.get("id")
     validity = offer.get("validityDates") or [{}]
@@ -99,7 +125,7 @@ def slim(offer, store):
         "id": oid,
         "store": store,
         "name": (offer.get("product") or {}).get("name") or "",
-        "brand": (offer.get("brand") or {}).get("name") or "",
+        "brand": clean_brand((offer.get("brand") or {}).get("name")),
         "desc": offer.get("description") or "",
         "price": offer.get("price"),
         "oldPrice": offer.get("oldPrice"),
@@ -107,7 +133,7 @@ def slim(offer, store):
         "unit": (offer.get("unit") or {}).get("shortName") or "",
         "from": validity[0].get("from"),
         "to": validity[-1].get("to"),
-        "loyalty": bool(offer.get("requiresLoyalityMembership")),
+        "loyalty": is_app_deal(offer),
         "img": (f"https://mg2de.b-cdn.net/api/v1/offers/{oid}/images/default/0/medium.jpg"
                 if imgs.get("count", 1) else None),
         "cats": [],
@@ -141,6 +167,9 @@ def main():
                     item["cats"].append(cat["name"])
             time.sleep(1)  # 别给人家服务器添麻烦
 
+    raw_count = len(offers)
+    offers = {o["id"]: o for o in dedupe(offers.values())}
+
     if not offers:
         raise RuntimeError("一条特价都没抓到，多半是接口变了。旧数据保持不变。")
 
@@ -157,7 +186,9 @@ def main():
         (ROOT / "raw.json").write_text(json.dumps(raw, ensure_ascii=False, indent=1), encoding="utf-8")
 
     per_store = Counter(o["store"] for o in offers.values())
-    print(f"写入 {len(offers)} 条特价：", dict(per_store))
+    print(f"写入 {len(offers)} 条特价（去重前 {raw_count} 条）：", dict(per_store))
+    per_cat = Counter(c for o in offers.values() for c in o["cats"])
+    print("各类别：", dict(per_cat))
     if unmatched:
         print("其他商家（已忽略）：", ", ".join(f"{n}({c})" for n, c in unmatched.most_common(10)))
 
