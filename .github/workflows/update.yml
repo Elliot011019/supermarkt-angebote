@@ -2,26 +2,47 @@ name: 更新特价数据
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # 每天 04:00 UTC（慕尼黑 05:00/06:00）
-  workflow_dispatch:       # 允许在 Actions 页面手动运行
+    # GitHub 的定时任务是“尽力而为”：整点最拥挤，经常延迟几个小时甚至直接丢掉。
+    # 所以避开整点，并设三个时间：第一个成功后，后面两个会自动跳过（见下面的 guard）。
+    # 03:23 / 05:23 / 07:23 UTC = 慕尼黑冬令时 04:23 / 06:23 / 08:23（夏令时各加 1 小时）
+    - cron: "23 3 * * *"
+    - cron: "23 5 * * *"
+    - cron: "23 7 * * *"
+  workflow_dispatch:       # 允许在 Actions 页面手动运行（手动运行总会执行）
 
 permissions:
   contents: write
+  actions: read            # guard 要查今天的运行记录
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: 今天的定时任务已经成功过就跳过
+        id: guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --event schedule --status success \
+                --created ">=$(date -u +%Y-%m-%d)" --json databaseId -q 'length')
+          echo "今天已成功的定时运行：$n"
+          [ "$n" -gt 0 ] && echo "skip=yes" >> "$GITHUB_OUTPUT" || true
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'yes'
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'yes'
         with:
           python-version: "3.12"
       - run: pip install requests==2.32.3 pyyaml==6.0.2
+        if: steps.guard.outputs.skip != 'yes'
       - run: python fetch.py
+        if: steps.guard.outputs.skip != 'yes'
         env:
           MG_API_KEY: ${{ secrets.MG_API_KEY }}
           MG_CLIENT_KEY: ${{ secrets.MG_CLIENT_KEY }}
       - name: 提交新数据
+        if: steps.guard.outputs.skip != 'yes'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
@@ -30,6 +51,7 @@ jobs:
           git push
       # 数据已经提交，通知失败也不影响网页；失败时这次运行会标红，GitHub 会发邮件
       - name: 发送 Telegram 摘要
+        if: steps.guard.outputs.skip != 'yes'
         run: python notify.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

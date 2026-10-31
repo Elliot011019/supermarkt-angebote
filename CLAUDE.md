@@ -10,7 +10,7 @@ Elliot 的个人工具：每天抓取慕尼黑 80995 附近 EDEKA、REWE、ALDI 
 - `fetch.py`：调用 marktguru 非官方接口 `api.marktguru.de/api/v1/offers/search`（关键词 + 邮编）。key 运行时从 marktguru.de 首页 `<script type="application/json">` 读取，可用 `MG_API_KEY` / `MG_CLIENT_KEY` 覆盖。流程：识别超市 → 按类别过滤 → 去重 → 写 `docs/data.json`。
 - `nutrition.yaml`：每类商品每 100 g 的参考营养值（USDA / BLS 同类取整）和增肌减脂等级规则（A–E，按蛋白供能比，低蛋白时再看脂肪供能比）。果蔬（蔬菜、橘子、香蕉、莓果）不用这套，用自己的果蔬分：热量、糖、膳食纤维、维生素 C 各分档打分，满分 13。fetch.py 给每条特价加 `nut` 字段；运行日志会列出“没有营养规则”的商品，看到就补规则。
 - `docs/index.html`：静态页，读 data.json。按类别 / 按超市两个视图；按单价 / 折扣 / 价格排序；隐藏过期特价；“只看今天可买”开关默认打开（未开始的隐藏，底部提示条数；关掉后未开始的放在列表最下面、调淡，标“X月X日起”）；App 专享价单独标出；商品名后显示营养等级，可按营养等级排序。
-- `.github/workflows/update.yml`：每天 04:00 UTC 跑 fetch.py，data.json 有变化就自动提交。**远程会不断出现 github-actions 提交，推送前必须 `git pull --rebase`。**
+- `.github/workflows/update.yml`：每天 03:23 / 05:23 / 07:23 UTC 三个定时（GitHub 定时常延迟或丢失，第一个成功后其余自动跳过；手动运行总会执行），跑 fetch.py，data.json 有变化就自动提交。**远程会不断出现 github-actions 提交，推送前必须 `git pull --rebase`。**
 - `notify.py`：workflow 最后一步，读 data.json 把每日摘要（先发 A 级好货相册，每类一张带编号图注；再发文字：每类 A 级单价最低、即将开始条数、网页链接）发到 Telegram。token 和聊天 ID 在 GitHub Secrets（`TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`），本地用 `python3 notify.py --dry-run` 预览。手动触发 workflow 也会发一条。
 - 失败设计（不要破坏）：抓取失败不覆盖旧数据并以非零退出（GitHub 发邮件）；页面数据超过 48 小时未更新会提示。
 
