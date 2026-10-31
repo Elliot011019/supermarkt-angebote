@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T21:28:42+00:00",
+ "generated": "2026-10-31T07:31:57+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -2081,33 +2081,6 @@
    }
   },
   {
-   "id": 25474517,
-   "store": "Kaufland",
-   "name": "Hähnchen-Flügel",
-   "brand": "K-Purland",
-   "desc": "natur, HKL A, gekühlt je 550-g-Packg.",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 4.53,
-   "unit": "kg",
-   "from": "2026-10-25T23:00:00Z",
-   "to": "2026-10-30T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25474517/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡翅",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
    "id": 25467842,
    "store": "Kaufland",
    "name": "Hähnchenbrustfilet",
@@ -2132,33 +2105,6 @@
     "kcal": 106,
     "pPct": 87,
     "grade": "A"
-   }
-  },
-  {
-   "id": 25474527,
-   "store": "Kaufland",
-   "name": "Knusper-Backfisch",
-   "brand": "K-Blue Bay",
-   "desc": "saftiger Alaska-Seelachs, aufgetaut, gekühlt je 280-g-Packg.",
-   "price": 2.59,
-   "oldPrice": null,
-   "refPrice": 9.25,
-   "unit": "kg",
-   "from": "2026-10-25T23:00:00Z",
-   "to": "2026-10-30T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25474527/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "裹粉鱼 / 炸鱼柳",
-    "p": 12,
-    "f": 9,
-    "c": 18,
-    "kcal": 201,
-    "pPct": 24,
-    "grade": "E"
    }
   },
   {
@@ -2297,60 +2243,6 @@
     "vitc": 53,
     "score": 8,
     "grade": "B"
-   }
-  },
-  {
-   "id": 25473592,
-   "store": "Kaufland",
-   "name": "Protein Riegel",
-   "brand": "Premier Protein",
-   "desc": "Chocolate Caramel oder Double Chocolate Cookie Flavour je 40-g-Riegel",
-   "price": 0.89,
-   "oldPrice": null,
-   "refPrice": 22.25,
-   "unit": "kg",
-   "from": "2026-10-25T23:00:00Z",
-   "to": "2026-10-30T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25473592/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白棒",
-    "p": 33,
-    "f": 14,
-    "c": 33,
-    "kcal": 390,
-    "pPct": 34,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25502902,
-   "store": "Kaufland",
-   "name": "Quark",
-   "brand": "Quarki",
-   "desc": "Frischkäse nach osteuropäischer Art, Original, 30 % Fett i. Tr., gekühlt je 250-g-Packg.",
-   "price": 1.59,
-   "oldPrice": null,
-   "refPrice": 6.36,
-   "unit": "kg",
-   "from": "2026-10-25T23:00:00Z",
-   "to": "2026-10-30T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25502902/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "东欧式夸克（30 % i. Tr.）",
-    "p": 12,
-    "f": 7,
-    "c": 3,
-    "kcal": 123,
-    "pPct": 39,
-    "grade": "C"
    }
   },
   {
