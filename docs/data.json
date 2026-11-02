@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:41:10+00:00",
+ "generated": "2026-11-02T11:30:00+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -1645,6 +1645,33 @@
    }
   },
   {
+   "id": 25591592,
+   "store": "Kaufland",
+   "name": "High Protein Bar",
+   "brand": "Power System",
+   "desc": "Proteinriegel mit Kokos-, Schoko- oder Bananengeschmack je 35-g-Stück",
+   "price": 0.79,
+   "oldPrice": null,
+   "refPrice": 22.57,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25591592/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "蛋白棒",
+    "p": 33,
+    "f": 14,
+    "c": 33,
+    "kcal": 390,
+    "pPct": 34,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25586442,
    "store": "Kaufland",
    "name": "High Protein Drink",
@@ -1835,6 +1862,33 @@
    }
   },
   {
+   "id": 25592137,
+   "store": "Kaufland",
+   "name": "Kabeljauloin",
+   "brand": "",
+   "desc": "praktisch grätenfrei, ohne Haut je 100 g",
+   "price": 2.99,
+   "oldPrice": null,
+   "refPrice": 29.9,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25592137/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "白肉鱼（鳕鱼等）",
+    "p": 18,
+    "f": 1,
+    "c": 0,
+    "kcal": 81,
+    "pPct": 89,
+    "grade": "A"
+   }
+  },
+  {
    "id": 25587007,
    "store": "Kaufland",
    "name": "Kulturchampignons",
@@ -1914,6 +1968,33 @@
     "kcal": 207,
     "pPct": 35,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25591052,
+   "store": "Kaufland",
+   "name": "Milder Skyr Natur",
+   "brand": "Exquisa",
+   "desc": "nach isländischer Tradition, auch laktosefrei, gekühlt je 375 -400-g-Becher",
+   "price": 1.0,
+   "oldPrice": null,
+   "refPrice": 2.67,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25591052/images/default/0/medium.jpg",
+   "cats": [
+    "Skyr"
+   ],
+   "nut": {
+    "label": "原味 Skyr",
+    "p": 11,
+    "f": 0.2,
+    "c": 4,
+    "kcal": 62,
+    "pPct": 71,
+    "grade": "A"
    }
   },
   {
@@ -2076,6 +2157,60 @@
     "kcal": 251,
     "pPct": 16,
     "grade": "E"
+   }
+  },
+  {
+   "id": 25591952,
+   "store": "Kaufland",
+   "name": "Thunfisch",
+   "brand": "Deutsche See",
+   "desc": "in Aufguss (Abtropfgewicht 112 - 140 g), in Sonnenblumenöl, in Sauce oder für Pasta, versch. Sorten je 115 - 185- oder 2 x 80-g-Dose",
+   "price": 2.0,
+   "oldPrice": null,
+   "refPrice": 12.5,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25591952/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "金枪鱼罐头（油浸，沥干）",
+    "p": 25,
+    "f": 8,
+    "c": 0,
+    "kcal": 172,
+    "pPct": 58,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25592152,
+   "store": "Kaufland",
+   "name": "Wolfsbarsch",
+   "brand": "",
+   "desc": "ausgenommen, aus Aquakultur je 100 g",
+   "price": 1.59,
+   "oldPrice": null,
+   "refPrice": 15.9,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25592152/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "海鲷 / 鲈鱼",
+    "p": 19,
+    "f": 4,
+    "c": 0,
+    "kcal": 112,
+    "pPct": 68,
+    "grade": "A"
    }
   },
   {
