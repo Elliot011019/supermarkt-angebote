@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:30:00+00:00",
+ "generated": "2026-11-03T11:07:55+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -2539,7 +2539,7 @@
    }
   },
   {
-   "id": 25478547,
+   "id": 25611997,
    "store": "Lidl",
    "name": "Hähnchen-Hackfleisch XXL",
    "brand": "Metzgerfrisch",
@@ -2549,9 +2549,9 @@
    "refPrice": 6.24,
    "unit": "kg",
    "from": "2026-11-04T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25478547/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25611997/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
