@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:07:55+00:00",
+ "generated": "2026-11-04T13:03:11+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -1042,33 +1042,6 @@
     "kcal": 171,
     "pPct": 42,
     "grade": "C"
-   }
-  },
-  {
-   "id": 25565292,
-   "store": "EDEKA",
-   "name": "Hähnchenbrustfilet",
-   "brand": "Vinzenzmurr",
-   "desc": "100 g",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 12.9,
-   "unit": "kg",
-   "from": "2026-11-02T23:00:00Z",
-   "to": "2026-11-03T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25565292/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
    }
   },
   {
@@ -3281,7 +3254,7 @@
    "refPrice": 2.88,
    "unit": "l",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25528782/images/default/0/medium.jpg",
    "cats": [
@@ -3336,7 +3309,7 @@
    "refPrice": 24.99,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25526597/images/default/0/medium.jpg",
    "cats": [
@@ -3390,7 +3363,7 @@
    "refPrice": 23.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25528897/images/default/0/medium.jpg",
    "cats": [
@@ -3444,7 +3417,7 @@
    "refPrice": 11.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25525777/images/default/0/medium.jpg",
    "cats": [
@@ -3498,36 +3471,9 @@
    "refPrice": 13.72,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25523997/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25555817,
-   "store": "REWE",
-   "name": "Hähnchenbrustfilet",
-   "brand": "Vinzenzmurr",
-   "desc": "zart und saftig, natur 100 g",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 12.9,
-   "unit": "kg",
-   "from": "2026-11-02T23:00:00Z",
-   "to": "2026-11-03T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25555817/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -3596,7 +3542,7 @@
    }
   },
   {
-   "id": 25550937,
+   "id": 25628832,
    "store": "REWE",
    "name": "Meine Lieblinge Wildlachs",
    "brand": "Krone Fisch",
@@ -3608,7 +3554,7 @@
    "from": "2026-11-01T23:00:00Z",
    "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25550937/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25628832/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -3633,7 +3579,7 @@
    "refPrice": 11.63,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25529072/images/default/0/medium.jpg",
    "cats": [
@@ -3796,7 +3742,7 @@
    "refPrice": 24.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25525732/images/default/0/medium.jpg",
    "cats": [
@@ -3985,7 +3931,7 @@
    "refPrice": 1.11,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T22:59:00Z",
+   "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25528552/images/default/0/medium.jpg",
    "cats": [
@@ -4002,7 +3948,7 @@
    }
   },
   {
-   "id": 25555912,
+   "id": 25625817,
    "store": "REWE",
    "name": "Strohschwein Lachsbraten",
    "brand": "",
@@ -4014,7 +3960,7 @@
    "from": "2026-11-01T23:00:00Z",
    "to": "2026-11-07T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25555912/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25625817/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
