@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T13:03:11+00:00",
+ "generated": "2026-11-05T11:15:52+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -213,7 +213,7 @@
    "refPrice": 8.65,
    "unit": "kg",
    "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25492922/images/default/0/medium.jpg",
    "cats": [
@@ -375,7 +375,7 @@
    "refPrice": 14.01,
    "unit": "kg",
    "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25492947/images/default/0/medium.jpg",
    "cats": [
@@ -428,8 +428,8 @@
    "oldPrice": null,
    "refPrice": 37.56,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "from": "2026-11-12T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25570992/images/default/0/medium.jpg",
    "cats": [
@@ -536,8 +536,8 @@
    "oldPrice": null,
    "refPrice": 37.98,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "from": "2026-11-12T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25571067/images/default/0/medium.jpg",
    "cats": [
@@ -1408,7 +1408,7 @@
    "refPrice": 1.79,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25564437/images/default/0/medium.jpg",
    "cats": [
@@ -1436,7 +1436,7 @@
    "refPrice": 13.97,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25563732/images/default/0/medium.jpg",
    "cats": [
@@ -1463,7 +1463,7 @@
    "refPrice": 3.16,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": true,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25590502/images/default/0/medium.jpg",
    "cats": [
@@ -1490,7 +1490,7 @@
    "refPrice": 1.99,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25564387/images/default/0/medium.jpg",
    "cats": [
@@ -1518,7 +1518,7 @@
    "refPrice": 1.99,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25564257/images/default/0/medium.jpg",
    "cats": [
@@ -1546,7 +1546,7 @@
    "refPrice": 5.69,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25566312/images/default/0/medium.jpg",
    "cats": [
@@ -1574,7 +1574,7 @@
    "refPrice": 11.07,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25567262/images/default/0/medium.jpg",
    "cats": [
@@ -1628,7 +1628,7 @@
    "refPrice": 22.57,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25591592/images/default/0/medium.jpg",
    "cats": [
@@ -1682,7 +1682,7 @@
    "refPrice": 14.75,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": true,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568907/images/default/0/medium.jpg",
    "cats": [
@@ -1709,7 +1709,7 @@
    "refPrice": 14.95,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25564367/images/default/0/medium.jpg",
    "cats": [
@@ -1754,6 +1754,33 @@
    }
   },
   {
+   "id": 25653007,
+   "store": "Kaufland",
+   "name": "Hähnchen-Ministeaks",
+   "brand": "K-Purland",
+   "desc": "aus dem Brustfilet geschnitten, gekühlt je 400-g-Packg.",
+   "price": 3.79,
+   "oldPrice": null,
+   "refPrice": 9.47,
+   "unit": "kg",
+   "from": "2026-11-01T23:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25653007/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
    "id": 25585287,
    "store": "Kaufland",
    "name": "Hähnchen-Oberkeulensteak",
@@ -1764,7 +1791,7 @@
    "refPrice": 8.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25585287/images/default/0/medium.jpg",
    "cats": [
@@ -1791,7 +1818,7 @@
    "refPrice": 3.0,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25571677/images/default/0/medium.jpg",
    "cats": [
@@ -1808,33 +1835,6 @@
    }
   },
   {
-   "id": 25563107,
-   "store": "Kaufland",
-   "name": "Hähnchenbrust-Innenfilet",
-   "brand": "K-Purland",
-   "desc": "ideal zum Braten, gekühlt je 400-g-Packg.",
-   "price": 3.79,
-   "oldPrice": null,
-   "refPrice": 9.47,
-   "unit": "kg",
-   "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25563107/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
    "id": 25592137,
    "store": "Kaufland",
    "name": "Kabeljauloin",
@@ -1845,7 +1845,7 @@
    "refPrice": 29.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25592137/images/default/0/medium.jpg",
    "cats": [
@@ -1900,7 +1900,7 @@
    "refPrice": 15.99,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25563222/images/default/0/medium.jpg",
    "cats": [
@@ -1954,7 +1954,7 @@
    "refPrice": 2.67,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25591052/images/default/0/medium.jpg",
    "cats": [
@@ -1981,7 +1981,7 @@
    "refPrice": 0.79,
    "unit": "Stk",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25586592/images/default/0/medium.jpg",
    "cats": [
@@ -2008,7 +2008,7 @@
    "refPrice": 6.85,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25567572/images/default/0/medium.jpg",
    "cats": [
@@ -2035,7 +2035,7 @@
    "refPrice": 11.95,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25587067/images/default/0/medium.jpg",
    "cats": [
@@ -2062,7 +2062,7 @@
    "refPrice": 5.16,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25587022/images/default/0/medium.jpg",
    "cats": [
@@ -2089,7 +2089,7 @@
    "refPrice": 14.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25585462/images/default/0/medium.jpg",
    "cats": [
@@ -2116,7 +2116,7 @@
    "refPrice": 4.32,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25571797/images/default/0/medium.jpg",
    "cats": [
@@ -2143,7 +2143,7 @@
    "refPrice": 12.5,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25591952/images/default/0/medium.jpg",
    "cats": [
@@ -2170,7 +2170,7 @@
    "refPrice": 15.9,
    "unit": "kg",
    "from": "2026-11-01T23:00:00Z",
-   "to": "2026-11-07T18:00:00Z",
+   "to": "2026-11-07T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25592152/images/default/0/medium.jpg",
    "cats": [
@@ -3162,19 +3162,19 @@
    }
   },
   {
-   "id": 25588392,
+   "id": 25584207,
    "store": "Lidl",
    "name": "Zanderfiletportionen",
    "brand": "Deluxe",
-   "desc": "Mit Haut. Je 500 g Abtropgewicht: 450 g",
+   "desc": "Mit Haut. Tiefgefroren. Je 500 g",
    "price": 5.99,
    "oldPrice": null,
-   "refPrice": 13.31,
+   "refPrice": 11.98,
    "unit": "kg",
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25588392/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584207/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
