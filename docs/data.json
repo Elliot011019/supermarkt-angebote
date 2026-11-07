@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T11:14:12+00:00",
+ "generated": "2026-11-07T10:30:49+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -67,6 +67,33 @@
  ],
  "offers": [
   {
+   "id": 25672322,
+   "store": "ALDI SÜD",
+   "name": "Advents-Eier",
+   "brand": "Landfreude",
+   "desc": "Bunte Eier gekocht; aus Bodenhaltung; Güteklasse A; Gewichtsklasse siehe Etikett; 6 Stück; je Packung",
+   "price": 1.99,
+   "oldPrice": null,
+   "refPrice": 0.33,
+   "unit": "Stk",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25672322/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "鸡蛋",
+    "p": 12.6,
+    "f": 9.5,
+    "c": 0.7,
+    "kcal": 139,
+    "pPct": 36,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25587767,
    "store": "ALDI SÜD",
    "name": "Bio-Lachsportionen",
@@ -132,7 +159,7 @@
    "refPrice": 19.4,
    "unit": "kg",
    "from": "2026-11-19T23:00:00Z",
-   "to": "2026-11-21T22:59:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25587582/images/default/0/medium.jpg",
    "cats": [
@@ -149,6 +176,61 @@
    }
   },
   {
+   "id": 25673802,
+   "store": "ALDI SÜD",
+   "name": "Gurken",
+   "brand": "",
+   "desc": "Ursprung: Deutschland/Niederlande/ Spanien/Griechenland/Österreich/ Ungarn; Klasse: I; Stück",
+   "price": 0.75,
+   "oldPrice": null,
+   "refPrice": 0.75,
+   "unit": "Stk",
+   "from": "2026-11-08T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25673802/images/default/0/medium.jpg",
+   "cats": [
+    "蔬菜"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "黄瓜",
+    "kcal": 15,
+    "sugar": 1.7,
+    "fiber": 0.5,
+    "vitc": 2.8,
+    "score": 7,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25672202,
+   "store": "ALDI SÜD",
+   "name": "Hähnchen Brustfiletteilstücke XXL",
+   "brand": "Meine Metzgerei",
+   "desc": "1,5-kg-Packung;",
+   "price": 12.99,
+   "oldPrice": null,
+   "refPrice": 8.66,
+   "unit": "kg",
+   "from": "2026-11-26T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25672202/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
    "id": 25568232,
    "store": "ALDI SÜD",
    "name": "Hähnchen Unterkeulen XXL",
@@ -159,7 +241,7 @@
    "refPrice": 4.39,
    "unit": "kg",
    "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568232/images/default/0/medium.jpg",
    "cats": [
@@ -186,7 +268,7 @@
    "refPrice": 9.47,
    "unit": "kg",
    "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568212/images/default/0/medium.jpg",
    "cats": [
@@ -321,7 +403,7 @@
    "refPrice": 14.97,
    "unit": "kg",
    "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568277/images/default/0/medium.jpg",
    "cats": [
@@ -392,6 +474,34 @@
    }
   },
   {
+   "id": 25673862,
+   "store": "ALDI SÜD",
+   "name": "Orangen",
+   "brand": "",
+   "desc": "Ursprung: Spanien; Klasse: I; 2-kgNetz",
+   "price": 2.49,
+   "oldPrice": null,
+   "refPrice": 1.25,
+   "unit": "kg",
+   "from": "2026-11-08T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25673862/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橙子",
+    "kcal": 47,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
+    "grade": "B"
+   }
+  },
+  {
    "id": 25473962,
    "store": "ALDI SÜD",
    "name": "Pizza",
@@ -456,7 +566,7 @@
    "refPrice": 11.72,
    "unit": "kg",
    "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568192/images/default/0/medium.jpg",
    "cats": [
@@ -470,6 +580,33 @@
     "kcal": 215,
     "pPct": 37,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25672277,
+   "store": "ALDI SÜD",
+   "name": "Rinder-Gulasch",
+   "brand": "Meine Metzgerei",
+   "desc": "flüssig gewürzt; 800-g-Packung;",
+   "price": 10.99,
+   "oldPrice": null,
+   "refPrice": 13.74,
+   "unit": "kg",
+   "from": "2026-11-26T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25672277/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ],
+   "nut": {
+    "label": "后腿瘦肉（炖 / 卷 / 丁）",
+    "p": 21,
+    "f": 4,
+    "c": 0,
+    "kcal": 120,
+    "pPct": 70,
+    "grade": "A"
    }
   },
   {
