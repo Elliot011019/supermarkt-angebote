@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T10:38:01+00:00",
+ "generated": "2026-11-09T11:54:03+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -2495,19 +2495,19 @@
    }
   },
   {
-   "id": 25587487,
+   "id": 25680617,
    "store": "Lidl",
    "name": "Bio Kulturchampignons",
    "brand": "",
-   "desc": "Braune Deutsche  Klasse I Je 250 g",
-   "price": 1.99,
+   "desc": "Deutsche Braune Klasse I Je 250 g",
+   "price": 1.79,
    "oldPrice": null,
-   "refPrice": 7.96,
+   "refPrice": 7.16,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
+   "from": "2026-11-11T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25587487/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25680617/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
@@ -2874,6 +2874,34 @@
    }
   },
   {
+   "id": 25681192,
+   "store": "Lidl",
+   "name": "Mandarinen",
+   "brand": "",
+   "desc": "oder Clementinen Ursprung: Spanien Klasse I Je 1 kg",
+   "price": 1.49,
+   "oldPrice": null,
+   "refPrice": 1.49,
+   "unit": "kg",
+   "from": "2026-11-08T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25681192/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橘子 / 克莱门氏小柑橘",
+    "kcal": 47,
+    "sugar": 9.2,
+    "fiber": 1.7,
+    "vitc": 49,
+    "score": 6,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25580322,
    "store": "Lidl",
    "name": "Merino-Lammfilets",
@@ -2952,6 +2980,34 @@
     "kcal": 197,
     "pPct": 41,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25681127,
+   "store": "Lidl",
+   "name": "Orangen Navelinas",
+   "brand": "",
+   "desc": "Ursprung: Spanien Klasse I Je 1,5 kg",
+   "price": 1.89,
+   "oldPrice": null,
+   "refPrice": 1.26,
+   "unit": "kg",
+   "from": "2026-11-08T23:00:00Z",
+   "to": "2026-11-14T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25681127/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橙子",
+    "kcal": 47,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
+    "grade": "B"
    }
   },
   {
