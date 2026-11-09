@@ -107,6 +107,9 @@ def main():
         print("没有设置 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID，跳过发送。")
         return
 
+    # 慕尼黑时间 0–7 点发的消息静音：照常收到，但半夜不响铃不震动
+    quiet = datetime.now(TZ).hour < 7
+
     # 先发相册；相册失败也照发文字，最后再报错
     album_error = None
     if pics:
@@ -115,17 +118,18 @@ def main():
         try:
             if len(media) == 1:   # 只有一张时 sendMediaGroup 不接受，改用 sendPhoto
                 name, img, cap = pics[0]
-                send(token, "sendPhoto", data={"chat_id": chat, "caption": cap, "parse_mode": "HTML"},
+                send(token, "sendPhoto", data={"chat_id": chat, "caption": cap, "parse_mode": "HTML", "disable_notification": str(quiet).lower()},
                      files={"photo": (name, img)})
             else:
-                send(token, "sendMediaGroup", data={"chat_id": chat, "media": json.dumps(media, ensure_ascii=False)},
+                send(token, "sendMediaGroup", data={"chat_id": chat, "media": json.dumps(media, ensure_ascii=False),
+                                                       "disable_notification": str(quiet).lower()},
                      files={name: (name, img) for name, img, _ in pics})
         except Exception as e:
             album_error = e
 
     send(token, "sendMessage", json={"chat_id": chat, "text": text, "parse_mode": "HTML",
-                                     "disable_web_page_preview": True})
-    print(f"已发送到 Telegram（相册 {len(pics)} 张 + 文字摘要）。")
+                                     "disable_web_page_preview": True, "disable_notification": quiet})
+    print(f"已发送到 Telegram（相册 {len(pics)} 张 + 文字摘要{'，静音' if quiet else ''}）。")
     if album_error:
         raise RuntimeError(f"相册没发出去：{album_error}")
 

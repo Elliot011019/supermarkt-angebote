@@ -2,12 +2,13 @@ name: 更新特价数据
 
 on:
   schedule:
-    # GitHub 的定时任务是“尽力而为”：整点最拥挤，经常延迟几个小时甚至直接丢掉。
-    # 所以避开整点，并设三个时间：第一个成功后，后面两个会自动跳过（见下面的 guard）。
-    # 03:23 / 05:23 / 07:23 UTC = 慕尼黑冬令时 04:23 / 06:23 / 08:23（夏令时各加 1 小时）
+    # GitHub 的定时任务是“尽力而为”，这个仓库实测每天晚 7–8 小时才启动。
+    # 所以设在慕尼黑零点刚过：不延迟就是零点运行（已经是当天），延迟了大约早上 7–8 点到。
+    # 后两个是备用：当天（慕尼黑日期）已经成功过就自动跳过（见下面的 guard）。
+    # cron 用 UTC：23:01 / 01:23 / 03:23 UTC = 慕尼黑冬令时 00:01 / 02:23 / 04:23（夏令时各晚 1 小时）
+    - cron: "1 23 * * *"
+    - cron: "23 1 * * *"
     - cron: "23 3 * * *"
-    - cron: "23 5 * * *"
-    - cron: "23 7 * * *"
   workflow_dispatch:       # 允许在 Actions 页面手动运行（手动运行总会执行）
 
 permissions:
@@ -24,9 +25,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # “今天”按慕尼黑日期算：从慕尼黑今天零点（换成 UTC）开始数
+          since=$(date -u -d 'TZ="Europe/Berlin" 00:00' +%Y-%m-%dT%H:%M:%SZ)
           n=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --event schedule --status success \
-                --created ">=$(date -u +%Y-%m-%d)" --json databaseId -q 'length')
-          echo "今天已成功的定时运行：$n"
+                --created ">=$since" --json databaseId -q 'length')
+          echo "慕尼黑今天零点（$since）以来已成功的定时运行：$n"
           [ "$n" -gt 0 ] && echo "skip=yes" >> "$GITHUB_OUTPUT" || true
       - uses: actions/checkout@v4
         if: steps.guard.outputs.skip != 'yes'
