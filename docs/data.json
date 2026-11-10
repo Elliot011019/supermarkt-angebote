@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:54:03+00:00",
+ "generated": "2026-11-10T04:28:27+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -1952,9 +1952,9 @@
   {
    "id": 25668372,
    "store": "Kaufland",
-   "name": "Low Carb High-Protein-Teigwaren",
+   "name": "Low Carb High Protein Brötchen",
    "brand": "Steiner's",
-   "desc": "Brötchen zum Aufbacken oder Nudeln, versch. Sorten je 250 - 280-g-Packg.",
+   "desc": "zum Aufbacken oder Nudeln, versch. Sorten je 250 - 280-g-Packg.",
    "price": 2.22,
    "oldPrice": null,
    "refPrice": 7.93,
@@ -1967,11 +1967,11 @@
     "高蛋白"
    ],
    "nut": {
-    "label": "高蛋白食品（一般）",
-    "p": 15,
-    "f": 5,
-    "c": 10,
-    "kcal": 145,
+    "label": "蛋白面包",
+    "p": 22,
+    "f": 9,
+    "c": 12,
+    "kcal": 217,
     "pPct": 41,
     "grade": "C"
    }
