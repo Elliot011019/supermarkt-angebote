@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T04:28:27+00:00",
+ "generated": "2026-11-11T02:29:14+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -998,33 +998,6 @@
    }
   },
   {
-   "id": 25638922,
-   "store": "EDEKA",
-   "name": "Hähnchenbrustfilet",
-   "brand": "Vinzenzmurr",
-   "desc": "zart und saftig, natur 100 g",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 12.9,
-   "unit": "kg",
-   "from": "2026-11-09T23:00:00Z",
-   "to": "2026-11-10T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25638922/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
    "id": 25621047,
    "store": "EDEKA",
    "name": "Hähnchenbrustfilet",
@@ -1468,7 +1441,7 @@
    "oldPrice": null,
    "refPrice": 1.49,
    "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
+   "from": "2026-11-11T23:00:00Z",
    "to": "2026-11-14T18:00:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25667617/images/default/0/medium.jpg",
@@ -2370,7 +2343,7 @@
    "refPrice": 9.97,
    "unit": "kg",
    "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25578862/images/default/0/medium.jpg",
    "cats": [
@@ -2397,7 +2370,7 @@
    "refPrice": 43.0,
    "unit": "kg",
    "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25579382/images/default/0/medium.jpg",
    "cats": [
@@ -2533,7 +2506,7 @@
    "refPrice": 20.0,
    "unit": "kg",
    "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25578312/images/default/0/medium.jpg",
    "cats": [
@@ -2668,7 +2641,7 @@
    "refPrice": 7.49,
    "unit": "kg",
    "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25578682/images/default/0/medium.jpg",
    "cats": [
@@ -2687,7 +2660,7 @@
   {
    "id": 25584632,
    "store": "Lidl",
-   "name": "Hähnchen Schenkel",
+   "name": "Hähnchen Schenkel XXL",
    "brand": "Metzgerfrisch",
    "desc": "Mit Rückenstück. HKL A. Je 2 kg",
    "price": 6.79,
@@ -3011,19 +2984,19 @@
    }
   },
   {
-   "id": 25584527,
+   "id": 25709167,
    "store": "Lidl",
    "name": "Pizza Snack Salami",
    "brand": "Lidl Backshop",
-   "desc": "Je Stück",
+   "desc": "HINWEIS: MIT LIDL PLUS APP Je Stück",
    "price": 0.75,
    "oldPrice": null,
    "refPrice": 0.75,
    "unit": "Stk",
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584527/images/default/0/medium.jpg",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25709167/images/default/0/medium.jpg",
    "cats": [
     "披萨"
    ],
@@ -3075,7 +3048,7 @@
    "refPrice": 16.24,
    "unit": "kg",
    "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
+   "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25578602/images/default/0/medium.jpg",
    "cats": [
@@ -3336,7 +3309,7 @@
    }
   },
   {
-   "id": 25657017,
+   "id": 25655372,
    "store": "REWE",
    "name": "Bio Shiitake Pilze",
    "brand": "Rewe Bio",
@@ -3348,7 +3321,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25657017/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25655372/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
@@ -3447,7 +3420,7 @@
    }
   },
   {
-   "id": 25657032,
+   "id": 25654622,
    "store": "REWE",
    "name": "Champignons Mix",
    "brand": "Rewe Beste Wahl",
@@ -3459,7 +3432,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25657032/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654622/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
@@ -3530,11 +3503,11 @@
    }
   },
   {
-   "id": 25655437,
+   "id": 25650602,
    "store": "REWE",
    "name": "Freiland-Eier",
    "brand": "Sonnendorfer",
-   "desc": "Gr. M-L, je 10-St.-Pckg.",
+   "desc": "Gr. M-L je 10-St.-Pckg.",
    "price": 3.19,
    "oldPrice": null,
    "refPrice": 0.32,
@@ -3542,7 +3515,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25655437/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650602/images/default/0/medium.jpg",
    "cats": [
     "高蛋白"
    ],
@@ -3692,7 +3665,7 @@
    }
   },
   {
-   "id": 25658862,
+   "id": 25650692,
    "store": "REWE",
    "name": "Hähnchen-Geschnetzeltes",
    "brand": "Rewe Regional",
@@ -3704,7 +3677,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658862/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650692/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -3719,11 +3692,11 @@
    }
   },
   {
-   "id": 25658257,
+   "id": 25647907,
    "store": "REWE",
    "name": "Hähnchen-Schenkel",
    "brand": "",
-   "desc": "natur oder gewürzt, Hktl. je 2000-g-Pckg.",
+   "desc": "natur oder gewürzt, Hkl. A, je 2000-g-Pckg.",
    "price": 6.66,
    "oldPrice": null,
    "refPrice": 3.33,
@@ -3731,7 +3704,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658257/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25647907/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -3743,33 +3716,6 @@
     "kcal": 171,
     "pPct": 42,
     "grade": "C"
-   }
-  },
-  {
-   "id": 25660527,
-   "store": "REWE",
-   "name": "Hähnchenbrustfilet",
-   "brand": "Vinzenzmurr",
-   "desc": "zart und saftig, natur 100g",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 12.9,
-   "unit": "kg",
-   "from": "2026-11-09T23:00:00Z",
-   "to": "2026-11-10T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25660527/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
    }
   },
   {
@@ -4181,7 +4127,7 @@
    }
   },
   {
-   "id": 25658872,
+   "id": 25650612,
    "store": "REWE",
    "name": "Rinder Hackfleisch",
    "brand": "Rewe Regional",
@@ -4193,7 +4139,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658872/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650612/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -4208,11 +4154,11 @@
    }
   },
   {
-   "id": 25645917,
+   "id": 25643672,
    "store": "REWE",
    "name": "Rinder-Braten",
    "brand": "",
-   "desc": "oder Rinder-Gulasch aus der Schulter, je 100 g",
+   "desc": "oder Gulasch aus der Schulter, je 100 g",
    "price": 1.99,
    "oldPrice": null,
    "refPrice": 19.9,
@@ -4220,7 +4166,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25645917/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25643672/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
