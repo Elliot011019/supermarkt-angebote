@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T02:29:14+00:00",
+ "generated": "2026-11-12T03:32:51+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -104,7 +104,7 @@
    "refPrice": 24.97,
    "unit": "kg",
    "from": "2026-11-19T23:00:00Z",
-   "to": "2026-11-21T22:59:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25587767/images/default/0/medium.jpg",
    "cats": [
@@ -257,6 +257,33 @@
    }
   },
   {
+   "id": 25729257,
+   "store": "ALDI SÜD",
+   "name": "Hähnchen-Schenkel",
+   "brand": "Meine Metzgerei",
+   "desc": "mit Rückenstück 1,1-kg-Packung",
+   "price": 3.99,
+   "oldPrice": 5.29,
+   "refPrice": 3.63,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729257/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
+    "c": 0,
+    "kcal": 171,
+    "pPct": 42,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25492922,
    "store": "ALDI SÜD",
    "name": "Hähnchen-Schnitte Cordon-bleu-Art",
@@ -281,6 +308,60 @@
     "kcal": 220,
     "pPct": 25,
     "grade": "E"
+   }
+  },
+  {
+   "id": 25729182,
+   "store": "ALDI SÜD",
+   "name": "Hähnchenbrustfilet-Teilstücke XXL",
+   "brand": "Meine Metzgerei",
+   "desc": "1-kg-Packung",
+   "price": 8.19,
+   "oldPrice": 9.99,
+   "refPrice": 8.19,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729182/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25729127,
+   "store": "ALDI SÜD",
+   "name": "Kabeljau-Rückenfiletportionen",
+   "brand": "Golden Seafood",
+   "desc": "Mit Haut; 250-g-Packung",
+   "price": 6.79,
+   "oldPrice": 7.99,
+   "refPrice": 27.16,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729127/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "白肉鱼（鳕鱼等）",
+    "p": 18,
+    "f": 1,
+    "c": 0,
+    "kcal": 81,
+    "pPct": 89,
+    "grade": "A"
    }
   },
   {
@@ -363,6 +444,33 @@
     "vitc": 53,
     "score": 8,
     "grade": "B"
+   }
+  },
+  {
+   "id": 25729492,
+   "store": "ALDI SÜD",
+   "name": "Pizza",
+   "brand": "Gustavo Gusto",
+   "desc": "Versch. Sorten; je 410- bzw. 460-g-Packung",
+   "price": 3.49,
+   "oldPrice": 4.99,
+   "refPrice": 8.51,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729492/images/default/0/medium.jpg",
+   "cats": [
+    "披萨"
+   ],
+   "nut": {
+    "label": "冷冻披萨（一般）",
+    "p": 10,
+    "f": 11,
+    "c": 28,
+    "kcal": 251,
+    "pPct": 16,
+    "grade": "E"
    }
   },
   {
@@ -2685,6 +2793,33 @@
    }
   },
   {
+   "id": 25682737,
+   "store": "Lidl",
+   "name": "Hähnchen Unterkeulen",
+   "brand": "Metzgerfrisch",
+   "desc": "HINWEIS: MIT LIDL PLUS APP HKL A. Je 1,5 kg, Normalpreis: 6.66",
+   "price": 5.99,
+   "oldPrice": null,
+   "refPrice": 3.99,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25682737/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
+    "c": 0,
+    "kcal": 171,
+    "pPct": 42,
+    "grade": "C"
+   }
+  },
+  {
    "id": 25584622,
    "store": "Lidl",
    "name": "Hähnchen-Minutenschnitzel",
@@ -2709,33 +2844,6 @@
     "kcal": 106,
     "pPct": 87,
     "grade": "A"
-   }
-  },
-  {
-   "id": 25682877,
-   "store": "Lidl",
-   "name": "Hähnchen-Oberkeulen",
-   "brand": "Metzgerfrisch",
-   "desc": "HINWEIS: MIT LIDL PLUS APP Je 2 kg, Normalpreis: 6.99",
-   "price": 6.29,
-   "oldPrice": null,
-   "refPrice": 3.15,
-   "unit": "kg",
-   "from": "2026-11-15T23:00:00Z",
-   "to": "2026-11-21T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25682877/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
    }
   },
   {
