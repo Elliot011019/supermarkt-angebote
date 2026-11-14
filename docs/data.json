@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T03:06:19+00:00",
+ "generated": "2026-11-14T02:52:32+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -118,6 +118,62 @@
     "kcal": 197,
     "pPct": 41,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25769097,
+   "store": "ALDI SÜD",
+   "name": "Brokkoli",
+   "brand": "",
+   "desc": "Ursprung: Italien/ Spanien/Portugal; Klasse: I; 500-g Packung",
+   "price": 0.95,
+   "oldPrice": 1.19,
+   "refPrice": 1.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25769097/images/default/0/medium.jpg",
+   "cats": [
+    "蔬菜"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "西兰花",
+    "kcal": 34,
+    "sugar": 1.7,
+    "fiber": 2.6,
+    "vitc": 89,
+    "score": 11,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25769107,
+   "store": "ALDI SÜD",
+   "name": "Champignons",
+   "brand": "",
+   "desc": "weiß Ursprung: siehe Etikett; Klasse: I; 400-g-Schale",
+   "price": 1.39,
+   "oldPrice": 1.89,
+   "refPrice": 3.47,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25769107/images/default/0/medium.jpg",
+   "cats": [
+    "蔬菜"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "蘑菇",
+    "kcal": 22,
+    "sugar": 2.0,
+    "fiber": 1.0,
+    "vitc": 2,
+    "score": 7,
+    "grade": "B"
    }
   },
   {
@@ -243,6 +299,33 @@
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25568212/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25768487,
+   "store": "ALDI SÜD",
+   "name": "Hähnchen-Minutenschnitzel",
+   "brand": "Meine Metzgerei",
+   "desc": "800-g-Packung",
+   "price": 7.49,
+   "oldPrice": null,
+   "refPrice": 9.36,
+   "unit": "kg",
+   "from": "2026-12-03T23:00:00Z",
+   "to": "2026-12-05T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768487/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -498,6 +581,34 @@
     "kcal": 390,
     "pPct": 34,
     "grade": "C"
+   }
+  },
+  {
+   "id": 25769112,
+   "store": "ALDI SÜD",
+   "name": "Rainforest Alliance Bananen",
+   "brand": "",
+   "desc": "lose Ursprung: Ecuador/ Costa Rica/Guatemala/ Kolumbien; kg-Preis",
+   "price": 0.99,
+   "oldPrice": 1.29,
+   "refPrice": 0.99,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25769112/images/default/0/medium.jpg",
+   "cats": [
+    "香蕉"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "香蕉",
+    "kcal": 89,
+    "sugar": 12.2,
+    "fiber": 2.6,
+    "vitc": 8.7,
+    "score": 3,
+    "grade": "D"
    }
   },
   {
@@ -1269,7 +1380,7 @@
    }
   },
   {
-   "id": 25631322,
+   "id": 25619207,
    "store": "EDEKA",
    "name": "Rinder-Gulasch",
    "brand": "Südbayerische Fleischwaren",
@@ -1281,7 +1392,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25631322/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25619207/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -2739,7 +2850,7 @@
    }
   },
   {
-   "id": 25584632,
+   "id": 25709187,
    "store": "Lidl",
    "name": "Hähnchen Schenkel XXL",
    "brand": "Metzgerfrisch",
@@ -2751,34 +2862,7 @@
    "from": "2026-11-08T23:00:00Z",
    "to": "2026-11-14T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584632/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25682737,
-   "store": "Lidl",
-   "name": "Hähnchen Unterkeulen",
-   "brand": "Metzgerfrisch",
-   "desc": "HINWEIS: MIT LIDL PLUS APP HKL A. Je 1,5 kg, Normalpreis: 6.66",
-   "price": 5.99,
-   "oldPrice": null,
-   "refPrice": 3.99,
-   "unit": "kg",
-   "from": "2026-11-15T23:00:00Z",
-   "to": "2026-11-21T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25682737/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25709187/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -2817,6 +2901,33 @@
     "kcal": 106,
     "pPct": 87,
     "grade": "A"
+   }
+  },
+  {
+   "id": 25682877,
+   "store": "Lidl",
+   "name": "Hähnchen-Oberkeulen",
+   "brand": "Metzgerfrisch",
+   "desc": "HINWEIS: MIT LIDL PLUS APP Je 2 kg, Normalpreis: 6.99",
+   "price": 6.29,
+   "oldPrice": null,
+   "refPrice": 3.15,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25682877/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
+    "c": 0,
+    "kcal": 171,
+    "pPct": 42,
+    "grade": "C"
    }
   },
   {
