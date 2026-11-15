@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T02:52:32+00:00",
+ "generated": "2026-11-15T02:20:53+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -76,7 +76,7 @@
    "oldPrice": null,
    "refPrice": 0.33,
    "unit": "Stk",
-   "from": "2026-11-22T23:00:00Z",
+   "from": "2026-11-26T23:00:00Z",
    "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
    "img": "https://mg2de.b-cdn.net/api/v1/offers/25672322/images/default/0/medium.jpg",
@@ -117,6 +117,33 @@
     "c": 0,
     "kcal": 197,
     "pPct": 41,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25768197,
+   "store": "ALDI SÜD",
+   "name": "Bio-Landhähnchen-Schenkel",
+   "brand": "Nur Nur Natur",
+   "desc": "Versch. Gewichte, z. B. 722 g; Naturland",
+   "price": 6.49,
+   "oldPrice": null,
+   "refPrice": 8.99,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768197/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
+    "c": 0,
+    "kcal": 171,
+    "pPct": 42,
     "grade": "C"
    }
   },
@@ -177,6 +204,33 @@
    }
   },
   {
+   "id": 25768402,
+   "store": "ALDI SÜD",
+   "name": "Die Ofenfrische Pizza",
+   "brand": "Dr. Oetker",
+   "desc": "Versch. Sorten; je 390- bzw. 410-g-Packung;",
+   "price": 1.88,
+   "oldPrice": 3.69,
+   "refPrice": 4.82,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768402/images/default/0/medium.jpg",
+   "cats": [
+    "披萨"
+   ],
+   "nut": {
+    "label": "冷冻披萨（一般）",
+    "p": 10,
+    "f": 11,
+    "c": 28,
+    "kcal": 251,
+    "pPct": 16,
+    "grade": "E"
+   }
+  },
+  {
    "id": 25587582,
    "store": "ALDI SÜD",
    "name": "Erdnuss Protein Riegel",
@@ -204,30 +258,30 @@
    }
   },
   {
-   "id": 25673802,
+   "id": 25776022,
    "store": "ALDI SÜD",
-   "name": "Gurken",
-   "brand": "",
-   "desc": "Ursprung: Deutschland/Niederlande/ Spanien/Griechenland/Österreich/ Ungarn; Klasse: I; Stück",
-   "price": 0.75,
+   "name": "Ganze Bohnen",
+   "brand": "Jacobs",
+   "desc": "Versch. Sorten; je 1-kg-Packung",
+   "price": 12.99,
    "oldPrice": null,
-   "refPrice": 0.75,
-   "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "refPrice": 12.99,
+   "unit": "kg",
+   "from": "2026-11-26T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25673802/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25776022/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
    "nut": {
     "scale": "produce",
-    "label": "黄瓜",
-    "kcal": 15,
-    "sugar": 1.7,
-    "fiber": 0.5,
-    "vitc": 2.8,
-    "score": 7,
+    "label": "四季豆",
+    "kcal": 31,
+    "sugar": 3.3,
+    "fiber": 2.7,
+    "vitc": 12,
+    "score": 8,
     "grade": "B"
    }
   },
@@ -259,46 +313,19 @@
    }
   },
   {
-   "id": 25568232,
+   "id": 25768117,
    "store": "ALDI SÜD",
-   "name": "Hähnchen Unterkeulen XXL",
+   "name": "Hähnchen-Ministeaks XXL",
    "brand": "Meine Metzgerei",
-   "desc": "1-kg-Packung",
-   "price": 4.39,
-   "oldPrice": 5.59,
-   "refPrice": 4.39,
+   "desc": "800-g-Packung",
+   "price": 6.99,
+   "oldPrice": null,
+   "refPrice": 8.74,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25568232/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25568212,
-   "store": "ALDI SÜD",
-   "name": "Hähnchen-Geschnetzeltes",
-   "brand": "Meine Metzgerei",
-   "desc": "400-g-Packung",
-   "price": 3.79,
-   "oldPrice": 4.99,
-   "refPrice": 9.47,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25568212/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768117/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -367,33 +394,6 @@
    }
   },
   {
-   "id": 25492922,
-   "store": "ALDI SÜD",
-   "name": "Hähnchen-Schnitte Cordon-bleu-Art",
-   "brand": "Meine Metzgerei",
-   "desc": "750-g-Packung;",
-   "price": 6.49,
-   "oldPrice": null,
-   "refPrice": 8.65,
-   "unit": "kg",
-   "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25492922/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "裹粉鸡排 / 炸鸡块",
-    "p": 14,
-    "f": 12,
-    "c": 14,
-    "kcal": 220,
-    "pPct": 25,
-    "grade": "E"
-   }
-  },
-  {
    "id": 25729182,
    "store": "ALDI SÜD",
    "name": "Hähnchenbrustfilet-Teilstücke XXL",
@@ -418,6 +418,33 @@
     "kcal": 106,
     "pPct": 87,
     "grade": "A"
+   }
+  },
+  {
+   "id": 25774202,
+   "store": "ALDI SÜD",
+   "name": "Irisches Black Angus Rindercarpaccio",
+   "brand": "Gourmet Finest Cuisine",
+   "desc": "Mit Parmigiano Reggiano und Olivenöl; 90 + 10 + 10 g = 110-g-Packung",
+   "price": 3.19,
+   "oldPrice": 3.99,
+   "refPrice": 29.0,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25774202/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ],
+   "nut": {
+    "label": "牛肉（一般）",
+    "p": 20,
+    "f": 10,
+    "c": 0,
+    "kcal": 170,
+    "pPct": 47,
+    "grade": "B"
    }
   },
   {
@@ -448,19 +475,46 @@
    }
   },
   {
-   "id": 25568277,
+   "id": 25768107,
    "store": "ALDI SÜD",
-   "name": "Lachsfilet-Portionen",
+   "name": "Knusper Backfisch",
    "brand": "Golden Seafood",
-   "desc": "Mit Haut; 300-g-Packung",
-   "price": 4.49,
-   "oldPrice": 5.79,
-   "refPrice": 14.97,
+   "desc": "oder -Kibbelinge 280- bzw. 300-g-Packung;",
+   "price": 2.59,
+   "oldPrice": 3.49,
+   "refPrice": 8.63,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25568277/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768107/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "裹粉鱼 / 炸鱼柳",
+    "p": 12,
+    "f": 9,
+    "c": 18,
+    "kcal": 201,
+    "pPct": 24,
+    "grade": "E"
+   }
+  },
+  {
+   "id": 25774182,
+   "store": "ALDI SÜD",
+   "name": "Lachs-Carpaccio",
+   "brand": "Gourmet Finest Cuisine",
+   "desc": "Mit Vinaigrette und Parmesan; je 100 + 15 + 10 = 125-g-Packung",
+   "price": 2.99,
+   "oldPrice": 3.99,
+   "refPrice": 23.92,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25774182/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -475,58 +529,30 @@
    }
   },
   {
-   "id": 25492947,
+   "id": 25774332,
    "store": "ALDI SÜD",
-   "name": "Lachs­forellenfilet",
-   "brand": "Golden Seafood",
-   "desc": "Versch. Gewichte, z. B. 499 g",
-   "price": 6.99,
-   "oldPrice": null,
-   "refPrice": 14.01,
+   "name": "Lachsrückenfilet",
+   "brand": "Gourmet Finest Cuisine",
+   "desc": "125-g-Packung",
+   "price": 3.19,
+   "oldPrice": 3.99,
+   "refPrice": 25.52,
    "unit": "kg",
-   "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25492947/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25774332/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
    "nut": {
-    "label": "鳟鱼",
+    "label": "三文鱼（养殖）",
     "p": 20,
-    "f": 3.5,
+    "f": 13,
     "c": 0,
-    "kcal": 112,
-    "pPct": 72,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25673862,
-   "store": "ALDI SÜD",
-   "name": "Orangen",
-   "brand": "",
-   "desc": "Ursprung: Spanien; Klasse: I; 2-kgNetz",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 1.25,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25673862/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
+    "kcal": 197,
+    "pPct": 41,
+    "grade": "C"
    }
   },
   {
@@ -554,33 +580,6 @@
     "kcal": 251,
     "pPct": 16,
     "grade": "E"
-   }
-  },
-  {
-   "id": 25570992,
-   "store": "ALDI SÜD",
-   "name": "Proteinriegel",
-   "brand": "IronMaxx",
-   "desc": "oder kalorienarme Snacks oder Zutaten Versch. Sorten, z. B. Truebar; je 45-g-Packung",
-   "price": 1.69,
-   "oldPrice": null,
-   "refPrice": 37.56,
-   "unit": "kg",
-   "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25570992/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白棒",
-    "p": 33,
-    "f": 14,
-    "c": 33,
-    "kcal": 390,
-    "pPct": 34,
-    "grade": "C"
    }
   },
   {
@@ -612,33 +611,6 @@
    }
   },
   {
-   "id": 25568192,
-   "store": "ALDI SÜD",
-   "name": "Rinder Hackfleisch",
-   "brand": "Bio Smiley",
-   "desc": "400-g-Packung",
-   "price": 4.69,
-   "oldPrice": 6.29,
-   "refPrice": 11.72,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25568192/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "牛肉馅",
-    "p": 20,
-    "f": 15,
-    "c": 0,
-    "kcal": 215,
-    "pPct": 37,
-    "grade": "C"
-   }
-  },
-  {
    "id": 25672277,
    "store": "ALDI SÜD",
    "name": "Rinder-Gulasch",
@@ -666,46 +638,46 @@
    }
   },
   {
-   "id": 25571067,
-   "store": "ALDI SÜD",
-   "name": "Sahne Protein",
-   "brand": "IronMaxx",
-   "desc": "500-g-Packung",
-   "price": 18.99,
+   "id": 25716432,
+   "store": "EDEKA",
+   "name": "Bayerisches Hähnchen Brustfilet",
+   "brand": "",
+   "desc": "HKL A, eiweißreich 100g",
+   "price": 1.11,
    "oldPrice": null,
-   "refPrice": 37.98,
+   "refPrice": 11.1,
    "unit": "kg",
-   "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25571067/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25716432/images/default/0/medium.jpg",
    "cats": [
-    "高蛋白"
+    "鸡肉"
    ],
    "nut": {
-    "label": "蛋白粉",
-    "p": 75,
-    "f": 6,
-    "c": 8,
-    "kcal": 386,
-    "pPct": 78,
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
     "grade": "A"
    }
   },
   {
-   "id": 25633547,
+   "id": 25757952,
    "store": "EDEKA",
-   "name": "Bananen",
-   "brand": "Gut & Günstig",
-   "desc": "aus Costa Rica 1kg",
-   "price": 1.11,
+   "name": "Bio Bananen",
+   "brand": "",
+   "desc": "aus der Dominikanischen Republik, 1kg",
+   "price": 1.49,
    "oldPrice": null,
-   "refPrice": 1.11,
+   "refPrice": 1.49,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25633547/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25757952/images/default/0/medium.jpg",
    "cats": [
     "香蕉"
    ],
@@ -721,351 +693,19 @@
    }
   },
   {
-   "id": 25619432,
+   "id": 25764887,
    "store": "EDEKA",
-   "name": "Bayerische Hähnchenkeulen",
-   "brand": "",
-   "desc": "ohne Rückenstück, HKL A 100g",
-   "price": 0.59,
+   "name": "Bio Lachsfilet",
+   "brand": "Edeka Bio",
+   "desc": "aus Norwegen, 2 Filetportionen, ohne Haut, praktisch grätenfrei, einzeln vakuumverpackt, fangfrisch verarbeitet, gefroren 250g Packung",
+   "price": 5.99,
    "oldPrice": null,
-   "refPrice": 5.9,
+   "refPrice": 23.96,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25619432/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25633457,
-   "store": "EDEKA",
-   "name": "Bio Orangen Navelina",
-   "brand": "",
-   "desc": "HINWEIS: MIT EDEKA APP 1.99 € aus Spanien, Kl. II 1kg Packung",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 2.49,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25633457/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25629132,
-   "store": "EDEKA",
-   "name": "Bio Orangen Navelinas",
-   "brand": "",
-   "desc": "HINWEIS: MIT EDEKA APP 1.99 €  aus Spanien, Kl. II 1kg Packung",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 2.49,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25629132/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25629552,
-   "store": "EDEKA",
-   "name": "Bio-Gurke",
-   "brand": "",
-   "desc": "aus Spanien Kl. II Stück",
-   "price": 1.11,
-   "oldPrice": null,
-   "refPrice": 1.11,
-   "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25629552/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "黄瓜",
-    "kcal": 15,
-    "sugar": 1.7,
-    "fiber": 0.5,
-    "vitc": 2.8,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25632492,
-   "store": "EDEKA",
-   "name": "Brokkoli",
-   "brand": "Gut & Günstig",
-   "desc": "aus Spanien/Italien, KI. I 500g Bund",
-   "price": 0.99,
-   "oldPrice": null,
-   "refPrice": 1.98,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25632492/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "西兰花",
-    "kcal": 34,
-    "sugar": 1.7,
-    "fiber": 2.6,
-    "vitc": 89,
-    "score": 11,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25649812,
-   "store": "EDEKA",
-   "name": "Brokkoli Burger Vegan",
-   "brand": "SoFine",
-   "desc": "und weitere Sorten je 150-200g Packung",
-   "price": 1.99,
-   "oldPrice": null,
-   "refPrice": 13.27,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25649812/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "西兰花",
-    "kcal": 34,
-    "sugar": 1.7,
-    "fiber": 2.6,
-    "vitc": 89,
-    "score": 11,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25629272,
-   "store": "EDEKA",
-   "name": "Clementinen",
-   "brand": "SanLucar",
-   "desc": "aus Spanien, Kl. I 1kg Packung",
-   "price": 2.99,
-   "oldPrice": null,
-   "refPrice": 2.99,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25629272/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橘子 / 克莱门氏小柑橘",
-    "kcal": 47,
-    "sugar": 9.2,
-    "fiber": 1.7,
-    "vitc": 49,
-    "score": 6,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25649392,
-   "store": "EDEKA",
-   "name": "Cola+Orange",
-   "brand": "Schwip Schwap",
-   "desc": "pepsi oder 7up +3,30 Pfand je Träger 12x1l Flasche",
-   "price": 9.99,
-   "oldPrice": null,
-   "refPrice": 0.83,
-   "unit": "l",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25649392/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25619172,
-   "store": "EDEKA",
-   "name": "Cremiger Quark",
-   "brand": "Berchtesgadener Land",
-   "desc": "mit Joghurt verfeinert max. 0,7% Fett  350g Becher",
-   "price": 0.99,
-   "oldPrice": null,
-   "refPrice": 2.83,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25619172/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "调味夸克 / 夸克甜品（含糖）",
-    "p": 7,
-    "f": 3.5,
-    "c": 13,
-    "kcal": 112,
-    "pPct": 25,
-    "grade": "D"
-   }
-  },
-  {
-   "id": 25632472,
-   "store": "EDEKA",
-   "name": "Die Ofenfrische Pizza",
-   "brand": "Dr. Oetker",
-   "desc": "HINWEIS: MIT EDEKA APP 1.99 € Tradizionale oder la Mia Pinsa, gefroren je 305-435g Packung",
-   "price": 2.22,
-   "oldPrice": null,
-   "refPrice": 5.1,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25632472/images/default/0/medium.jpg",
-   "cats": [
-    "披萨"
-   ],
-   "nut": {
-    "label": "冷冻披萨（一般）",
-    "p": 10,
-    "f": 11,
-    "c": 28,
-    "kcal": 251,
-    "pPct": 16,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25629667,
-   "store": "EDEKA",
-   "name": "Dorade Royale",
-   "brand": "",
-   "desc": "100g",
-   "price": 1.79,
-   "oldPrice": null,
-   "refPrice": 17.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25629667/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "海鲷 / 鲈鱼",
-    "p": 19,
-    "f": 4,
-    "c": 0,
-    "kcal": 112,
-    "pPct": 68,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25649727,
-   "store": "EDEKA",
-   "name": "Frische Champignons",
-   "brand": "Gut & Günstig",
-   "desc": "braun, aus Polen, Kl. I 400g Schale",
-   "price": 1.49,
-   "oldPrice": null,
-   "refPrice": 3.72,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25649727/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25624597,
-   "store": "EDEKA",
-   "name": "Frisches Lachsfilet",
-   "brand": "",
-   "desc": "mit Haut, aus kontrollierter Aquakultur 100g",
-   "price": 2.29,
-   "oldPrice": null,
-   "refPrice": 22.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624597/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25764887/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -1080,264 +720,46 @@
    }
   },
   {
-   "id": 25650217,
+   "id": 25764392,
    "store": "EDEKA",
-   "name": "Guten Morgen Orange",
-   "brand": "Hohes C",
-   "desc": "und weitere Sorten, 100% Direktsaft, gekühlt, 0.25 Pfand je 0.85l Flasche",
-   "price": 2.49,
+   "name": "Bio Skyr",
+   "brand": "Andechser Natur",
+   "desc": "oder Vanille fettfrei/0,2% Fett je 400g Becher",
+   "price": 1.79,
    "oldPrice": null,
-   "refPrice": 2.93,
-   "unit": "l",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650217/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25633337,
-   "store": "EDEKA",
-   "name": "Heidelbeeren",
-   "brand": "",
-   "desc": "aus Peru, Kl. I 300g Packung",
-   "price": 3.99,
-   "oldPrice": null,
-   "refPrice": 13.3,
+   "refPrice": 4.47,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25633337/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25764392/images/default/0/medium.jpg",
    "cats": [
-    "莓果"
+    "Skyr"
    ],
    "nut": {
-    "scale": "produce",
-    "label": "蓝莓",
-    "kcal": 57,
-    "sugar": 10,
-    "fiber": 2.4,
-    "vitc": 9.7,
-    "score": 5,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25631332,
-   "store": "EDEKA",
-   "name": "Hähnchen Geschnetzeltes",
-   "brand": "Gut & Günstig",
-   "desc": "400g Packung",
-   "price": 4.99,
-   "oldPrice": null,
-   "refPrice": 12.47,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25631332/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
+    "label": "原味 Skyr",
+    "p": 11,
+    "f": 0.2,
+    "c": 4,
+    "kcal": 62,
+    "pPct": 71,
     "grade": "A"
    }
   },
   {
-   "id": 25636702,
+   "id": 25765197,
    "store": "EDEKA",
-   "name": "Hähnchen-Schnitzel",
-   "brand": "",
-   "desc": "natur oder mariniert, eiweißreich, HKL A, je 100g",
-   "price": 1.39,
-   "oldPrice": null,
-   "refPrice": 13.9,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25636702/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25642457,
-   "store": "EDEKA",
-   "name": "Hähnchenbrust Filet-Teilstück",
-   "brand": "Gut & Günstig",
-   "desc": "frisch 600g Packung",
-   "price": 6.49,
-   "oldPrice": null,
-   "refPrice": 10.82,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25642457/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25621047,
-   "store": "EDEKA",
-   "name": "Hähnchenbrustfilet",
-   "brand": "Vinzenzmurr",
-   "desc": "zart und saftig, natur 100g",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 12.9,
-   "unit": "kg",
-   "from": "2026-11-09T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25621047/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25642467,
-   "store": "EDEKA",
-   "name": "Hähnchenflügel",
-   "brand": "Edeka Herzstücke",
-   "desc": "500g Packung",
-   "price": 4.29,
-   "oldPrice": 4.79,
-   "refPrice": 8.58,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25642467/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡翅",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25616077,
-   "store": "EDEKA",
-   "name": "Hähnchenschnitzel mariniert",
-   "brand": "",
-   "desc": "natur oder mariniert,  eiweißreich, HKL A je 100g",
-   "price": 1.39,
-   "oldPrice": null,
-   "refPrice": 13.9,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25616077/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25624712,
-   "store": "EDEKA",
-   "name": "Makrelenfilet Rosmarin",
-   "brand": "",
-   "desc": "saftig, mit einer feinen Knoblauchnote und  frischem Rosmarin, 100g",
-   "price": 2.29,
-   "oldPrice": null,
-   "refPrice": 22.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624712/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鲭鱼 / 鲱鱼",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25633607,
-   "store": "EDEKA",
-   "name": "Mandarinen Nadorcott",
-   "brand": "Edeka Genussmomente",
-   "desc": "aus der Republik Südafrika, Kl. I 750g Packung",
+   "name": "Clementinen",
+   "brand": "SanLucar",
+   "desc": "oder Edeka Genussmomente Sanaus Spanien, Kl. I 750g Packung",
    "price": 1.99,
    "oldPrice": null,
    "refPrice": 2.65,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25633607/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25765197/images/default/0/medium.jpg",
    "cats": [
     "橘子"
    ],
@@ -1353,289 +775,73 @@
    }
   },
   {
-   "id": 25642462,
+   "id": 25770427,
    "store": "EDEKA",
-   "name": "Rinder-Gulasch",
-   "brand": "Gut & Günstig",
-   "desc": "aus der Keule 500g Packung",
-   "price": 7.79,
+   "name": "Fischstäbchen",
+   "brand": "Frosta",
+   "desc": "HINWEIS: MIT EDEKA APP 2.99 € und weitere Sorten, gefroren  je 240-450g Packung",
+   "price": 3.19,
    "oldPrice": null,
-   "refPrice": 15.58,
+   "refPrice": 13.29,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25642462/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
-    "c": 0,
-    "kcal": 120,
-    "pPct": 70,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25619207,
-   "store": "EDEKA",
-   "name": "Rinder-Gulasch",
-   "brand": "Südbayerische Fleischwaren",
-   "desc": "aus der Keule 400g Packung",
-   "price": 8.49,
-   "oldPrice": null,
-   "refPrice": 21.22,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25619207/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
-    "c": 0,
-    "kcal": 120,
-    "pPct": 70,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25624402,
-   "store": "EDEKA",
-   "name": "Rinder-Hackfleisch",
-   "brand": "Gut & Günstig",
-   "desc": "800g Packung",
-   "price": 9.49,
-   "oldPrice": null,
-   "refPrice": 11.86,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624402/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "牛肉馅",
-    "p": 20,
-    "f": 15,
-    "c": 0,
-    "kcal": 215,
-    "pPct": 37,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25642582,
-   "store": "EDEKA",
-   "name": "Rinder-Rumpsteaks",
-   "brand": "Südbayerische Fleischwaren",
-   "desc": "320g Packung",
-   "price": 9.99,
-   "oldPrice": null,
-   "refPrice": 31.22,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25642582/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "西冷 / 肋眼",
-    "p": 22,
-    "f": 6,
-    "c": 0,
-    "kcal": 142,
-    "pPct": 62,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25638747,
-   "store": "EDEKA",
-   "name": "Rinderschlegelgulasch",
-   "brand": "Vinzenzmurr",
-   "desc": "von Hand geschnitten 100 g",
-   "price": 2.19,
-   "oldPrice": null,
-   "refPrice": 21.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25638747/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
-    "c": 0,
-    "kcal": 120,
-    "pPct": 70,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25624612,
-   "store": "EDEKA",
-   "name": "Rotbarschfilets",
-   "brand": "",
-   "desc": "ideal zum Braten, 100g",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 24.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624612/images/default/0/medium.jpg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770427/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
    "nut": {
-    "label": "白肉鱼（鳕鱼等）",
-    "p": 18,
-    "f": 1,
-    "c": 0,
-    "kcal": 81,
-    "pPct": 89,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25634242,
-   "store": "EDEKA",
-   "name": "Schlemmerfisch",
-   "brand": "Costa",
-   "desc": "à la Bordelaise, gefroren 400g Packung",
-   "price": 2.99,
-   "oldPrice": null,
-   "refPrice": 7.48,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25634242/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "焗鱼（带酱料顶）",
-    "p": 11,
+    "label": "裹粉鱼 / 炸鱼柳",
+    "p": 12,
     "f": 9,
-    "c": 6,
-    "kcal": 149,
-    "pPct": 30,
-    "grade": "C"
+    "c": 18,
+    "kcal": 201,
+    "pPct": 24,
+    "grade": "E"
    }
   },
   {
-   "id": 25624762,
+   "id": 25762897,
    "store": "EDEKA",
-   "name": "Sylter Heringstopf",
+   "name": "Forellen",
    "brand": "",
-   "desc": "Heringsfilethappen mit frischer Salatgurke in Mayonnaise, verfeinert mit grünem Pfeffer, 100g",
-   "price": 1.11,
+   "desc": "ausgenommen 100g",
+   "price": 1.39,
    "oldPrice": null,
-   "refPrice": 11.1,
+   "refPrice": 13.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624762/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25762897/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
    "nut": {
-    "label": "鲭鱼 / 鲱鱼",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25624677,
-   "store": "EDEKA",
-   "name": "Wolfsbarsch",
-   "brand": "",
-   "desc": "aus kontrollierter Aquakultur, mit mediterranen Kräutern ein Genuss, 100g",
-   "price": 1.89,
-   "oldPrice": null,
-   "refPrice": 18.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624677/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "海鲷 / 鲈鱼",
-    "p": 19,
-    "f": 4,
+    "label": "鳟鱼",
+    "p": 20,
+    "f": 3.5,
     "c": 0,
     "kcal": 112,
-    "pPct": 68,
+    "pPct": 72,
     "grade": "A"
    }
   },
   {
-   "id": 25624562,
+   "id": 25770497,
    "store": "EDEKA",
-   "name": "Zillertaler Bergkäse",
-   "brand": "Fischer Metzgerei",
-   "desc": "Österreichischer Hartkäse aus Heumilch, mit Rohmilch hergestellt 45% Fett i. Tr., 100g",
-   "price": 1.79,
-   "oldPrice": 2.19,
-   "refPrice": 17.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25624562/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鱼（一般）",
-    "p": 18,
-    "f": 5,
-    "c": 0,
-    "kcal": 117,
-    "pPct": 62,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25670037,
-   "store": "Kaufland",
-   "name": "Bio-Gurke",
-   "brand": "K-Bio",
-   "desc": "Span. Kl. I je Stück",
-   "price": 0.99,
+   "name": "Gurken",
+   "brand": "Gut & Günstig",
+   "desc": "aus Spanien Kl. I Stück",
+   "price": 0.79,
    "oldPrice": null,
-   "refPrice": 0.99,
+   "refPrice": 0.79,
    "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25670037/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770497/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
@@ -1651,237 +857,19 @@
    }
   },
   {
-   "id": 25667617,
-   "store": "Kaufland",
-   "name": "Blumenkohl",
-   "brand": "",
-   "desc": "Dtsch./niederl. Blumenkohl, lose Kl. I je Stück",
-   "price": 1.49,
-   "oldPrice": null,
-   "refPrice": 1.49,
-   "unit": "Stk",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25667617/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "花菜",
-    "kcal": 25,
-    "sugar": 1.9,
-    "fiber": 2.0,
-    "vitc": 48,
-    "score": 10,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25669342,
-   "store": "Kaufland",
-   "name": "Camembert",
-   "brand": "Käserei Champignon",
-   "desc": "dtsch. Weichkäse, 55 % Fett i. Tr., gekühlt je 125-g-Packg.",
-   "price": 1.79,
-   "oldPrice": null,
-   "refPrice": 14.32,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669342/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蔬菜（一般）",
-    "kcal": 30,
-    "sugar": 3,
-    "fiber": 2,
-    "vitc": 15,
-    "score": 9,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25742052,
-   "store": "Kaufland",
-   "name": "Dorade Royale",
-   "brand": "",
-   "desc": "mit delikatem weißem Fleisch, ausgenommen, Natur oder in Rosmarin-Salbei-Marinade je 100 g",
-   "price": 1.39,
-   "oldPrice": null,
-   "refPrice": 13.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25742052/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "海鲷 / 鲈鱼",
-    "p": 19,
-    "f": 4,
-    "c": 0,
-    "kcal": 112,
-    "pPct": 68,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25666452,
-   "store": "Kaufland",
-   "name": "Filegro Fisch-Portionsfilets",
-   "brand": "Iglo",
-   "desc": "HINWEIS: MIT KAUFLAND CARD XTRA 2.49 € versch. Sorten, tiefgefroren je 240 - 250-g-Packg.",
-   "price": 2.99,
-   "oldPrice": null,
-   "refPrice": 11.96,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25666452/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鱼（一般）",
-    "p": 18,
-    "f": 5,
-    "c": 0,
-    "kcal": 117,
-    "pPct": 62,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25666472,
-   "store": "Kaufland",
-   "name": "Fischstäbchen",
-   "brand": "Iglo",
-   "desc": "HINWEIS: MIT KAUFLAND CARD XTRA 2.49 € versch. Sorten, tiefgefroren je 360 - 450-g-Packg.",
-   "price": 2.99,
-   "oldPrice": null,
-   "refPrice": 6.64,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25666472/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "裹粉鱼 / 炸鱼柳",
-    "p": 12,
-    "f": 9,
-    "c": 18,
-    "kcal": 201,
-    "pPct": 24,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25666052,
-   "store": "Kaufland",
-   "name": "Herings Doppelfilet",
-   "brand": "K-Blue Bay",
-   "desc": "mit Haut, gesalzen, aufgetaut, gekühlt z. B. 250-g-Packg.",
-   "price": 2.25,
-   "oldPrice": null,
-   "refPrice": 9.0,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25666052/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鲭鱼 / 鲱鱼",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25667882,
-   "store": "Kaufland",
-   "name": "High Protein Fertiggericht",
-   "brand": "Frosta",
-   "desc": "HINWEIS: MIT KAUFLAND CARD XTRA 3.99€ oder À la Carte Fertiggericht, versch. Sorten, tiefgefroren je 450 - 500-g-Beutel",
-   "price": 4.49,
-   "oldPrice": null,
-   "refPrice": 8.98,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25667882/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "高蛋白食品（一般）",
-    "p": 15,
-    "f": 5,
-    "c": 10,
-    "kcal": 145,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25668062,
-   "store": "Kaufland",
-   "name": "High Protein Milchreis",
-   "brand": "Dr. Oetker",
-   "desc": "oder Pudding versch. Sorten, oder Porridge, gekühlt je 400-g-Becher",
-   "price": 1.99,
-   "oldPrice": null,
-   "refPrice": 4.97,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25668062/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "高蛋白米布丁",
-    "p": 8,
-    "f": 1.5,
-    "c": 13,
-    "kcal": 98,
-    "pPct": 33,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25669457,
-   "store": "Kaufland",
+   "id": 25770492,
+   "store": "EDEKA",
    "name": "Himbeeren",
    "brand": "Driscoll's",
-   "desc": "Kl. I je 125-g-Packg.",
-   "price": 1.79,
+   "desc": "oder Brombeeren aus Portugal/Marokko Kl. I je 125g Packung",
+   "price": 1.99,
    "oldPrice": null,
-   "refPrice": 14.32,
+   "refPrice": 15.92,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669457/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770492/images/default/0/medium.jpg",
    "cats": [
     "莓果"
    ],
@@ -1897,19 +885,19 @@
    }
   },
   {
-   "id": 25680087,
-   "store": "Kaufland",
-   "name": "Hähnchen-Minutenschnitzel",
-   "brand": "K-Purland",
-   "desc": "aus dem Brustfilet, gekühlt je 400-g-Packg.",
-   "price": 3.79,
+   "id": 25763812,
+   "store": "EDEKA",
+   "name": "Hähnchen Geschnetzeltes",
+   "brand": "Gut & Günstig",
+   "desc": "400g Packung",
+   "price": 4.99,
    "oldPrice": null,
-   "refPrice": 9.47,
+   "refPrice": 12.47,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25680087/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25763812/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -1924,483 +912,236 @@
    }
   },
   {
-   "id": 25663937,
-   "store": "Kaufland",
-   "name": "Hähnchen-Unterkeule",
-   "brand": "K-Wertschätze",
-   "desc": "Oberkeule ohne Knochen, mit Haut oder Unterkeule natur, HKL A je 100 g",
-   "price": 0.79,
+   "id": 25762247,
+   "store": "EDEKA",
+   "name": "Hähnchen Minutenschnitzel",
+   "brand": "Gut & Günstig",
+   "desc": "400g Packung",
+   "price": 4.99,
    "oldPrice": null,
-   "refPrice": 7.9,
+   "refPrice": 12.47,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25663937/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25762247/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
    "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
     "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25675372,
-   "store": "Kaufland",
-   "name": "Hähnchenbraten Roast Chicken",
-   "brand": "Gutfried",
-   "desc": "gepökelt und gegart, mit Geflügelbouillon verfeinert, gekühlt je 100-g-Packg.",
-   "price": 1.69,
-   "oldPrice": null,
-   "refPrice": 16.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25675372/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25680102,
-   "store": "Kaufland",
-   "name": "Hähnchenpaket",
-   "brand": "K-Purland",
-   "desc": "mit Hähnchenflügeln, -unterkeulen und -oberkeulen, gekühlt je kg (entspr. z. B. für eine 2,5-kg-Packg. 8.73)",
-   "price": 3.49,
-   "oldPrice": null,
-   "refPrice": 3.49,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25680102/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25665577,
-   "store": "Kaufland",
-   "name": "Hähnchenschenkel XXL",
-   "brand": "Sprehe",
-   "desc": "mit Rückenstück, HKL A, tiefgefroren je 2,5-kg-Packg.",
-   "price": 7.99,
-   "oldPrice": null,
-   "refPrice": 3.2,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25665577/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25665327,
-   "store": "Kaufland",
-   "name": "Kefir",
-   "brand": "Quarki",
-   "desc": "HINWEIS: MIT KAUFLAND CARD XTRA 1.39€ 2 % Fett, gekühlt je 1-kg-Packg.",
-   "price": 1.49,
-   "oldPrice": null,
-   "refPrice": 1.49,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25665327/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "高蛋白食品（一般）",
-    "p": 15,
-    "f": 5,
-    "c": 10,
-    "kcal": 145,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25669057,
-   "store": "Kaufland",
-   "name": "Kulturchampignons",
-   "brand": "",
-   "desc": "Poln./kroat., weiß Kl. I je 400-g-Schale",
-   "price": 1.79,
-   "oldPrice": null,
-   "refPrice": 4.47,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669057/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25669822,
-   "store": "Kaufland",
-   "name": "Kulturheidelbeeren",
-   "brand": "",
-   "desc": "Peruan. KLI je 300-g-Packg.",
-   "price": 3.33,
-   "oldPrice": null,
-   "refPrice": 11.1,
-   "unit": "kg",
-   "from": "2026-11-12T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669822/images/default/0/medium.jpg",
-   "cats": [
-    "莓果"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蓝莓",
-    "kcal": 57,
-    "sugar": 10,
-    "fiber": 2.4,
-    "vitc": 9.7,
-    "score": 5,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25668372,
-   "store": "Kaufland",
-   "name": "Low Carb High Protein Brötchen",
-   "brand": "Steiner's",
-   "desc": "zum Aufbacken oder Nudeln, versch. Sorten je 250 - 280-g-Packg.",
-   "price": 2.22,
-   "oldPrice": null,
-   "refPrice": 7.93,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25668372/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白面包",
-    "p": 22,
-    "f": 9,
-    "c": 12,
-    "kcal": 217,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25665632,
-   "store": "Kaufland",
-   "name": "Makrele",
-   "brand": "Paulus",
-   "desc": "mit Kopf, ausgenommen, tiefgefroren je 1,5-kg-Packg.",
-   "price": 8.99,
-   "oldPrice": null,
-   "refPrice": 5.99,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25665632/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鲭鱼 / 鲱鱼",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25669992,
-   "store": "Kaufland",
-   "name": "Mandarin Orangen",
-   "brand": "K-Classic",
-   "desc": "leicht gezuckert je 312-g-Dose",
-   "price": 0.75,
-   "oldPrice": null,
-   "refPrice": 2.4,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669992/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25669182,
-   "store": "Kaufland",
-   "name": "Minigurken",
-   "brand": "",
-   "desc": "Span./dtsch. Kl. I je 750-g-Netz",
-   "price": 1.99,
-   "oldPrice": null,
-   "refPrice": 2.65,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669182/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "黄瓜",
-    "kcal": 15,
-    "sugar": 1.7,
-    "fiber": 0.5,
-    "vitc": 2.8,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25669402,
-   "store": "Kaufland",
-   "name": "Orangen Riesen XXL",
-   "brand": "",
-   "desc": "Span. Sorte laut Auszeichnung, Kl. I je 4-kg-Netz",
-   "price": 5.99,
-   "oldPrice": null,
-   "refPrice": 1.5,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25669402/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橙子",
-    "kcal": 47,
-    "sugar": 9.4,
-    "fiber": 2.2,
-    "vitc": 53,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25666347,
-   "store": "Kaufland",
-   "name": "Pizza",
-   "brand": "Gustavo Gusto",
-   "desc": "versch. Sorten, tiefgefroren je 410 - 475-g-Packg.",
-   "price": 3.33,
-   "oldPrice": null,
-   "refPrice": 7.01,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25666347/images/default/0/medium.jpg",
-   "cats": [
-    "披萨"
-   ],
-   "nut": {
-    "label": "冷冻披萨（一般）",
-    "p": 10,
-    "f": 11,
-    "c": 28,
-    "kcal": 251,
-    "pPct": 16,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25668167,
-   "store": "Kaufland",
-   "name": "Pizza Margherita",
-   "brand": "Kaufland Bäckerei",
-   "desc": "Pizzasnack mit Edamer je Stück",
-   "price": 0.79,
-   "oldPrice": null,
-   "refPrice": 0.79,
-   "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25668167/images/default/0/medium.jpg",
-   "cats": [
-    "披萨"
-   ],
-   "nut": {
-    "label": "玛格丽特披萨",
-    "p": 10,
-    "f": 9,
-    "c": 30,
-    "kcal": 241,
-    "pPct": 17,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25668697,
-   "store": "Kaufland",
-   "name": "Protein-Riegel",
-   "brand": "K-Concept+Sports",
-   "desc": "je 45-g-Riegel",
-   "price": 0.99,
-   "oldPrice": null,
-   "refPrice": 22.0,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25668697/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白棒",
-    "p": 33,
-    "f": 14,
-    "c": 33,
-    "kcal": 390,
-    "pPct": 34,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25668202,
-   "store": "Kaufland",
-   "name": "Proteinpulver Iced Coffee Dark Cookie Crumble",
-   "brand": "More Nutrition",
-   "desc": "zum Anrühren mit Milch/Pflanzendrink je 275-g-Dose",
-   "price": 17.99,
-   "oldPrice": null,
-   "refPrice": 65.42,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25668202/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白粉",
-    "p": 75,
-    "f": 6,
-    "c": 8,
-    "kcal": 386,
-    "pPct": 78,
+    "kcal": 106,
+    "pPct": 87,
     "grade": "A"
    }
   },
   {
-   "id": 25663922,
-   "store": "Kaufland",
-   "name": "Rinder-Entrecôte",
-   "brand": "K-Wertschätze",
-   "desc": "vom dtsch. Jungbullen, am Stück oder als Steak, garantiert gereift, zart marmoriert, natur oder mariniert,  je 100 g",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 24.9,
+   "id": 25756637,
+   "store": "EDEKA",
+   "name": "Hähnchen-Brustfilet",
+   "brand": "",
+   "desc": "HINWEIS: MIT EDEKA APP 0.95 € eiweißreich, HKL A, 100g",
+   "price": 1.11,
+   "oldPrice": 1.59,
+   "refPrice": 11.1,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25663922/images/default/0/medium.jpg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25756637/images/default/0/medium.jpg",
    "cats": [
-    "牛肉"
+    "鸡肉"
    ],
    "nut": {
-    "label": "牛肉（一般）",
-    "p": 20,
-    "f": 10,
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
     "c": 0,
-    "kcal": 170,
-    "pPct": 47,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25763927,
+   "store": "EDEKA",
+   "name": "Hähnchen-Innenbrustfilet",
+   "brand": "Gut & Günstig",
+   "desc": "frisch, 400g Packung",
+   "price": 4.99,
+   "oldPrice": null,
+   "refPrice": 12.47,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25763927/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25761492,
+   "store": "EDEKA",
+   "name": "Hähnchen-Schnitzel",
+   "brand": "Gut & Günstig",
+   "desc": "300g Packung",
+   "price": 2.99,
+   "oldPrice": null,
+   "refPrice": 9.97,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25761492/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25758137,
+   "store": "EDEKA",
+   "name": "Hähnchenbrustfilet",
+   "brand": "Vinzenzmurr",
+   "desc": "zart und saftig, natur 100 g",
+   "price": 1.29,
+   "oldPrice": null,
+   "refPrice": 12.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25758137/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25717582,
+   "store": "EDEKA",
+   "name": "Hähnchenbrustfilet",
+   "brand": "Vinzenzmurr",
+   "desc": "zart und saftig, natur 100 g",
+   "price": 1.29,
+   "oldPrice": null,
+   "refPrice": 12.9,
+   "unit": "kg",
+   "from": "2026-11-16T23:00:00Z",
+   "to": "2026-11-17T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25717582/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25762892,
+   "store": "EDEKA",
+   "name": "Lachssteak",
+   "brand": "",
+   "desc": "100g",
+   "price": 1.39,
+   "oldPrice": null,
+   "refPrice": 13.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25762892/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "三文鱼（养殖）",
+    "p": 20,
+    "f": 13,
+    "c": 0,
+    "kcal": 197,
+    "pPct": 41,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25765252,
+   "store": "EDEKA",
+   "name": "Orangen Navelina",
+   "brand": "Edeka Herzstücke",
+   "desc": "HINWEIS: MIT EDEKA APP 2.49 € aus Spanien, Kl. I 1,5kg Packung",
+   "price": 2.99,
+   "oldPrice": null,
+   "refPrice": 1.99,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25765252/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橙子",
+    "kcal": 47,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
     "grade": "B"
    }
   },
   {
-   "id": 25667747,
-   "store": "Kaufland",
-   "name": "Rinderschmorbraten",
-   "brand": "K-Purland",
-   "desc": "vom Jungbullen, aus der Keule, gekühlt je kg",
-   "price": 13.99,
+   "id": 25716352,
+   "store": "EDEKA",
+   "name": "Rinder-Gulasch",
+   "brand": "Gut & Günstig",
+   "desc": "aus der Keule 500g Packung",
+   "price": 7.79,
    "oldPrice": null,
-   "refPrice": 13.99,
+   "refPrice": 15.58,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25667747/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25716352/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -2415,129 +1156,154 @@
    }
   },
   {
-   "id": 25667847,
-   "store": "Kaufland",
-   "name": "Skyr",
-   "brand": "Arla",
-   "desc": "HINWEIS: MIT KAUFLAND CARD XTRA 1.29 € Vanille, Natur oder Drink versch. Sorten Natur oder Drink, gekühlt (+ 0.25 Flaschenpfand) je 400- 450-g-Becher oder 330-ml-FI.",
-   "price": 1.49,
+   "id": 25763952,
+   "store": "EDEKA",
+   "name": "Rinder-Rouladen",
+   "brand": "Südbayerische Fleischwaren",
+   "desc": "500g Packung",
+   "price": 9.99,
    "oldPrice": null,
-   "refPrice": 3.31,
+   "refPrice": 19.98,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25667847/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25763952/images/default/0/medium.jpg",
    "cats": [
-    "Skyr"
+    "牛肉"
    ],
    "nut": {
-    "label": "原味 Skyr",
-    "p": 11,
-    "f": 0.2,
-    "c": 4,
-    "kcal": 62,
-    "pPct": 71,
+    "label": "后腿瘦肉（炖 / 卷 / 丁）",
+    "p": 21,
+    "f": 4,
+    "c": 0,
+    "kcal": 120,
+    "pPct": 70,
     "grade": "A"
    }
   },
   {
-   "id": 25676462,
-   "store": "Kaufland",
-   "name": "Waldheidelbeeren",
-   "brand": "K-Classic",
-   "desc": "Kanad. Waldheidelbeeren leicht gezuckert je 540-g-Glas Abtropfgewicht 205 g",
-   "price": 1.99,
+   "id": 25770417,
+   "store": "EDEKA",
+   "name": "Ristorante Pizza",
+   "brand": "Dr. Oetker",
+   "desc": "laktose- und glutenfrei,  la Mia Grande oder Familia  gefroren  je 315-480g Packung",
+   "price": 3.49,
    "oldPrice": null,
-   "refPrice": 9.71,
+   "refPrice": 7.27,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25676462/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770417/images/default/0/medium.jpg",
    "cats": [
-    "莓果"
+    "披萨"
    ],
    "nut": {
-    "scale": "produce",
-    "label": "蓝莓",
-    "kcal": 57,
-    "sugar": 10,
-    "fiber": 2.4,
-    "vitc": 9.7,
-    "score": 5,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25666312,
-   "store": "Kaufland",
-   "name": "XXL Clementinen",
-   "brand": "",
-   "desc": "Span. Sorte laut Auszeichnung, Kl. I je 2,3-kg-Kiste",
-   "price": 3.99,
-   "oldPrice": null,
-   "refPrice": 1.73,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25666312/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橘子 / 克莱门氏小柑橘",
-    "kcal": 47,
-    "sugar": 9.2,
-    "fiber": 1.7,
-    "vitc": 49,
-    "score": 6,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25679717,
-   "store": "Kaufland",
-   "name": "XXL-Hähnchen-Schnitte Cordon Bleu",
-   "brand": "Daily Kitchen",
-   "desc": "gefüllt, paniert, auch als Chili Cheese, gekühlt je 750-g-Großpackg.",
-   "price": 6.49,
-   "oldPrice": null,
-   "refPrice": 8.65,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T18:00:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25679717/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "裹粉鸡排 / 炸鸡块",
-    "p": 14,
-    "f": 12,
-    "c": 14,
-    "kcal": 220,
-    "pPct": 25,
+    "label": "冷冻披萨（一般）",
+    "p": 10,
+    "f": 11,
+    "c": 28,
+    "kcal": 251,
+    "pPct": 16,
     "grade": "E"
    }
   },
   {
-   "id": 25578862,
-   "store": "Lidl",
-   "name": "Alaska Seelachs-Filet",
+   "id": 25770402,
+   "store": "EDEKA",
+   "name": "Ristorante Pizza",
+   "brand": "Dr. Oetker",
+   "desc": "HINWEIS: MIT EDEKA APP 1.66 € oder Bistro Flammkuchen  gefroren , je 265-390g Packung",
+   "price": 1.77,
+   "oldPrice": null,
+   "refPrice": 6.68,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770402/images/default/0/medium.jpg",
+   "cats": [
+    "披萨"
+   ],
+   "nut": {
+    "label": "冷冻披萨（一般）",
+    "p": 10,
+    "f": 11,
+    "c": 28,
+    "kcal": 251,
+    "pPct": 16,
+    "grade": "E"
+   }
+  },
+  {
+   "id": 25751297,
+   "store": "EDEKA",
+   "name": "Saibling",
    "brand": "",
-   "desc": "Nach Fish-&-Chips-Art. Je 400 g",
+   "desc": "küchenfertig ausgenommen 100g",
+   "price": 1.89,
+   "oldPrice": null,
+   "refPrice": 18.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25751297/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "鳟鱼",
+    "p": 20,
+    "f": 3.5,
+    "c": 0,
+    "kcal": 112,
+    "pPct": 72,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25770412,
+   "store": "EDEKA",
+   "name": "Suprema-Pizza",
+   "brand": "Dr. Oetker",
+   "desc": "gefroren  je 475-540g Packung",
    "price": 3.99,
    "oldPrice": null,
-   "refPrice": 9.97,
+   "refPrice": 8.4,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25578862/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770412/images/default/0/medium.jpg",
+   "cats": [
+    "披萨"
+   ],
+   "nut": {
+    "label": "冷冻披萨（一般）",
+    "p": 10,
+    "f": 11,
+    "c": 28,
+    "kcal": 251,
+    "pPct": 16,
+    "grade": "E"
+   }
+  },
+  {
+   "id": 25751097,
+   "store": "EDEKA",
+   "name": "Tilapiafilet",
+   "brand": "",
+   "desc": "aufgetaut, Buntbarsch aus Aquakultur, ohne Haut, 100g",
+   "price": 1.49,
+   "oldPrice": null,
+   "refPrice": 14.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25751097/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -2548,33 +1314,6 @@
     "c": 0,
     "kcal": 81,
     "pPct": 89,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25579382,
-   "store": "Lidl",
-   "name": "Argentinisches Rinderfilet-Steak",
-   "brand": "Deluxe",
-   "desc": "28 Tage gereift. Je 150–320 g",
-   "price": 6.45,
-   "oldPrice": null,
-   "refPrice": 43.0,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25579382/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "臀肉 / 里脊 / 烤牛肉",
-    "p": 22,
-    "f": 5,
-    "c": 0,
-    "kcal": 133,
-    "pPct": 66,
     "grade": "A"
    }
   },
@@ -2660,85 +1399,112 @@
    }
   },
   {
-   "id": 25680617,
+   "id": 25771792,
    "store": "Lidl",
-   "name": "Bio Kulturchampignons",
-   "brand": "",
-   "desc": "Deutsche Braune Klasse I Je 250 g",
-   "price": 1.79,
+   "name": "Backfisch",
+   "brand": "Nordsee",
+   "desc": "oder  Matjesfilets XXL Gekühlt. Je 280/310 g",
+   "price": 3.79,
    "oldPrice": null,
-   "refPrice": 7.16,
+   "refPrice": 13.54,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25680617/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25771792/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "裹粉鱼 / 炸鱼柳",
+    "p": 12,
+    "f": 9,
+    "c": 18,
+    "kcal": 201,
+    "pPct": 24,
+    "grade": "E"
+   }
+  },
+  {
+   "id": 25776747,
+   "store": "Lidl",
+   "name": "Chilischoten",
+   "brand": "Deluxe",
+   "desc": "Gemahlen und eingelegt in nativem Olivenöl extra. Je 170 g",
+   "price": 1.99,
+   "oldPrice": null,
+   "refPrice": 11.71,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25776747/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
    "nut": {
     "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
+    "label": "辣椒",
+    "kcal": 40,
+    "sugar": 5.1,
+    "fiber": 1.5,
+    "vitc": 144,
+    "score": 8,
     "grade": "B"
    }
   },
   {
-   "id": 25578312,
+   "id": 25779837,
    "store": "Lidl",
-   "name": "Deluxe Medaillons Salzwiesenlamm",
-   "brand": "Sansibar",
-   "desc": "Aus der Keule. Mariniert. Ca. 239 g;",
-   "price": 4.78,
+   "name": "Doradenfilet",
+   "brand": "Fischerstolz",
+   "desc": "Ca. 220–360 g",
+   "price": 4.69,
    "oldPrice": null,
-   "refPrice": 20.0,
+   "refPrice": 21.32,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-25T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25578312/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25779837/images/default/0/medium.jpg",
    "cats": [
-    "羊肉"
+    "鱼肉"
    ],
    "nut": {
-    "label": "羊肉（一般）",
-    "p": 18,
-    "f": 15,
+    "label": "海鲷 / 鲈鱼",
+    "p": 19,
+    "f": 4,
     "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
+    "kcal": 112,
+    "pPct": 68,
+    "grade": "A"
    }
   },
   {
-   "id": 25580032,
+   "id": 25777117,
    "store": "Lidl",
-   "name": "Eierteigware",
-   "brand": "Deluxe",
-   "desc": "Frische gefüllte Versch. Sorten. Gekühlt. Je 250 g",
-   "price": 1.99,
+   "name": "Fischstäbchen",
+   "brand": "Iglo",
+   "desc": "oder KnusperFisch/Backfischstäbchen Tiefgefroren. Je 450/364/352 g",
+   "price": 2.99,
    "oldPrice": null,
-   "refPrice": 7.96,
+   "refPrice": 6.64,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-25T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25580032/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25777117/images/default/0/medium.jpg",
    "cats": [
-    "高蛋白"
+    "鱼肉"
    ],
    "nut": {
-    "label": "鸡蛋",
-    "p": 12.6,
-    "f": 9.5,
-    "c": 0.7,
-    "kcal": 139,
-    "pPct": 36,
-    "grade": "C"
+    "label": "裹粉鱼 / 炸鱼柳",
+    "p": 12,
+    "f": 9,
+    "c": 18,
+    "kcal": 201,
+    "pPct": 24,
+    "grade": "E"
    }
   },
   {
@@ -2769,33 +1535,6 @@
    }
   },
   {
-   "id": 25575942,
-   "store": "Lidl",
-   "name": "Frische Hähnchen-Mini-Steaks",
-   "brand": "Metzgerfrisch",
-   "desc": "HINWEIS: MIT LIDL PLUS APP Je 800 g, Normalpreis: 8.99",
-   "price": 6.99,
-   "oldPrice": null,
-   "refPrice": 8.74,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25575942/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
    "id": 25671397,
    "store": "Lidl",
    "name": "High Protein Pudding",
@@ -2823,46 +1562,19 @@
    }
   },
   {
-   "id": 25578682,
-   "store": "Lidl",
-   "name": "Hähnchen Kebab XXL",
-   "brand": "Metzgerfrisch",
-   "desc": "Je 800 g",
-   "price": 5.99,
-   "oldPrice": null,
-   "refPrice": 7.49,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25578682/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25709187,
+   "id": 25775652,
    "store": "Lidl",
    "name": "Hähnchen Schenkel XXL",
    "brand": "Metzgerfrisch",
-   "desc": "Mit Rückenstück. HKL A. Je 2 kg",
-   "price": 6.79,
+   "desc": "Frische Hähnchen schenkel Mit Rückenstück. HKL A. Je 2,5 kg",
+   "price": 8.49,
    "oldPrice": null,
    "refPrice": 3.4,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25709187/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25775652/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -2877,19 +1589,73 @@
    }
   },
   {
-   "id": 25584622,
+   "id": 25775522,
    "store": "Lidl",
-   "name": "Hähnchen-Minutenschnitzel",
+   "name": "Hähnchen-Geschnetzeltes",
    "brand": "Metzgerfrisch",
-   "desc": "HINWEIS: MIT LIDL PLUS APP Aus dem Brustfilet. Je 1 kg. Normalpreis: 9.49",
-   "price": 8.99,
+   "desc": "Frisches Hähnchen Geschnetzeltes Je 400 g",
+   "price": 3.79,
    "oldPrice": null,
-   "refPrice": 8.99,
+   "refPrice": 9.47,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584622/images/default/0/medium.jpg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25775522/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25780077,
+   "store": "Lidl",
+   "name": "Hähnchen-Hacksteaks XXL",
+   "brand": "Metzgerfrisch",
+   "desc": "Gewürzt und mariniert. Je 560 g",
+   "price": 4.49,
+   "oldPrice": null,
+   "refPrice": 8.02,
+   "unit": "kg",
+   "from": "2026-11-25T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25780077/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "调味鸡肉饼",
+    "p": 16,
+    "f": 12,
+    "c": 4,
+    "kcal": 188,
+    "pPct": 34,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25775627,
+   "store": "Lidl",
+   "name": "Hähnchen-Innenfilet XXL",
+   "brand": "Metzgerfrisch",
+   "desc": "Frisches Hähnchen-Innenfilet  Je 800 g",
+   "price": 6.99,
+   "oldPrice": null,
+   "refPrice": 8.74,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25775627/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
@@ -2931,30 +1697,30 @@
    }
   },
   {
-   "id": 25582022,
+   "id": 25775422,
    "store": "Lidl",
-   "name": "Hähnchenbrust Buffet",
-   "brand": "Gutfried",
-   "desc": "Versch. Sorten. Gekühlt. Je 80 g",
-   "price": 1.59,
+   "name": "Hähnchen-Oberkeulen",
+   "brand": "Metzgerfrisch",
+   "desc": "HINWEIS: MIT LIDL PLUS APP  Frische Hähnchenoberkeulen HKL A. Je 600 g",
+   "price": 2.39,
    "oldPrice": null,
-   "refPrice": 19.88,
+   "refPrice": 3.98,
    "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25582022/images/default/0/medium.jpg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25775422/images/default/0/medium.jpg",
    "cats": [
     "鸡肉"
    ],
    "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
     "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
+    "kcal": 171,
+    "pPct": 42,
+    "grade": "C"
    }
   },
   {
@@ -2985,7 +1751,35 @@
    }
   },
   {
-   "id": 25584452,
+   "id": 25780207,
+   "store": "Lidl",
+   "name": "Jaffa Cake Orange XXL",
+   "brand": "Sondey",
+   "desc": "Je 450 g; Standardpackung: 300 g",
+   "price": 2.39,
+   "oldPrice": null,
+   "refPrice": 5.31,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25780207/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橙子",
+    "kcal": 47,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25782157,
    "store": "Lidl",
    "name": "Lachs in Blätterteig",
    "brand": "Deluxe",
@@ -2994,10 +1788,10 @@
    "oldPrice": null,
    "refPrice": 11.41,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584452/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25782157/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -3009,6 +1803,33 @@
     "kcal": 201,
     "pPct": 24,
     "grade": "E"
+   }
+  },
+  {
+   "id": 25770792,
+   "store": "Lidl",
+   "name": "Lachsfiletportionen XXL",
+   "brand": "Ocean Sea",
+   "desc": "Ohne Haut. Tiefgefroren. Je 5x 120 g; Standardpackung: 2x 125 g",
+   "price": 8.99,
+   "oldPrice": null,
+   "refPrice": 14.98,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770792/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "三文鱼（养殖）",
+    "p": 20,
+    "f": 13,
+    "c": 0,
+    "kcal": 197,
+    "pPct": 41,
+    "grade": "C"
    }
   },
   {
@@ -3039,128 +1860,19 @@
    }
   },
   {
-   "id": 25681192,
+   "id": 25770952,
    "store": "Lidl",
-   "name": "Mandarinen",
-   "brand": "",
-   "desc": "oder Clementinen Ursprung: Spanien Klasse I Je 1 kg",
-   "price": 1.49,
+   "name": "Mandarin-Orangen",
+   "brand": "Freshona",
+   "desc": "Leicht gezuckert. Je 314 ml Abtropfgewicht: 175 g",
+   "price": 0.89,
    "oldPrice": null,
-   "refPrice": 1.49,
+   "refPrice": 5.09,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25681192/images/default/0/medium.jpg",
-   "cats": [
-    "橘子"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "橘子 / 克莱门氏小柑橘",
-    "kcal": 47,
-    "sugar": 9.2,
-    "fiber": 1.7,
-    "vitc": 49,
-    "score": 6,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25580322,
-   "store": "Lidl",
-   "name": "Merino-Lammfilets",
-   "brand": "Deluxe",
-   "desc": "Gekühlt. Ca. 397 g, 397 g",
-   "price": 14.69,
-   "oldPrice": null,
-   "refPrice": 37.0,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25580322/images/default/0/medium.jpg",
-   "cats": [
-    "羊肉"
-   ],
-   "nut": {
-    "label": "羊里脊 / 羊背",
-    "p": 20,
-    "f": 5,
-    "c": 0,
-    "kcal": 125,
-    "pPct": 64,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25581812,
-   "store": "Lidl",
-   "name": "Nordsee Schollenfilets",
-   "brand": "Femeg",
-   "desc": "Klassisch paniert. Tiefgefroren. Je 250 g",
-   "price": 3.99,
-   "oldPrice": null,
-   "refPrice": 15.96,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:00Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25581812/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "裹粉鱼 / 炸鱼柳",
-    "p": 12,
-    "f": 9,
-    "c": 18,
-    "kcal": 201,
-    "pPct": 24,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25575932,
-   "store": "Lidl",
-   "name": "Norwegische Lachsseite",
-   "brand": "Fischerstolz",
-   "desc": "Schockgefrostet und aufgetaut. Mit Haut. Ca. 1 kg",
-   "price": 13.29,
-   "oldPrice": null,
-   "refPrice": 13.29,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25575932/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "三文鱼（养殖）",
-    "p": 20,
-    "f": 13,
-    "c": 0,
-    "kcal": 197,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25681127,
-   "store": "Lidl",
-   "name": "Orangen Navelinas",
-   "brand": "",
-   "desc": "Ursprung: Spanien Klasse I Je 1,5 kg",
-   "price": 1.89,
-   "oldPrice": null,
-   "refPrice": 1.26,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25681127/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25770952/images/default/0/medium.jpg",
    "cats": [
     "橘子"
    ],
@@ -3176,30 +1888,30 @@
    }
   },
   {
-   "id": 25709167,
+   "id": 25780407,
    "store": "Lidl",
-   "name": "Pizza Snack Salami",
-   "brand": "Lidl Backshop",
-   "desc": "HINWEIS: MIT LIDL PLUS APP Je Stück",
-   "price": 0.75,
+   "name": "Merino-Lammlachse",
+   "brand": "Deluxe",
+   "desc": "Vom Merino Lamm. Gekühlt. Ca. 250 g",
+   "price": 9.75,
    "oldPrice": null,
-   "refPrice": 0.75,
-   "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25709167/images/default/0/medium.jpg",
+   "refPrice": 39.0,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25780407/images/default/0/medium.jpg",
    "cats": [
-    "披萨"
+    "羊肉"
    ],
    "nut": {
-    "label": "肉类披萨",
-    "p": 10,
-    "f": 12,
-    "c": 27,
-    "kcal": 256,
-    "pPct": 16,
-    "grade": "E"
+    "label": "羊里脊 / 羊背",
+    "p": 20,
+    "f": 5,
+    "c": 0,
+    "kcal": 125,
+    "pPct": 64,
+    "grade": "A"
    }
   },
   {
@@ -3230,68 +1942,14 @@
    }
   },
   {
-   "id": 25578602,
-   "store": "Lidl",
-   "name": "Rinder-Keulensteaks XXL",
-   "brand": "Metzgerfrisch",
-   "desc": "Vom Jungbullen, mariniert. Je 800 g",
-   "price": 12.99,
-   "oldPrice": null,
-   "refPrice": 16.24,
-   "unit": "kg",
-   "from": "2026-11-11T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25578602/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
-    "c": 0,
-    "kcal": 120,
-    "pPct": 70,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25575922,
-   "store": "Lidl",
-   "name": "Rindergulasch",
-   "brand": "Metzgerfrisch",
-   "desc": "HINWEIS: MIT LIDL PLUS APP Küchenfertig. Je 1 kg, Normalpreis: 13.99",
-   "price": 12.99,
-   "oldPrice": null,
-   "refPrice": 12.99,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25575922/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
-    "c": 0,
-    "kcal": 120,
-    "pPct": 70,
-    "grade": "A"
-   }
-  },
-  {
    "id": 25682752,
    "store": "Lidl",
    "name": "Rinderhackfleisch",
    "brand": "Metzgerfrisch",
    "desc": "HINWEIS: MIT LIDL PLUS APP Je 1 kg. Normalpreis: 9.49",
-   "price": 8.99,
+   "price": 8.69,
    "oldPrice": null,
-   "refPrice": 8.99,
+   "refPrice": 8.69,
    "unit": "kg",
    "from": "2026-11-15T23:00:00Z",
    "to": "2026-11-21T22:59:59Z",
@@ -3311,46 +1969,128 @@
    }
   },
   {
-   "id": 25588077,
+   "id": 25772072,
    "store": "Lidl",
-   "name": "Ristorante Pizza",
-   "brand": "Dr. Oetker",
-   "desc": "/Bistro Flammkuchen Elsässer Art Tiefgefroren. Versch. Sorten. Je 640/530/720",
-   "price": 3.79,
+   "name": "Sahneheringsfilet XXL",
+   "brand": "Nadler",
+   "desc": "Versch. Sorten. Gekühlt. Je 500 g",
+   "price": 2.79,
    "oldPrice": null,
-   "refPrice": 5.92,
+   "refPrice": 5.58,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25588077/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25772072/images/default/0/medium.jpg",
    "cats": [
-    "披萨"
+    "鱼肉"
    ],
    "nut": {
-    "label": "冷冻披萨（一般）",
-    "p": 10,
-    "f": 11,
-    "c": 28,
-    "kcal": 251,
-    "pPct": 16,
-    "grade": "E"
+    "label": "鲭鱼 / 鲱鱼",
+    "p": 18,
+    "f": 15,
+    "c": 0,
+    "kcal": 207,
+    "pPct": 35,
+    "grade": "C"
    }
   },
   {
-   "id": 25584457,
+   "id": 25772557,
+   "store": "Lidl",
+   "name": "Taste of Christmas Orange-Mascarpone-Creme",
+   "brand": "Dr. Oetker",
+   "desc": "Je 52 g",
+   "price": 1.79,
+   "oldPrice": null,
+   "refPrice": 34.42,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25772557/images/default/0/medium.jpg",
+   "cats": [
+    "橘子"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "橙子",
+    "kcal": 47,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25777542,
+   "store": "Lidl",
+   "name": "Thunfischfilets",
+   "brand": "Nixe",
+   "desc": "HINWEIS: MIT LIDL PLUS APP  in eigenem Saft Versch. Sorten. Je 185/195 g Abtropfgewicht (Sorte Thunfischfilets im eigenen Saft): 150 g",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 6.6,
+   "unit": "kg",
+   "from": "2026-11-25T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": true,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25777542/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "金枪鱼罐头（水浸 / 原汁）",
+    "p": 26,
+    "f": 1,
+    "c": 0,
+    "kcal": 113,
+    "pPct": 92,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25771882,
+   "store": "Lidl",
+   "name": "Trekking E-Bike Viator 2.1",
+   "brand": "Fischer Fahrrad",
+   "desc": "Details im Prospekt",
+   "price": 999.0,
+   "oldPrice": null,
+   "refPrice": 999.0,
+   "unit": "Stk",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25771882/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "鱼（一般）",
+    "p": 18,
+    "f": 5,
+    "c": 0,
+    "kcal": 117,
+    "pPct": 62,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25782317,
    "store": "Lidl",
    "name": "Wildlachsfilet",
    "brand": "Deluxe",
-   "desc": "Versch. Sorten. Tiefgefroren. Je 700 g",
+   "desc": "MSC Wildlachsfilet Versch. Sorten. Tiefgefroren. Je 700 g",
    "price": 7.99,
    "oldPrice": null,
    "refPrice": 11.41,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584457/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25782317/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
@@ -3392,946 +2132,75 @@
    }
   },
   {
-   "id": 25584207,
-   "store": "Lidl",
-   "name": "Zanderfiletportionen",
-   "brand": "Deluxe",
-   "desc": "Mit Haut. Tiefgefroren. Je 500 g",
-   "price": 5.99,
-   "oldPrice": null,
-   "refPrice": 11.98,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25584207/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "白肉鱼（鳕鱼等）",
-    "p": 18,
-    "f": 1,
-    "c": 0,
-    "kcal": 81,
-    "pPct": 89,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25582617,
-   "store": "Lidl",
-   "name": "Zarte Filets vom Hering",
-   "brand": "Appel",
-   "desc": "Versch. Sorten. Je 200 g",
-   "price": 1.11,
-   "oldPrice": null,
-   "refPrice": 5.55,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25582617/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鲭鱼 / 鲱鱼",
-    "p": 18,
-    "f": 15,
-    "c": 0,
-    "kcal": 207,
-    "pPct": 35,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25654607,
+   "id": 25755552,
    "store": "REWE",
-   "name": "Bio Austernpilze",
+   "name": "Bio Orangen",
    "brand": "Rewe Bio",
-   "desc": "je 200-g-Schal",
+   "desc": "Sorte: siehe Etikett, Kl. I, je 1-kg-Netz",
    "price": 1.99,
    "oldPrice": null,
-   "refPrice": 9.95,
+   "refPrice": 1.99,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654607/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25658837,
-   "store": "REWE",
-   "name": "Bio Rinder Hamburger",
-   "brand": "Rewe Bio",
-   "desc": "gewürzt, je 200-g-Pckg.",
-   "price": 5.49,
-   "oldPrice": null,
-   "refPrice": 27.45,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658837/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "牛肉饼",
-    "p": 18,
-    "f": 18,
-    "c": 1,
-    "kcal": 238,
-    "pPct": 30,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25655372,
-   "store": "REWE",
-   "name": "Bio Shiitake Pilze",
-   "brand": "Rewe Bio",
-   "desc": "je 150-g-Schale",
-   "price": 2.49,
-   "oldPrice": null,
-   "refPrice": 16.6,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25655372/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25683722,
-   "store": "REWE",
-   "name": "Bio-Hähnchen",
-   "brand": "Rewe Bio",
-   "desc": "Hkl. A, SB-verpackt, je 1 kg",
-   "price": 9.79,
-   "oldPrice": null,
-   "refPrice": 9.79,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25683722/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25654612,
-   "store": "REWE",
-   "name": "Braune Champignons",
-   "brand": "Rewe Beste Wahl",
-   "desc": "Kl. I, je 250-g-Schale",
-   "price": 1.69,
-   "oldPrice": null,
-   "refPrice": 6.76,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654612/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25657007,
-   "store": "REWE",
-   "name": "Champignons",
-   "brand": "Rewe Beste Wahl",
-   "desc": "Braune Kl. I, je 250-g-Schale",
-   "price": 1.69,
-   "oldPrice": null,
-   "refPrice": 6.76,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25657007/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25654622,
-   "store": "REWE",
-   "name": "Champignons Mix",
-   "brand": "Rewe Beste Wahl",
-   "desc": "Kl. I, je 250-g-Schale",
-   "price": 2.29,
-   "oldPrice": null,
-   "refPrice": 9.16,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654622/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "蘑菇",
-    "kcal": 22,
-    "sugar": 2.0,
-    "fiber": 1.0,
-    "vitc": 2,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25646927,
-   "store": "REWE",
-   "name": "Clementinen",
-   "brand": "ja!",
-   "desc": "Sorte: siehe Etikett, Kl. I, je 1-kg-Netz",
-   "price": 1.89,
-   "oldPrice": null,
-   "refPrice": 1.89,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25646927/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25755552/images/default/0/medium.jpg",
    "cats": [
     "橘子"
    ],
    "nut": {
     "scale": "produce",
-    "label": "橘子 / 克莱门氏小柑橘",
+    "label": "橙子",
     "kcal": 47,
-    "sugar": 9.2,
-    "fiber": 1.7,
-    "vitc": 49,
-    "score": 6,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25658322,
-   "store": "REWE",
-   "name": "Fix Air Fryer Hähnchen Döner Style",
-   "brand": "Knorr",
-   "desc": "je 30-g-Btl. oder Fix Spaghetti Carbonara je 36-g-Btl.",
-   "price": 0.44,
-   "oldPrice": null,
-   "refPrice": 14.67,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658322/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
+    "sugar": 9.4,
+    "fiber": 2.2,
+    "vitc": 53,
+    "score": 8,
     "grade": "B"
    }
   },
   {
-   "id": 25650602,
+   "id": 25755102,
    "store": "REWE",
-   "name": "Freiland-Eier",
-   "brand": "Sonnendorfer",
-   "desc": "Gr. M-L je 10-St.-Pckg.",
-   "price": 3.19,
+   "name": "Bio-Bananen",
+   "brand": "Rewe Bio",
+   "desc": "Ursprung: siehe Etikett, je 1 kg",
+   "price": 1.79,
    "oldPrice": null,
-   "refPrice": 0.32,
-   "unit": "Stk",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650602/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "鸡蛋",
-    "p": 12.6,
-    "f": 9.5,
-    "c": 0.7,
-    "kcal": 139,
-    "pPct": 36,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25650802,
-   "store": "REWE",
-   "name": "Frühstücksmüsli Beeren High Protein",
-   "brand": "Rewe to go",
-   "desc": "je 255-g-Becher",
-   "price": 1.59,
-   "oldPrice": null,
-   "refPrice": 6.24,
+   "refPrice": 1.79,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650802/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25755102/images/default/0/medium.jpg",
    "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "高蛋白食品（一般）",
-    "p": 15,
-    "f": 5,
-    "c": 10,
-    "kcal": 145,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25645912,
-   "store": "REWE",
-   "name": "Hamburger vom Rind",
-   "brand": "Rewe",
-   "desc": "in versch. Würzungen, je 100 g",
-   "price": 1.89,
-   "oldPrice": null,
-   "refPrice": 18.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25645912/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "牛肉饼",
-    "p": 18,
-    "f": 18,
-    "c": 1,
-    "kcal": 238,
-    "pPct": 30,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25660597,
-   "store": "REWE",
-   "name": "Hähnchen",
-   "brand": "Vinzenzmurr",
-   "desc": "bayer. Hähnchen HKA Bodenhaltung, aus tiergerechter Aufzucht im Freiluftstall, natur oder gewürzt, SB-verpackt 100g",
-   "price": 0.74,
-   "oldPrice": null,
-   "refPrice": 7.4,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25660597/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25654362,
-   "store": "REWE",
-   "name": "Hähnchen Tomate Sandwich",
-   "brand": "Rewe to go",
-   "desc": "je 170-g-Pckg. oder Räucherlachs Sandwich je 180-g-Pckg.",
-   "price": 2.79,
-   "oldPrice": null,
-   "refPrice": 16.41,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654362/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡肉（一般）",
-    "p": 19,
-    "f": 10,
-    "c": 0,
-    "kcal": 166,
-    "pPct": 46,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25663907,
-   "store": "REWE",
-   "name": "Hähnchen-Brustfilet",
-   "brand": "Rewe Regional",
-   "desc": "Teilstück, je 550-g-Pckg.",
-   "price": 5.99,
-   "oldPrice": null,
-   "refPrice": 10.89,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25663907/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25650692,
-   "store": "REWE",
-   "name": "Hähnchen-Geschnetzeltes",
-   "brand": "Rewe Regional",
-   "desc": "je 400-g-Pckg.",
-   "price": 4.99,
-   "oldPrice": null,
-   "refPrice": 12.47,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650692/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡胸肉",
-    "p": 23,
-    "f": 1.5,
-    "c": 0,
-    "kcal": 106,
-    "pPct": 87,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25647907,
-   "store": "REWE",
-   "name": "Hähnchen-Schenkel",
-   "brand": "",
-   "desc": "natur oder gewürzt, Hkl. A, je 2000-g-Pckg.",
-   "price": 6.66,
-   "oldPrice": null,
-   "refPrice": 3.33,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25647907/images/default/0/medium.jpg",
-   "cats": [
-    "鸡肉"
-   ],
-   "nut": {
-    "label": "鸡腿（带皮）",
-    "p": 18,
-    "f": 11,
-    "c": 0,
-    "kcal": 171,
-    "pPct": 42,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25626157,
-   "store": "REWE",
-   "name": "Kabeljau Filet",
-   "brand": "",
-   "desc": "weißes, saftiges, fettarmes Fleisch, je 100 g",
-   "price": 3.19,
-   "oldPrice": null,
-   "refPrice": 31.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25626157/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "白肉鱼（鳕鱼等）",
-    "p": 18,
-    "f": 1,
-    "c": 0,
-    "kcal": 81,
-    "pPct": 89,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25658352,
-   "store": "REWE",
-   "name": "Kasseler-Minuten-Lachs",
-   "brand": "Metzgerei Wilhelm Brandenburg",
-   "desc": "in Scheiben, je 400-g-Pckg.",
-   "price": 3.99,
-   "oldPrice": null,
-   "refPrice": 9.97,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25658352/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "三文鱼（养殖）",
-    "p": 20,
-    "f": 13,
-    "c": 0,
-    "kcal": 197,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25631207,
-   "store": "REWE",
-   "name": "Lachsfilet",
-   "brand": "Deutsche See",
-   "desc": "mit Haut, je 4 x 125-g-Schale",
-   "price": 9.99,
-   "oldPrice": null,
-   "refPrice": 19.98,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25631207/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "三文鱼（养殖）",
-    "p": 20,
-    "f": 13,
-    "c": 0,
-    "kcal": 197,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25657402,
-   "store": "REWE",
-   "name": "Lachsfilet mit Haut",
-   "brand": "Deutsche See",
-   "desc": "je 4 x 125-g-Schale",
-   "price": 9.99,
-   "oldPrice": null,
-   "refPrice": 19.98,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25657402/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "三文鱼（养殖）",
-    "p": 20,
-    "f": 13,
-    "c": 0,
-    "kcal": 197,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25627152,
-   "store": "REWE",
-   "name": "Lachsfilets",
-   "brand": "Costa",
-   "desc": "portioniert, tiefgefroren, je 420-g-Pckg.",
-   "price": 12.99,
-   "oldPrice": null,
-   "refPrice": 30.93,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25627152/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "三文鱼（养殖）",
-    "p": 20,
-    "f": 13,
-    "c": 0,
-    "kcal": 197,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25651847,
-   "store": "REWE",
-   "name": "Lachsforelle",
-   "brand": "",
-   "desc": "rotfleischig, ideal zum Braten und Garen in Folie, je 100 g",
-   "price": 1.39,
-   "oldPrice": null,
-   "refPrice": 13.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25651847/images/default/0/medium.jpg",
-   "cats": [
-    "鱼肉"
-   ],
-   "nut": {
-    "label": "鳟鱼",
-    "p": 20,
-    "f": 3.5,
-    "c": 0,
-    "kcal": 112,
-    "pPct": 72,
-    "grade": "A"
-   }
-  },
-  {
-   "id": 25648647,
-   "store": "REWE",
-   "name": "Lower Carb Protein Riegel",
-   "brand": "Power System",
-   "desc": "versch. Sorten, je 40-g-Riegel",
-   "price": 1.29,
-   "oldPrice": null,
-   "refPrice": 32.25,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25648647/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白棒",
-    "p": 33,
-    "f": 14,
-    "c": 33,
-    "kcal": 390,
-    "pPct": 34,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25646897,
-   "store": "REWE",
-   "name": "Mini Gurken",
-   "brand": "Rewe Regional",
-   "desc": "Kl. I, je 1 kg",
-   "price": 4.99,
-   "oldPrice": null,
-   "refPrice": 4.99,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25646897/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
+    "香蕉"
    ],
    "nut": {
     "scale": "produce",
-    "label": "黄瓜",
-    "kcal": 15,
-    "sugar": 1.7,
-    "fiber": 0.5,
-    "vitc": 2.8,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25625797,
-   "store": "REWE",
-   "name": "Minigurken",
-   "brand": "Edeka Regional",
-   "desc": "Kl. I, je 1 kg",
-   "price": 4.99,
-   "oldPrice": null,
-   "refPrice": 4.99,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25625797/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "黄瓜",
-    "kcal": 15,
-    "sugar": 1.7,
-    "fiber": 0.5,
-    "vitc": 2.8,
-    "score": 7,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25654092,
-   "store": "REWE",
-   "name": "Pasta-Snack-Pot Brokkoli & Kase",
-   "brand": "Knorr",
-   "desc": "HINWEIS: MIT APP 0,10 € REWE BONUS  je 62-g-Becher",
-   "price": 0.99,
-   "oldPrice": null,
-   "refPrice": 15.97,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": true,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25654092/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "西兰花",
-    "kcal": 34,
-    "sugar": 1.7,
+    "label": "香蕉",
+    "kcal": 89,
+    "sugar": 12.2,
     "fiber": 2.6,
-    "vitc": 89,
-    "score": 11,
-    "grade": "A"
+    "vitc": 8.7,
+    "score": 3,
+    "grade": "D"
    }
   },
   {
-   "id": 25657897,
+   "id": 25754807,
    "store": "REWE",
-   "name": "Pizza Margherita",
-   "brand": "Gustavo Gusto",
-   "desc": "tiefgefroren, je 410-g-Pckg. oder Pizza Salame tiefgefroren, je 460-g-Pckg.",
-   "price": 3.69,
+   "name": "Bio-Rinder-Hackfleisch",
+   "brand": "Rewe Bio",
+   "desc": "je 250-g-Pckg. Naturland",
+   "price": 4.99,
    "oldPrice": null,
-   "refPrice": 9.0,
+   "refPrice": 19.96,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25657897/images/default/0/medium.jpg",
-   "cats": [
-    "披萨"
-   ],
-   "nut": {
-    "label": "玛格丽特披萨",
-    "p": 10,
-    "f": 9,
-    "c": 30,
-    "kcal": 241,
-    "pPct": 17,
-    "grade": "E"
-   }
-  },
-  {
-   "id": 25650862,
-   "store": "REWE",
-   "name": "Protein Ice Tea",
-   "brand": "Rewe to go",
-   "desc": "Lemon & Lime, je 500-ml-Fl. zzgl. 0.25 Pfand",
-   "price": 1.59,
-   "oldPrice": null,
-   "refPrice": 3.18,
-   "unit": "l",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650862/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白冰淇淋",
-    "p": 8,
-    "f": 3,
-    "c": 12,
-    "kcal": 107,
-    "pPct": 30,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25639087,
-   "store": "REWE",
-   "name": "Protein Nussriegel",
-   "brand": "Seeberger",
-   "desc": "je 35-g-Pckg.",
-   "price": 1.39,
-   "oldPrice": null,
-   "refPrice": 39.71,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25639087/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "蛋白棒",
-    "p": 33,
-    "f": 14,
-    "c": 33,
-    "kcal": 390,
-    "pPct": 34,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25650842,
-   "store": "REWE",
-   "name": "Protein Wasser",
-   "brand": "Rewe to go",
-   "desc": "versch. Sorten, je 0,5-l-Fl. zzgl. 0.25 Pfand",
-   "price": 2.19,
-   "oldPrice": null,
-   "refPrice": 4.38,
-   "unit": "l",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650842/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "高蛋白食品（一般）",
-    "p": 15,
-    "f": 5,
-    "c": 10,
-    "kcal": 145,
-    "pPct": 41,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25655922,
-   "store": "REWE",
-   "name": "Quark Genuss",
-   "brand": "Exquisa",
-   "desc": "versch. Sorten, je 500-g-Becher",
-   "price": 1.49,
-   "oldPrice": null,
-   "refPrice": 2.98,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25655922/images/default/0/medium.jpg",
-   "cats": [
-    "高蛋白"
-   ],
-   "nut": {
-    "label": "夸克（脂肪档未标，按 20 % 估）",
-    "p": 11,
-    "f": 5,
-    "c": 3,
-    "kcal": 101,
-    "pPct": 44,
-    "grade": "C"
-   }
-  },
-  {
-   "id": 25650612,
-   "store": "REWE",
-   "name": "Rinder Hackfleisch",
-   "brand": "Rewe Regional",
-   "desc": "je 250-g-Pckg.",
-   "price": 3.79,
-   "oldPrice": null,
-   "refPrice": 15.16,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25650612/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754807/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -4346,73 +2215,506 @@
    }
   },
   {
-   "id": 25643672,
+   "id": 25753832,
    "store": "REWE",
-   "name": "Rinder-Braten",
+   "name": "Cambozola",
+   "brand": "Käserei Champignon",
+   "desc": "oder Rougette Weichkäse, versch. Sorten, je 100 g",
+   "price": 1.79,
+   "oldPrice": null,
+   "refPrice": 17.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25753832/images/default/0/medium.jpg",
+   "cats": [
+    "蔬菜"
+   ],
+   "nut": {
+    "scale": "produce",
+    "label": "蔬菜（一般）",
+    "kcal": 30,
+    "sugar": 3,
+    "fiber": 2,
+    "vitc": 15,
+    "score": 9,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25758267,
+   "store": "REWE",
+   "name": "Forellen",
    "brand": "",
-   "desc": "oder Gulasch aus der Schulter, je 100 g",
-   "price": 1.99,
+   "desc": "ganz, ausgenommen, je 100 g",
+   "price": 1.29,
    "oldPrice": null,
-   "refPrice": 19.9,
+   "refPrice": 12.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25643672/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25758267/images/default/0/medium.jpg",
    "cats": [
-    "牛肉"
+    "鱼肉"
    ],
    "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
+    "label": "鳟鱼",
+    "p": 20,
+    "f": 3.5,
     "c": 0,
-    "kcal": 120,
-    "pPct": 70,
+    "kcal": 112,
+    "pPct": 72,
     "grade": "A"
    }
   },
   {
-   "id": 25643667,
+   "id": 25729327,
    "store": "REWE",
-   "name": "Rinder-Rouladen",
-   "brand": "Metzgerei Black Premium",
-   "desc": "aus der Oberschale, je 100 g",
-   "price": 1.99,
+   "name": "Forellen Caviar",
+   "brand": "Feinkost Dittmann",
+   "desc": "aus Forelleneiern, je 50-g-Glas",
+   "price": 3.99,
    "oldPrice": null,
-   "refPrice": 19.9,
+   "refPrice": 79.8,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25643667/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729327/images/default/0/medium.jpg",
    "cats": [
-    "牛肉"
+    "鱼肉"
    ],
    "nut": {
-    "label": "后腿瘦肉（炖 / 卷 / 丁）",
-    "p": 21,
-    "f": 4,
+    "label": "鳟鱼",
+    "p": 20,
+    "f": 3.5,
     "c": 0,
-    "kcal": 120,
-    "pPct": 70,
+    "kcal": 112,
+    "pPct": 72,
     "grade": "A"
    }
   },
   {
-   "id": 25660462,
+   "id": 25746317,
    "store": "REWE",
-   "name": "Rinderlendensteak",
-   "brand": "Hofgut Schwaige",
-   "desc": "extra zart gereift, Qualitätsfleisch nicht in jeder Filiale erhältlich 100g",
+   "name": "Freiland-Hähnchen",
+   "brand": "Nature & Respect",
+   "desc": "SB-verpackt, je 1 kg",
+   "price": 7.99,
+   "oldPrice": null,
+   "refPrice": 7.99,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25746317/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡肉（一般）",
+    "p": 19,
+    "f": 10,
+    "c": 0,
+    "kcal": 166,
+    "pPct": 46,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25753972,
+   "store": "REWE",
+   "name": "High Protein Creamy Maccaroni",
+   "brand": "Maggi",
+   "desc": "je 74-g-Becher oder 5 Minuten Terrine XL Nudeln in Rahmsauce je 83-g-Becher",
+   "price": 1.19,
+   "oldPrice": null,
+   "refPrice": 16.08,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25753972/images/default/0/medium.jpg",
+   "cats": [
+    "高蛋白"
+   ],
+   "nut": {
+    "label": "高蛋白食品（一般）",
+    "p": 15,
+    "f": 5,
+    "c": 10,
+    "kcal": 145,
+    "pPct": 41,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25768837,
+   "store": "REWE",
+   "name": "Hähnchen Allrounder",
+   "brand": "Just Spices",
+   "desc": "je 79-g-Dose oder Italien Allrounder je 57-g-Dose",
+   "price": 2.99,
+   "oldPrice": null,
+   "refPrice": 37.85,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25768837/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡肉（一般）",
+    "p": 19,
+    "f": 10,
+    "c": 0,
+    "kcal": 166,
+    "pPct": 46,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25769897,
+   "store": "REWE",
+   "name": "Hähnchen Flügel",
+   "brand": "Rewe Regional",
+   "desc": "natur Hkl. A oder gewürzt, je 1000-g-Pckg.",
+   "price": 5.49,
+   "oldPrice": null,
+   "refPrice": 5.49,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25769897/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡翅",
+    "p": 18,
+    "f": 15,
+    "c": 0,
+    "kcal": 207,
+    "pPct": 35,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25722962,
+   "store": "REWE",
+   "name": "Hähnchen Schenkel XXL",
+   "brand": "",
+   "desc": "natur, Hkl. A, oder gewürzt, je 2000-g-Pckg.",
+   "price": 6.66,
+   "oldPrice": null,
+   "refPrice": 3.33,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25722962/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡腿（带皮）",
+    "p": 18,
+    "f": 11,
+    "c": 0,
+    "kcal": 171,
+    "pPct": 42,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25754782,
+   "store": "REWE",
+   "name": "Hähnchen-Brustfilet",
+   "brand": "",
+   "desc": "je 100 g",
+   "price": 1.59,
+   "oldPrice": null,
+   "refPrice": 15.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754782/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25754987,
+   "store": "REWE",
+   "name": "Hähnchen-Innenbrustfilet",
+   "brand": "Rewe Regional",
+   "desc": "je 350-g-Pckg.",
+   "price": 3.99,
+   "oldPrice": null,
+   "refPrice": 11.4,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754987/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25746482,
+   "store": "REWE",
+   "name": "Hähnchen-Oberschenkel",
+   "brand": "Rewe Regional",
+   "desc": "Hkl. A, je 600-g-Pckg.",
+   "price": 3.33,
+   "oldPrice": null,
+   "refPrice": 5.55,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25746482/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "去骨鸡腿（带皮）",
+    "p": 17,
+    "f": 14,
+    "c": 0,
+    "kcal": 194,
+    "pPct": 35,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25726542,
+   "store": "REWE",
+   "name": "Hähnchenbrust",
+   "brand": "Gutfried",
+   "desc": "versch. Sorten, je 80-g-Pckg.",
+   "price": 1.49,
+   "oldPrice": null,
+   "refPrice": 18.63,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25726542/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25763332,
+   "store": "REWE",
+   "name": "Hähnchenbrustfilet",
+   "brand": "Vinzenzmurr",
+   "desc": "zart und saftig, natur 100 g",
+   "price": 1.29,
+   "oldPrice": null,
+   "refPrice": 12.9,
+   "unit": "kg",
+   "from": "2026-11-16T23:00:00Z",
+   "to": "2026-11-17T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25763332/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25723187,
+   "store": "REWE",
+   "name": "Hähnchenbrustfilet",
+   "brand": "Metten",
+   "desc": "je 100 g",
+   "price": 1.69,
+   "oldPrice": null,
+   "refPrice": 16.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25723187/images/default/0/medium.jpg",
+   "cats": [
+    "鸡肉"
+   ],
+   "nut": {
+    "label": "鸡胸肉",
+    "p": 23,
+    "f": 1.5,
+    "c": 0,
+    "kcal": 106,
+    "pPct": 87,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25754392,
+   "store": "REWE",
+   "name": "Kodiak Wildlachs",
+   "brand": "Rewe Feine Welt",
+   "desc": "oder Graved Wildlachs je 100-g-Pckg.",
+   "price": 4.89,
+   "oldPrice": null,
+   "refPrice": 48.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754392/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "野生三文鱼",
+    "p": 22,
+    "f": 5,
+    "c": 0,
+    "kcal": 133,
+    "pPct": 66,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25727257,
+   "store": "REWE",
+   "name": "Lamm Kotelett",
+   "brand": "",
+   "desc": "je 100 g",
+   "price": 1.99,
+   "oldPrice": null,
+   "refPrice": 19.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25727257/images/default/0/medium.jpg",
+   "cats": [
+    "羊肉"
+   ],
+   "nut": {
+    "label": "羊颈 / 羊排",
+    "p": 17,
+    "f": 20,
+    "c": 0,
+    "kcal": 248,
+    "pPct": 27,
+    "grade": "E"
+   }
+  },
+  {
+   "id": 25752567,
+   "store": "REWE",
+   "name": "Lamm-Hüfte",
+   "brand": "",
+   "desc": "natur oder mariniert, je 100 g",
+   "price": 2.49,
+   "oldPrice": null,
+   "refPrice": 24.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25752567/images/default/0/medium.jpg",
+   "cats": [
+    "羊肉"
+   ],
+   "nut": {
+    "label": "羊肉（一般）",
+    "p": 18,
+    "f": 15,
+    "c": 0,
+    "kcal": 207,
+    "pPct": 35,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25729807,
+   "store": "REWE",
+   "name": "Lamm-Spieße Méditerranée",
+   "brand": "Rewe",
+   "desc": "marinierte Lammfleischwürfel, mit Gemüse, auf Holzspieß, je 100 g",
    "price": 3.99,
    "oldPrice": null,
    "refPrice": 39.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25660462/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25729807/images/default/0/medium.jpg",
+   "cats": [
+    "羊肉"
+   ],
+   "nut": {
+    "label": "羊肉（一般）",
+    "p": 18,
+    "f": 15,
+    "c": 0,
+    "kcal": 207,
+    "pPct": 35,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25754972,
+   "store": "REWE",
+   "name": "Rinder Brust",
+   "brand": "Rewe Regional",
+   "desc": "ohne Knochen, SB-verpackt, je 1 kg",
+   "price": 17.9,
+   "oldPrice": null,
+   "refPrice": 17.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754972/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -4427,19 +2729,73 @@
    }
   },
   {
-   "id": 25645897,
+   "id": 25754762,
    "store": "REWE",
-   "name": "Rinderroulade",
+   "name": "Rinder-Entrecôte",
    "brand": "",
-   "desc": "aus der Oberschale, je 100 g",
-   "price": 1.99,
+   "desc": "natur oder mariniert, je 100 g",
+   "price": 2.99,
    "oldPrice": null,
-   "refPrice": 19.9,
+   "refPrice": 29.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25645897/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754762/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ],
+   "nut": {
+    "label": "牛肉（一般）",
+    "p": 20,
+    "f": 10,
+    "c": 0,
+    "kcal": 170,
+    "pPct": 47,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25757392,
+   "store": "REWE",
+   "name": "Rinder-Minutensteak",
+   "brand": "Vinzenzmurr",
+   "desc": "extra zart gereift, auch SB-verpackt erhältlich 100 g",
+   "price": 2.69,
+   "oldPrice": null,
+   "refPrice": 26.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25757392/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ],
+   "nut": {
+    "label": "牛肉（一般）",
+    "p": 20,
+    "f": 10,
+    "c": 0,
+    "kcal": 170,
+    "pPct": 47,
+    "grade": "B"
+   }
+  },
+  {
+   "id": 25763387,
+   "store": "REWE",
+   "name": "Rinderbraten",
+   "brand": "Vinzenzmurr",
+   "desc": "oder Minutensteak extra zart gereift, auch SB-verpackt erhältlich 100 g",
+   "price": 2.69,
+   "oldPrice": null,
+   "refPrice": 26.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25763387/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
@@ -4454,85 +2810,138 @@
    }
   },
   {
-   "id": 25647192,
+   "id": 25758197,
    "store": "REWE",
-   "name": "Sojabohnenkerne",
+   "name": "Rotbarsch-Filet",
    "brand": "",
-   "desc": "je 200-g-Schale",
-   "price": 1.79,
+   "desc": "sehr zart, ideal zum Braten und Dünsten, aus MSC-zertifiziertem Fischfang je 100 g",
+   "price": 2.39,
    "oldPrice": null,
-   "refPrice": 8.95,
+   "refPrice": 23.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25647192/images/default/0/medium.jpg",
-   "cats": [
-    "蔬菜"
-   ],
-   "nut": {
-    "scale": "produce",
-    "label": "四季豆",
-    "kcal": 31,
-    "sugar": 3.3,
-    "fiber": 2.7,
-    "vitc": 12,
-    "score": 8,
-    "grade": "B"
-   }
-  },
-  {
-   "id": 25651797,
-   "store": "REWE",
-   "name": "Thunfisch-Loins",
-   "brand": "",
-   "desc": "festes dunkelrotes Fleisch, je 100 g",
-   "price": 3.59,
-   "oldPrice": null,
-   "refPrice": 35.9,
-   "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25651797/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25758197/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
    "nut": {
-    "label": "金枪鱼",
-    "p": 23,
+    "label": "白肉鱼（鳕鱼等）",
+    "p": 18,
     "f": 1,
     "c": 0,
-    "kcal": 101,
-    "pPct": 91,
+    "kcal": 81,
+    "pPct": 89,
     "grade": "A"
    }
   },
   {
-   "id": 25627202,
+   "id": 25740862,
    "store": "REWE",
-   "name": "Thunfisch-Loins",
-   "brand": "Blerbichler",
-   "desc": "festes dunkel-rotes Fleisch, je 100 g",
-   "price": 3.59,
+   "name": "Seelachsfilet",
+   "brand": "",
+   "desc": "ideal zum Braten, je 100 g",
+   "price": 1.89,
    "oldPrice": null,
-   "refPrice": 35.9,
+   "refPrice": 18.9,
    "unit": "kg",
-   "from": "2026-11-08T23:00:00Z",
-   "to": "2026-11-14T22:59:59Z",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25627202/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25740862/images/default/0/medium.jpg",
    "cats": [
     "鱼肉"
    ],
    "nut": {
-    "label": "金枪鱼",
-    "p": 23,
+    "label": "白肉鱼（鳕鱼等）",
+    "p": 18,
     "f": 1,
     "c": 0,
-    "kcal": 101,
-    "pPct": 91,
+    "kcal": 81,
+    "pPct": 89,
     "grade": "A"
+   }
+  },
+  {
+   "id": 25758167,
+   "store": "REWE",
+   "name": "Seelachsfilets",
+   "brand": "",
+   "desc": "ideal zum Braten, je 100 g",
+   "price": 1.89,
+   "oldPrice": null,
+   "refPrice": 18.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25758167/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "白肉鱼（鳕鱼等）",
+    "p": 18,
+    "f": 1,
+    "c": 0,
+    "kcal": 81,
+    "pPct": 89,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25758302,
+   "store": "REWE",
+   "name": "Stremellachs",
+   "brand": "",
+   "desc": "versch. Sorten, je 100 g",
+   "price": 3.69,
+   "oldPrice": null,
+   "refPrice": 36.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25758302/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "三文鱼（养殖）",
+    "p": 20,
+    "f": 13,
+    "c": 0,
+    "kcal": 197,
+    "pPct": 41,
+    "grade": "C"
+   }
+  },
+  {
+   "id": 25754772,
+   "store": "REWE",
+   "name": "Strohschwein Lachsbraten",
+   "brand": "",
+   "desc": "ohne Knochen, je 100 g",
+   "price": 0.99,
+   "oldPrice": null,
+   "refPrice": 9.9,
+   "unit": "kg",
+   "from": "2026-11-15T23:00:00Z",
+   "to": "2026-11-21T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25754772/images/default/0/medium.jpg",
+   "cats": [
+    "鱼肉"
+   ],
+   "nut": {
+    "label": "三文鱼（养殖）",
+    "p": 20,
+    "f": 13,
+    "c": 0,
+    "kcal": 197,
+    "pPct": 41,
+    "grade": "C"
    }
   }
  ]
