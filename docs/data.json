@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T03:57:38+00:00",
+ "generated": "2026-11-20T03:50:32+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -2359,9 +2359,9 @@
    "name": "Gurken",
    "brand": "",
    "desc": "lose Ursprung: Spanien/ Deutschland/ Niederlande/ Griechenland Klasse I. Je Stück",
-   "price": 0.75,
+   "price": 0.69,
    "oldPrice": null,
-   "refPrice": 0.75,
+   "refPrice": 0.69,
    "unit": "Stk",
    "from": "2026-11-15T23:00:00Z",
    "to": "2026-11-21T22:59:59Z",
