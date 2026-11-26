@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T05:12:51+00:00",
+ "generated": "2026-11-26T04:39:45+00:00",
  "zip": "80995",
  "stores": [
   "Lidl",
@@ -1267,11 +1267,11 @@
    }
   },
   {
-   "id": 25833907,
+   "id": 25828267,
    "store": "EDEKA",
    "name": "Minigurken",
    "brand": "",
-   "desc": "aus den Niederlanden Kl. I 1kg",
+   "desc": "aus den Niederlanden Klasse I 1kg",
    "price": 2.99,
    "oldPrice": null,
    "refPrice": 2.99,
@@ -1279,7 +1279,7 @@
    "from": "2026-11-22T23:00:00Z",
    "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25833907/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25828267/images/default/0/medium.jpg",
    "cats": [
     "蔬菜"
    ],
@@ -1430,33 +1430,6 @@
    }
   },
   {
-   "id": 25822502,
-   "store": "EDEKA",
-   "name": "Rinder-Beinscheiben",
-   "brand": "Südbayerische Fleischwaren",
-   "desc": "z.B. 450g Packung",
-   "price": 7.16,
-   "oldPrice": null,
-   "refPrice": 15.91,
-   "unit": "kg",
-   "from": "2026-11-22T23:00:00Z",
-   "to": "2026-11-28T22:59:59Z",
-   "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25822502/images/default/0/medium.jpg",
-   "cats": [
-    "牛肉"
-   ],
-   "nut": {
-    "label": "牛腱（带骨切片）",
-    "p": 20,
-    "f": 6,
-    "c": 0,
-    "kcal": 134,
-    "pPct": 60,
-    "grade": "A"
-   }
-  },
-  {
    "id": 25820397,
    "store": "EDEKA",
    "name": "Rinder-Beinscheiben",
@@ -1484,11 +1457,38 @@
    }
   },
   {
-   "id": 25820452,
+   "id": 25822502,
+   "store": "EDEKA",
+   "name": "Rinder-Beinscheiben",
+   "brand": "Südbayerische Fleischwaren",
+   "desc": "z.B. 450g Packung",
+   "price": 7.16,
+   "oldPrice": null,
+   "refPrice": 15.91,
+   "unit": "kg",
+   "from": "2026-11-22T23:00:00Z",
+   "to": "2026-11-28T22:59:59Z",
+   "loyalty": false,
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25822502/images/default/0/medium.jpg",
+   "cats": [
+    "牛肉"
+   ],
+   "nut": {
+    "label": "牛腱（带骨切片）",
+    "p": 20,
+    "f": 6,
+    "c": 0,
+    "kcal": 134,
+    "pPct": 60,
+    "grade": "A"
+   }
+  },
+  {
+   "id": 25827252,
    "store": "EDEKA",
    "name": "Rinder-Minutensteak",
    "brand": "Vinzenzmurr",
-   "desc": "extra zart gereift, auch SB-verpackt erhältlich, 100 g",
+   "desc": "extra zart gereift, auch SB-verpackt erhältlich 100 g",
    "price": 2.59,
    "oldPrice": null,
    "refPrice": 25.9,
@@ -1496,7 +1496,7 @@
    "from": "2026-11-22T23:00:00Z",
    "to": "2026-11-28T22:59:59Z",
    "loyalty": false,
-   "img": "https://mg2de.b-cdn.net/api/v1/offers/25820452/images/default/0/medium.jpg",
+   "img": "https://mg2de.b-cdn.net/api/v1/offers/25827252/images/default/0/medium.jpg",
    "cats": [
     "牛肉"
    ],
